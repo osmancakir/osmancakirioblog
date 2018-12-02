@@ -1,0 +1,11 @@
+baseURL = "http://osmancakir.github.io"
+languageCode = "en-us"
+title = "osman cakir"
+theme = "berbera"
+
+
+pygmentsCodeFences=true
+pygmentsUseClasses=true
+canonifyURLs=true
+publishDir="docs"
+disableKinds = ["section", "taxonomy", "taxonomyTerm"]

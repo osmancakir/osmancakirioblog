@@ -1,0 +1,200 @@
+{{ define "main" }}
+<main>
+    <div class="homepage">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>
+                    <span class="minor_line">Perceptrons of the world, unite!</span>
+                    <br>
+                    <span class="major_line">Data Science &amp; Creative Coding Notes</span>
+                    <br>
+                    <span class="minor_line">Because why not?</span>
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 blurb">
+                <p>
+                    <a href="https://osmancakir.io/about/osman_cakir/">I am a data scientist </a> formally trained as a quantitative economist. Currently, I am doing a Ph.D in Art History at Ludwig-Maximilians University of Munich and working with art metadata to explore what digitalization could bring to Art History literature and I am very much excited about it.
+                    
+                    </p>
+                <p>I would like to help dissipate clouds around the fuzzy terms 'Artificial Intelligence' and 'Machine Learning'. In this regard, I want to write small applications for possible use cases of ML/AI to show you how useful it is for humanity. I hope my work here would be a small contribution to eradicate the meaningless fear and perplexity around the topic. </p>
+                <p> I am also happy that now I have a place to share my interests and thoughts.
+                 </p>
+            </div>
+        </div>
+
+
+        <div class="row" id="articles">
+            <div class="col-sm-12">
+                <h3 class="category_header">Articles</h3>
+                <div class="article_list card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "/articles/") }}
+                            <li>
+                                {{ .PublishDate.Format "Jan 2006" }} -
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="supervised_learning">
+            <div class="col-sm-12">
+                <h3 class="category_header">Supervised Learning</h3>
+                <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "/supervised_learning/").ByTitle }}
+                            <li>
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="unsupervised_learning">
+            <div class="col-sm-12">
+                <h3 class="category_header">Unsupervised Learning</h3>
+                <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "/learning_unsupervised/").ByTitle }}
+                            <li>
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="deep_learning">
+            <div class="col-sm-12">
+                <h3 class="category_header">Deep Learning</h3>
+                <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "/deep_learning/").ByTitle }}
+                            <li>
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="nlp">
+            <div class="col-sm-12">
+                <h3 class="category_header">NLP</h3>
+                <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "/nlp/").ByTitle }}
+                            <li>
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="recommender_systems">
+            <div class="col-sm-12">
+                <h3 class="category_header">Recommender Systems</h3>
+                <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "/recommender_systems/").ByTitle }}
+                            <li>
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="python">
+            <div class="col-sm-12">
+                <h3 class="category_header">Python</h3>
+                <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "/python/").ByTitle }}
+                            <li>
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" id="data_visualization">
+            <div class="col-sm-12">
+                <h3 class="category_header">Data Visualization</h3>
+                <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "/data_visualization/").ByTitle }}
+                            <li>
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="postgresql">
+            <div class="col-sm-12">
+                <h3 class="category_header">PostgreSQL</h3>
+                <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "/postgresql/").ByTitle }}
+                            <li>
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+            </div>
+        </div>
+
+
+
+        <div class="row" id="big_data">
+            <div class="col-sm-12">
+                <h3 class="category_header">Big Data</h3>
+                <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "/big_data/").ByTitle }}
+                            <li>
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" id="creative_coding">
+            <div class="col-sm-12">
+                <h3 class="category_header">Creative Coding</h3>
+                <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "/creative_coding/").ByTitle }}
+                            <li>
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+</main>
+{{ end }}

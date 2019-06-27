@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130208509-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-130208509-1');
+    </script>
+
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Python 3 : Functions, Loops, Lambdas" />
+<meta property="og:description" content="A few more python programming concepts for data analysis" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://osmancakir.io/python/python_3_functions_loops_lambdas/" />
+<meta property="article:published_time" content="2018-12-02T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-12-02T00:00:00&#43;00:00"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Python 3 : Functions, Loops, Lambdas"/>
+<meta name="twitter:description" content="A few more python programming concepts for data analysis"/>
+<meta name="generator" content="Hugo 0.54.0" /> 
+    
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Python 3 : Functions, Loops, Lambdas",
+  "url": "https://osmancakir.io/python/python_3_functions_loops_lambdas/",
+  "wordCount": "1292",
+  "datePublished": "2018-12-02T00:00:00&#43;00:00",
+  "dateModified": "2018-12-02T00:00:00&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "Osman Cakir"
+  },
+  "description": "A few more python programming concepts for data analysis"
+}
+</script> 
+
+    <title>Python 3 : Functions, Loops, Lambdas</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+
+     
+    <link rel="stylesheet" href="https://osmancakir.io/css/custom.css">
+    <link rel="stylesheet" href="https://osmancakir.io/css/syntax.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,500,700" rel="stylesheet">
+        
+    <link href="" rel="alternate" type="application/rss+xml" title="osman cakir" /> 
+    
+    <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="https://osmancakir.io">Osman Cakir</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav mr-auto"></ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            DS/CC Notes
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://osmancakir.io#supervised_learning">Supervised Learning</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#unsupervised_learning">Unsupervised Learning</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#deep_learning">Deep Learning</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#nlp">NLP</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#recommender_systems">Recommender Systems</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#python">Python</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#data_visualization">Data Visualization</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#postgresql">PostgreSQL</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#big_data">Big Data</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#creative_coding">Creative Coding</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://osmancakir.io#articles">Articles</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://osmancakir.io/about/osman_cakir/">About Osman</a>
+                            <a class="dropdown-item" href="https://github.com/osmancakir">GitHub</a>
+                            <a class="dropdown-item" href="https://twitter.com/osmancakirio">Twitter</a>
+                            <a class="dropdown-item" href="https://www.instagram.com/osmancakirio/">Instagram</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+
+                 
+
+
+<article>
+  <div class="technical_note">
+  <header>
+      <div class="alert alert-warning flashcard_ad" role="alert">
+          Would you like to support my research and work? <a href="https://www.patreon.com/osmancakirio" class="alert-link">My patreon link is here.</a> Thank you, I will remember you!
+      </div>
+    <h1 class="technical_note_title">Python 3 : Functions, Loops, Lambdas</h1>
+    <div class="technical_note_date">
+      <time datetime=" 2018-12-02T00:00:00Z "> 02 Dec 2018</time>
+    </div>
+  </header>
+  <div class="content">
+  
+
+<p>Please note, this is not meant to be a comprehensive overview of Python or programming in general, but this crash course covers the basics that you need to know when you work with the data. I am planning to provide some more python learning material that focuses on more of the software development topics too. However for now here we focus on <strong>data science</strong> aspects of it.</p>
+
+<p>Since I do not want to divide the topic into more sub topics any more, this notebook will be a little bit long and we will cover many stuff. Get your pen and paper ready to take notes.</p>
+
+<p>Let&rsquo;s see what we will cover :</p>
+
+<ul>
+<li>Comparison Operators</li>
+<li>if,elif, else Statements</li>
+<li>for Loops</li>
+<li>while Loops</li>
+<li>range() function</li>
+<li>list comprehension</li>
+<li>Creating Custom Functions</li>
+<li>lambda expressions</li>
+<li>map() and filter() functions</li>
+<li>Various methods
+____</li>
+</ul>
+
+<h2 id="comparison-operators">Comparison Operators</h2>
+
+<p>Here you can see how you can create comparison operators in Python. Comparison operators output a boolean value depending on the statement is whether true or not.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="mi">1</span> <span class="o">&gt;</span> <span class="mi">2</span></code></pre></div>
+<pre><code>False
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="mi">1</span> <span class="o">&lt;</span> <span class="mi">2</span></code></pre></div>
+<pre><code>True
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="mi">1</span> <span class="o">&gt;=</span> <span class="mi">1</span></code></pre></div>
+<pre><code>True
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="mi">1</span> <span class="o">&lt;=</span> <span class="mi">4</span></code></pre></div>
+<pre><code>True
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="mi">1</span> <span class="o">==</span> <span class="mi">1</span></code></pre></div>
+<pre><code>True
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="s1">&#39;hi&#39;</span> <span class="o">==</span> <span class="s1">&#39;bye&#39;</span></code></pre></div>
+<pre><code>False
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="s1">&#39;hi&#39;</span> <span class="o">!=</span> <span class="s1">&#39;bye&#39;</span></code></pre></div>
+<pre><code>True
+</code></pre>
+
+<h2 id="logic-operators">Logic Operators</h2>
+
+<p>With Logic Operators you can combine multiple comparison operators together. Logic Operators will output boolean values</p>
+
+<ul>
+<li>and operator: all of the conditions must be met in order to have &lsquo;true&rsquo; as the output</li>
+<li>or operator: it is sufficient to meet one of the conditions as true in order to have &lsquo;true&rsquo; as the output.
+<strong>Remember</strong> : &lsquo;and&rsquo; and &lsquo;or&rsquo;  logic operators can only work with one instance of condition.</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="p">(</span><span class="mi">1</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="mi">2</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">)</span></code></pre></div>
+<pre><code>False
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="p">(</span><span class="mi">1</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="mi">2</span> <span class="o">&lt;</span> <span class="mi">3</span><span class="p">)</span></code></pre></div>
+<pre><code>True
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="p">(</span><span class="mi">1</span> <span class="o">==</span> <span class="mi">2</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="mi">2</span> <span class="o">==</span> <span class="mi">3</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="mi">4</span> <span class="o">==</span> <span class="mi">4</span><span class="p">)</span></code></pre></div>
+<pre><code>True
+</code></pre>
+
+<h2 id="if-elif-else-statements">if,elif, else Statements</h2>
+
+<p>If statements basically tell us : &lsquo; If the condition is true, then run the following code after the colon (:)&rsquo;</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">if</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Yep!&#39;</span><span class="p">)</span></code></pre></div>
+<pre><code>Yep!
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">if</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;yep!&#39;</span><span class="p">)</span></code></pre></div>
+<pre><code>yep!
+</code></pre>
+
+<p>When combined with else statement it tells us &lsquo; If the condition is not true after the if statement, go for the else statement. And run it&rsquo;s code after the colon (:)&rsquo;</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">if</span> <span class="mi">1</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;first&#39;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;last&#39;</span><span class="p">)</span></code></pre></div>
+<pre><code>first
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">if</span> <span class="mi">1</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;first&#39;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;last&#39;</span><span class="p">)</span></code></pre></div>
+<pre><code>last
+</code></pre>
+
+<p>You can combine if statements with elif statements. It tells us &lsquo; If the condition is not true after the if statement, go for the elif statement. And run it&rsquo;s code after the colon (:). If elif&rsquo;s statement was not also true, go for the else statement and run else&rsquo;s code.&rsquo; <strong>Remember</strong> whichever statement&rsquo;s the condition is first met the code of that statement will be executed.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">if</span> <span class="mi">1</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;first&#39;</span><span class="p">)</span>
+<span class="k">elif</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;middle&#39;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Last&#39;</span><span class="p">)</span></code></pre></div>
+<pre><code>middle
+</code></pre>
+
+<h2 id="for-loops-iterate-through-a-sequence">for Loops : Iterate through a sequence</h2>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">seq</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span></code></pre></div>
+<p>For Loops are used when you have a block of code which you want to repeat a fixed number of times. The Python for statement iterates over the members of a sequence in order, executing the block each time. Item here is a temporary variable. You can write whatever you want.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">seq</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">item</span><span class="p">)</span></code></pre></div>
+<pre><code>1
+2
+3
+4
+5
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">seq</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;Yep&#39;</span><span class="p">)</span></code></pre></div>
+<pre><code>Yep
+Yep
+Yep
+Yep
+Yep
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">for</span> <span class="n">jelly</span> <span class="ow">in</span> <span class="n">seq</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">jelly</span><span class="o">+</span><span class="n">jelly</span><span class="p">)</span></code></pre></div>
+<pre><code>2
+4
+6
+8
+10
+</code></pre>
+
+<h2 id="while-loops">while Loops</h2>
+
+<p>While loops, like the ForLoop, are used for repeating sections of code - but unlike a for loop, the while loop will not run n times, but until a defined condition is no longer met. If the condition is initially false, the loop body will not be executed at all. If you do not have defined condition at the bottom you can create an infinite loop. In this case you can have a crash. In order to solve it, go to Kernel and press restart. You can also try to interrupt but it is not always helpful.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">i</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s1">&#39;i is: {}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span></code></pre></div>
+<pre><code>i is: 1
+i is: 2
+i is: 3
+i is: 4
+</code></pre>
+
+<h2 id="range">range()</h2>
+
+<p>Range function creates a sequence automatically. It takes three arguments. range(start(inclusive), stop(exclusive), step)</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span></code></pre></div>
+<pre><code>range(0, 5)
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span></code></pre></div>
+<pre><code>0
+1
+2
+3
+4
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span></code></pre></div>
+<pre><code>[0, 1, 2, 3, 4]
+</code></pre>
+
+<h2 id="list-comprehension">list comprehension</h2>
+
+<p>It is a shortcut when you want to make a quick calculation over all of the elements in your list. It is a nice to know thing but this kind of operations will be extremely easy with Numpy.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">out</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+    <span class="n">out</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">item</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">out</span><span class="p">)</span></code></pre></div>
+<pre><code>[1, 4, 9, 16]
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="p">[</span><span class="n">item</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">x</span><span class="p">]</span></code></pre></div>
+<pre><code>[1, 4, 9, 16]
+</code></pre>
+
+<h2 id="creating-custom-functions">Creating Custom Functions</h2>
+
+<p>To create your own functions you should use &lsquo;def function_name():&rsquo; then write the code of your function. You can create a doctstring for your function as shown below. (Your doctstring will be shown when shift+tab is pressed.)</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">my_func</span><span class="p">(</span><span class="n">param1</span><span class="o">=</span><span class="s1">&#39;default&#39;</span><span class="p">):</span>
+    <span class="s2">&#34;&#34;&#34;
+</span><span class="s2">    Docstring goes here.
+</span><span class="s2">    &#34;&#34;&#34;</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">param1</span><span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">my_func</span></code></pre></div>
+<pre><code>&lt;function __main__.my_func&gt;
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">my_func</span><span class="p">()</span></code></pre></div>
+<pre><code>default
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">my_func</span><span class="p">(</span><span class="s1">&#39;new param&#39;</span><span class="p">)</span></code></pre></div>
+<pre><code>new param
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">my_func</span><span class="p">(</span><span class="n">param1</span><span class="o">=</span><span class="s1">&#39;new param&#39;</span><span class="p">)</span></code></pre></div>
+<pre><code>new param
+</code></pre>
+
+<p>A lot of times you will want to return a value so you can get it equal to another value instead of just printing out with print() function.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">square</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">out</span> <span class="o">=</span> <span class="n">square</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">print</span><span class="p">(</span><span class="n">out</span><span class="p">)</span></code></pre></div>
+<pre><code>4
+</code></pre>
+
+<h2 id="lambda-expressions-or-anonymous-functions">Lambda Expressions or Anonymous Functions</h2>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">times2</span><span class="p">(</span><span class="n">var</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">var</span><span class="o">*</span><span class="mi">2</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">times2</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span></code></pre></div>
+<pre><code>4
+</code></pre>
+
+<p>The lambda operator or lambda function is a way to create small anonymous functions, i.e. functions without a name. These functions are throw-away functions, i.e. they are just needed where they have been created. With lambda expressions above 2 lines of code can be decreased to one line. You can define functions with lambda expressions.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">lambda</span> <span class="n">var</span><span class="p">:</span> <span class="n">var</span><span class="o">*</span><span class="mi">2</span></code></pre></div>
+<pre><code>&lt;function __main__.&lt;lambda&gt;&gt;
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">t2</span><span class="o">=</span><span class="k">lambda</span> <span class="n">var</span><span class="p">:</span> <span class="n">var</span><span class="o">*</span><span class="mi">2</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">t2</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span></code></pre></div>
+<pre><code>4
+</code></pre>
+
+<h2 id="map-and-filter-functions">map() and filter() functions</h2>
+
+<p>Let&rsquo;s say you have a list called seq. Untill now we learned that you can use list comprehension for basic calculation operations over the elements of a list . Here we add one more way to do this; map() function. With map() function you can iterate through any function over your sequence. You can use lambda expressions, built-in functions or your own functions. It takes two arguments: map(function, sequence). When you concenate it with the list function you can create lists with it.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">seq</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="nb">map</span><span class="p">(</span><span class="n">times2</span><span class="p">,</span><span class="n">seq</span><span class="p">)</span></code></pre></div>
+<pre><code>&lt;map at 0x105316748&gt;
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="n">times2</span><span class="p">,</span><span class="n">seq</span><span class="p">))</span></code></pre></div>
+<pre><code>[2, 4, 6, 8, 10]
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">var</span><span class="p">:</span> <span class="n">var</span><span class="o">*</span><span class="mi">2</span><span class="p">,</span><span class="n">seq</span><span class="p">))</span></code></pre></div>
+<pre><code>[2, 4, 6, 8, 10]
+</code></pre>
+
+<p>If you want to filter out elements in a sequence based off of a function you can use filter() function. filter() function takes (should take) a function or a lambda expression as the first argument and creates a Boolean value for each element in the sequence. If you concatenate the filter function with a list function you can get a list.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">item</span><span class="p">:</span> <span class="n">item</span><span class="o">%</span><span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span><span class="n">seq</span><span class="p">)</span></code></pre></div>
+<pre><code>&lt;filter at 0x105316ac8&gt;
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">item</span><span class="p">:</span> <span class="n">item</span><span class="o">%</span><span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span><span class="n">seq</span><span class="p">))</span></code></pre></div>
+<pre><code>[2, 4]
+</code></pre>
+
+<h2 id="various-common-methods">Various common methods</h2>
+
+<p>Below I tried to add some commonly used methods for various data types.</p>
+
+<h2 id="string-methods">String Methods</h2>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">st</span> <span class="o">=</span> <span class="s1">&#39;hello my name is Sam&#39;</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">st</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span></code></pre></div>
+<pre><code>'hello my name is sam'
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">st</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span></code></pre></div>
+<pre><code>'HELLO MY NAME IS SAM'
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">st</span><span class="o">.</span><span class="n">split</span><span class="p">()</span></code></pre></div>
+<pre><code>['hello', 'my', 'name', 'is', 'Sam']
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">tweet</span> <span class="o">=</span> <span class="s1">&#39;Go Sports! #Sports&#39;</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">tweet</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;#&#39;</span><span class="p">)</span></code></pre></div>
+<pre><code>['Go Sports! ', 'Sports']
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">tweet</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;#&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span></code></pre></div>
+<pre><code>'Sports'
+</code></pre>
+
+<h2 id="dictionary-methods">Dictionary Methods</h2>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">d</span></code></pre></div>
+<pre><code>{'key1': 'item1', 'key2': 'item2'}
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">d</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span></code></pre></div>
+<pre><code>dict_keys(['key2', 'key1'])
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">d</span><span class="o">.</span><span class="n">items</span><span class="p">()</span></code></pre></div>
+<pre><code>dict_items([('key2', 'item2'), ('key1', 'item1')])
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">d</span><span class="o">.</span><span class="n">values</span><span class="p">()</span></code></pre></div>
+<pre><code>dict_values(['item1', 'item2'])
+</code></pre>
+
+<h2 id="list-methods">List Methods</h2>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">lst</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">lst</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span></code></pre></div>
+<pre><code>3
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">lst</span></code></pre></div>
+<pre><code>[1, 2]
+</code></pre>
+
+<p>In operator : This is an easy way to check whether one element is in your list.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="s1">&#39;x&#39;</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span></code></pre></div>
+<pre><code>False
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="s1">&#39;x&#39;</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;x&#39;</span><span class="p">,</span><span class="s1">&#39;y&#39;</span><span class="p">,</span><span class="s1">&#39;z&#39;</span><span class="p">]</span></code></pre></div>
+<pre><code>True
+</code></pre>
+
+<h2 id="tuple-unpacking-method">Tuple Unpacking Method</h2>
+
+<p>Let&rsquo;s have a list called x which contains tuples. To unpack the tuples inside we can use for loops. Tuple unpacking will be useful for reassignments. Remember tuples are normally immutable.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">x</span><span class="o">=</span><span class="p">[(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">),(</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">),(</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">)]</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">for</span> <span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span></code></pre></div>
+<pre><code>1
+3
+5
+</code></pre>
+
+<p>Above code will also work without parenthesis (a,b). By convention you can use them</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">for</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span> <span class="ow">in</span> <span class="n">x</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">)</span></code></pre></div>
+<pre><code>1
+3
+5
+</code></pre>
+
+<h1 id="well-done">Well Done!</h1>
+
+</div>
+  <aside>
+      <div class="bug_reporting">
+          <h4>Find an error or bug?</h4>
+          <p>Everything on this site is available on GitHub. Head to <a href='https://github.com/osmancakir/osmancakirioblog/issues/new'>and submit a suggested change</a>. You can also message me directly on <a href='https://twitter.com/osmancakirio'>Twitter</a>.</p>
+      </div>
+      </aside>
+
+    </div>
+</article>
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    <footer class="footer text-center">
+        <div class="container">
+            <span class="text-muted">This project contains 17 pages and is available on <a href="https://github.com/osmancakir/osmancakirioblog">GitHub</a>. Copyright &copy; Osman Cakir, <time datetime="2018">2018</time>.</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

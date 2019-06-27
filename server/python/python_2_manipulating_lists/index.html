@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130208509-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-130208509-1');
+    </script>
+
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Python 2 : Manipulating Lists" />
+<meta property="og:description" content="Python tutorial 2 manipulating lists" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://osmancakir.io/python/python_2_manipulating_lists/" />
+<meta property="article:published_time" content="2018-12-02T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-12-02T00:00:00&#43;00:00"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Python 2 : Manipulating Lists"/>
+<meta name="twitter:description" content="Python tutorial 2 manipulating lists"/>
+<meta name="generator" content="Hugo 0.54.0" /> 
+    
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Python 2 : Manipulating Lists",
+  "url": "https://osmancakir.io/python/python_2_manipulating_lists/",
+  "wordCount": "472",
+  "datePublished": "2018-12-02T00:00:00&#43;00:00",
+  "dateModified": "2018-12-02T00:00:00&#43;00:00",
+  "author": {
+    "@type": "Person",
+    "name": "Osman Cakir"
+  },
+  "description": "Python tutorial 2 manipulating lists"
+}
+</script> 
+
+    <title>Python 2 : Manipulating Lists</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+
+     
+    <link rel="stylesheet" href="https://osmancakir.io/css/custom.css">
+    <link rel="stylesheet" href="https://osmancakir.io/css/syntax.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,500,700" rel="stylesheet">
+        
+    <link href="" rel="alternate" type="application/rss+xml" title="osman cakir" /> 
+    
+    <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="https://osmancakir.io">Osman Cakir</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav mr-auto"></ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            DS/CC Notes
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://osmancakir.io#supervised_learning">Supervised Learning</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#unsupervised_learning">Unsupervised Learning</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#deep_learning">Deep Learning</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#nlp">NLP</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#recommender_systems">Recommender Systems</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#python">Python</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#data_visualization">Data Visualization</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#postgresql">PostgreSQL</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#big_data">Big Data</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#creative_coding">Creative Coding</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://osmancakir.io#articles">Articles</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://osmancakir.io/about/osman_cakir/">About Osman</a>
+                            <a class="dropdown-item" href="https://github.com/osmancakir">GitHub</a>
+                            <a class="dropdown-item" href="https://twitter.com/osmancakirio">Twitter</a>
+                            <a class="dropdown-item" href="https://www.instagram.com/osmancakirio/">Instagram</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+
+                 
+
+
+<article>
+  <div class="technical_note">
+  <header>
+      <div class="alert alert-warning flashcard_ad" role="alert">
+          Would you like to support my research and work? <a href="https://www.patreon.com/osmancakirio" class="alert-link">My patreon link is here.</a> Thank you, I will remember you!
+      </div>
+    <h1 class="technical_note_title">Python 2 : Manipulating Lists</h1>
+    <div class="technical_note_date">
+      <time datetime=" 2018-12-02T00:00:00Z "> 02 Dec 2018</time>
+    </div>
+  </header>
+  <div class="content">
+  
+
+<p>First let&rsquo;s create a list called cars</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;porsche&#39;</span><span class="p">,</span><span class="mi">60</span><span class="p">,</span> <span class="s1">&#39;audi&#39;</span><span class="p">,</span><span class="mi">37</span><span class="p">,</span> <span class="s1">&#39;mercedes&#39;</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="s1">&#39;bmw&#39;</span><span class="p">,</span><span class="mi">43</span><span class="p">,</span> <span class="s1">&#39;vw&#39;</span><span class="p">,</span> <span class="mi">32</span><span class="p">]</span></code></pre></div>
+<p><strong>Changing Elements</strong> is easy. Call the element by it&rsquo;s index and equal to something else.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars</span><span class="p">[</span><span class="mi">8</span><span class="p">]</span><span class="o">=</span><span class="s1">&#39;skoda&#39;</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars</span></code></pre></div>
+<pre><code>['porsche', 60, 'audi', 37, 'mercedes', 45, 'bmw', 43, 'skoda', 32]
+</code></pre>
+
+<p>You can change multiple entries analoguously.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars</span><span class="p">[</span><span class="mi">8</span><span class="p">:]</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;fiat&#39;</span><span class="p">,</span><span class="mi">22</span><span class="p">]</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars</span></code></pre></div>
+<pre><code>['porsche', 60, 'audi', 37, 'mercedes', 45, 'bmw', 43, 'fiat', 22]
+</code></pre>
+
+<p><strong>Adding Elements</strong> might be even easier. Just call your list and add something to it.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars</span> <span class="o">+</span> <span class="p">[</span><span class="s1">&#39;lancia&#39;</span><span class="p">,</span> <span class="mi">33</span><span class="p">]</span></code></pre></div>
+<pre><code>['porsche',
+ 60,
+ 'audi',
+ 37,
+ 'mercedes',
+ 45,
+ 'bmw',
+ 43,
+ 'fiat',
+ 22,
+ 'lancia',
+ 33]
+</code></pre>
+
+<p><strong>important</strong> thing to note here. Adding elements to a list with this way won&rsquo;t change the list in memory. If we look at the cars list again it will be same. Lancia will not appear.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars</span></code></pre></div>
+<pre><code>['porsche', 60, 'audi', 37, 'mercedes', 45, 'bmw', 43, 'fiat', 22]
+</code></pre>
+
+<p>If you want to save it, you can give a new name to your list . If you want the changes to be saved in the list you are working on you should use .append() method. (We will cover methods and functions of Python later in more detail, so no worries!)</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars_ext</span><span class="o">=</span><span class="n">cars</span> <span class="o">+</span> <span class="p">[</span><span class="s1">&#39;lancia&#39;</span><span class="p">,</span> <span class="mi">33</span><span class="p">]</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars_ext</span></code></pre></div>
+<pre><code>['porsche',
+ 60,
+ 'audi',
+ 37,
+ 'mercedes',
+ 45,
+ 'bmw',
+ 43,
+ 'fiat',
+ 22,
+ 'lancia',
+ 33]
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;lancia&#39;</span><span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars</span></code></pre></div>
+<pre><code>['porsche', 60, 'audi', 37, 'mercedes', 45, 'bmw', 43, 'fiat', 22, 'lancia']
+</code></pre>
+
+<p><strong>Deleting Elements</strong> : For this purpose you can use del() function.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">del</span><span class="p">(</span><span class="n">cars</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars</span></code></pre></div>
+<pre><code>['porsche', 60, 'audi', 37, 'mercedes', 45, 'bmw', 43, 'fiat', 22]
+</code></pre>
+
+<p><strong>Another important note</strong> When you create a list such as cars here, the variable name cars is just a reference where your list is stored. lets say you created another list (cars2) which is equal to cars (cars=cars2) and then changed one element in cars2. Your cars list will be also affected by this change. Python does not copy unless you specifically copy the list. You can copy the list by:
+* cars2=list(cars)
+* cars2=cars[:]</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars2</span><span class="o">=</span><span class="n">cars</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars2</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="s1">&#39;ferrari&#39;</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars</span></code></pre></div>
+<pre><code>['ferrari', 60, 'audi', 37, 'mercedes', 45, 'bmw', 43, 'fiat', 22]
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;porsche&#39;</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="s1">&#39;audi&#39;</span><span class="p">,</span> <span class="mi">37</span><span class="p">,</span> <span class="s1">&#39;mercedes&#39;</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="s1">&#39;bmw&#39;</span><span class="p">,</span> <span class="mi">43</span><span class="p">,</span> <span class="s1">&#39;fiat&#39;</span><span class="p">,</span> <span class="mi">22</span><span class="p">]</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars2</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">cars</span><span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars2</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="s1">&#39;ferrari&#39;</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars</span></code></pre></div>
+<pre><code>['porsche', 60, 'audi', 37, 'mercedes', 45, 'bmw', 43, 'fiat', 22]
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars2</span></code></pre></div>
+<pre><code>['ferrari', 60, 'audi', 37, 'mercedes', 45, 'bmw', 43, 'fiat', 22]
+</code></pre>
+
+<h3 id="adding-two-lists-together">Adding Two Lists Together</h3>
+
+<p>very intuitional just type : merged_list = list1 + list2</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars_merged</span><span class="o">=</span><span class="n">cars</span> <span class="o">+</span> <span class="n">cars2</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">cars_merged</span></code></pre></div>
+<pre><code>['porsche',
+ 60,
+ 'audi',
+ 37,
+ 'mercedes',
+ 45,
+ 'bmw',
+ 43,
+ 'fiat',
+ 22,
+ 'ferrari',
+ 60,
+ 'audi',
+ 37,
+ 'mercedes',
+ 45,
+ 'bmw',
+ 43,
+ 'fiat',
+ 22]
+</code></pre>
+
+<h3 id="list-comprehension">List Comprehension</h3>
+
+<p>This is actually going to be extremely easy when we learn the numpy arrays but for now it is a nice to know feature so I am gonna add it here. Let&rsquo;s say you have a list x=[1,2,3,4] and you want to make a calculation for every element in the list. Lets say you want to square every element in your list. you just type the following line below.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">x</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
+<span class="n">x_squared</span> <span class="o">=</span> <span class="p">[</span><span class="n">num</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">x</span><span class="p">]</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">x_squared</span></code></pre></div>
+<pre><code>[1, 4, 9, 16]
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"></code></pre></div>
+</div>
+  <aside>
+      <div class="bug_reporting">
+          <h4>Find an error or bug?</h4>
+          <p>Everything on this site is available on GitHub. Head to <a href='https://github.com/osmancakir/osmancakirioblog/issues/new'>and submit a suggested change</a>. You can also message me directly on <a href='https://twitter.com/osmancakirio'>Twitter</a>.</p>
+      </div>
+      </aside>
+
+    </div>
+</article>
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    <footer class="footer text-center">
+        <div class="container">
+            <span class="text-muted">This project contains 17 pages and is available on <a href="https://github.com/osmancakir/osmancakirioblog">GitHub</a>. Copyright &copy; Osman Cakir, <time datetime="2018">2018</time>.</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

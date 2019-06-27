@@ -20,7 +20,7 @@ For data analysis and coding related experiences, so far, I  helped a small elec
 
 All of these experiences, have taught me, to show up on time and be responsible, providing quality-oriented service, the importance of being cooperative and getting the job done when the deadline is tight, as values.
 
-I completed my undergraduate degree in Economics at Yildiz Technical University in Turkey with the 2nd highest GPA. Then I earned an M.Sc. in Economics Degree from Ludwig Maximilians University of Munich. I am now discovering the world of Art and trying to understand how cultural heritage is shaping the experience of living throughout the history of mankind with data science methods.
+I completed my undergraduate degree in Economics at Yildiz Technical University in Turkey with the 2nd highest GPA. Then I earned an M.Sc. in Economics Degree from Ludwig Maximilians University of Munich. I am now trying to understand how cultural heritage is shaping the experience of living throughout the history of mankind with the help of data science methods.
 
 -   Email: osmancakir11@gmail.com;
 -   Twitter: [@osmancakirio](https://twitter.com/osmancakirio)

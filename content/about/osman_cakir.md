@@ -12,13 +12,8 @@ outputs:
 
 <img src="osman_cakir_blog_photo.jpg"></img>
 
-As someone with diverse interests, I am trying to maintain a peaceful life with lots of books, films, a little bit music on the side. Without comparing myself to anyone, I try to get (and give) as much as love, laughter and an understanding how things work and evolve around me. I help organizing a Turkish [film festival](https://tuerkischefilmtage.de/) in Munich. I like djing electronica/downtempo music with melodic warmth. My favourite activity is sitting on a bench somewhere in the city listening to the wave of thoughts in my mind quietly while enjoying my coffee. These moments then become what I write about. 
+I am someone with diverse interests. My way of giving life a meaning is to maintain a peaceful life with lots of books, films, a little bit music on the side. I try to get (and give) as much as love, laughter and an understanding how things work and evolve without comparing myself to anyone. I help organizing a Turkish [film festival](https://tuerkischefilmtage.de/) in Munich. I like [djing old vinlys](https://soundcloud.com/soureditor) from different cultures' music. My favourite activity is sitting on a bench somewhere in the city listening to the wave of thoughts in my mind quietly while enjoying my coffee. These moments then become what I write about. 
 
-I worked in many jobs to pay my bills and to earn my bread and butter. Such job experiences include; working as a bicycle courier at [Foodora](https://www.foodora.de/en/?r=1), being a stage crew at [Bavaria Film](https://www.bavaria-film.de/) and being a counter at public transportation at [PTV Group](https://www.ptvgroup.com/en/). 
-
-For data analysis and coding related experiences, so far, I  helped a small electronics wholesale company in Augsburg to expand their online sales channels and did an internship at [Fogra Research Institute](https://www.fogra.org/en/) where I built a data dashboard to track the renewal dates of the color print certifications provided by the institution. 
-
-All of these experiences, have taught me, to show up on time and be responsible, providing quality-oriented service, the importance of being cooperative and getting the job done when the deadline is tight, as values.
 
 I completed my undergraduate degree in Economics at Yildiz Technical University in Turkey with the 2nd highest GPA. Then I earned an M.Sc. in Economics Degree from Ludwig Maximilians University of Munich. I am now trying to understand how cultural heritage is shaping the experience of living throughout the history of mankind with the help of data science methods.
 
@@ -34,17 +29,32 @@ I completed my undergraduate degree in Economics at Yildiz Technical University 
 
 ### Education
 
--   **Ph.D. Candidate, Art History**, Ludwig Maximilians University of Munich, Munich
--    **M.Sc., Economics**, Ludwig Maximilians University of Munich, Munich. 2017
-    -   Thesis: "Consequences of Coup D'Etats"
--   **B.A., Economics**, Yildiz Technical University, Istanbul. 2013
+-   **Ph.D. Candidate, Art History**, Ludwig Maximilians University of Munich, Munich. 10/2022 
+-   **M.Sc., Economics**, Ludwig Maximilians University of Munich, Munich. 06/2017
+-   **B.A., Economics**, Yildiz Technical University, Istanbul. 06/2013
     -   Graduated with 2nd Best GPA in the Economics Department.
 
-### Work Experience
+### Selected Software Development and Data Science Experience
 
--   **Freelance Full Stack Developer**, 07/2017 - Present
-    -   Building Data Analysis Tools, Web Design and Content Management for Various Organizations
--   **Intern**, [Fogra Research Institute](https://www.fogra.org/en/), 06/2018 - 09/2018
+
+-   [**Digital Humanities Center LMU**](https://www.itg.uni-muenchen.de/index.html), 06/2019 - Present
+
+    - Adding new functionalities to the Research Data Management Tool. 
+    - Contributing to the Research of the Department
+
+-   [**Historische Grundwissenschaften, LMU**](https://www.hgw.geschichte.uni-muenchen.de/index.html), 05/2019 - 07/2019
+
+    - Updated the Faculty Department website back-end
+    - Improved the Search functionality of the website
+    - Improved the navigation of the content inside the website
+
+-   [**Coding Da Vinci Süd**](https://codingdavinci.de/projects/2019_sued/schmankerl_time_machine.html), 04/2019 - 05/2019
+
+    - Have won the prize in the most technical category
+    - Built a web app to do the text and data analysis of restaurant menus. You can visit the app [here](https://dhvlab.gwi.uni-muenchen.de/schmankerltimemachine/)
+
+-   [**Fogra Research Institute**](https://www.fogra.org/en/), 06/2018 - 09/2018
+
     -   Built a data dashboard to track the renewal dates of the color print certifications.
     -   Designing a field experiment on common color appearance and coding the analysis tools using Python and Matlab
 

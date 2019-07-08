@@ -42,12 +42,12 @@
                 </div>
             </div>
         </div>
-        <div class="row" id="supervised_learning">
+        <div class="row" id="notebooks">
             <div class="col-sm-12">
-                <h3 class="category_header">Supervised Learning</h3>
+                <h3 class="category_header">Notebooks</h3>
                 <div class="card-body">
                         <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/supervised_learning/").ByTitle }}
+                            {{ range (where .Pages "File.Dir" "in" "/notebooks/").ByTitle }}
                             <li>
                                 <a href="{{.Permalink}}">{{.Title}}</a>
                             </li>
@@ -57,12 +57,12 @@
             </div>
         </div>
 
-        <div class="row" id="unsupervised_learning">
+        <div class="row" id="Javascript_ES7_Jupyter_Notebook">
             <div class="col-sm-12">
-                <h3 class="category_header">Unsupervised Learning</h3>
+                <h3 class="category_header">Javascript ES7 Jupyter Notebooks</h3>
                 <div class="card-body">
                         <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/learning_unsupervised/").ByTitle }}
+                            {{ range (where .Pages "File.Dir" "in" "/javascriptes7/").ByTitle }}
                             <li>
                                 <a href="{{.Permalink}}">{{.Title}}</a>
                             </li>
@@ -71,7 +71,7 @@
                 </div>
             </div>
         </div>
-
+<!--
         <div class="row" id="deep_learning">
             <div class="col-sm-12">
                 <h3 class="category_header">Deep Learning</h3>
@@ -116,10 +116,10 @@
                 </div>
             </div>
         </div>
-
+    -->
         <div class="row" id="python">
             <div class="col-sm-12">
-                <h3 class="category_header">Python</h3>
+                <h3 class="category_header">Learning Python and To Code</h3>
                 <div class="card-body">
                         <ul>
                             {{ range (where .Pages "File.Dir" "in" "/python/").ByTitle }}
@@ -132,7 +132,7 @@
             </div>
         </div>
 
-
+<!--
         <div class="row" id="data_visualization">
             <div class="col-sm-12">
                 <h3 class="category_header">Data Visualization</h3>
@@ -195,7 +195,7 @@
                     </div>
             </div>
         </div>
-
+    -->
     </div>
 
 </main>

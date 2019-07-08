@@ -12,7 +12,7 @@ outputs:
 
 <img src="osman_cakir_blog_photo.jpg"></img>
 
-I am someone with diverse interests. My way of giving life a meaning is to maintain a peaceful life with lots of books, films, a little bit music on the side. I try to get (and give) as much as love, laughter and an understanding how things work and evolve without comparing myself to anyone. I help organizing a Turkish [film festival](https://tuerkischefilmtage.de/) in Munich. I like [djing old vinlys](https://soundcloud.com/soureditor) from different cultures' music. My favourite activity is sitting on a bench somewhere in the city listening to the wave of thoughts in my mind quietly while enjoying my coffee. These moments then become what I write about. 
+I try to get (and give) as much as love, laughter and also an understanding how things work and evolve. I help organizing a Turkish [film festival](https://tuerkischefilmtage.de/) in Munich. I like [djing old vinlys](https://soundcloud.com/soureditor) from different cultures' music. My favourite activity is sitting on a bench somewhere in the city listening to the wave of thoughts in my mind quietly while enjoying my coffee. These moments then become what I write about. 
 
 
 I completed my undergraduate degree in Economics at Yildiz Technical University in Turkey with the 2nd highest GPA. Then I earned an M.Sc. in Economics Degree from Ludwig Maximilians University of Munich. I am now trying to understand how cultural heritage is shaping the experience of living throughout the history of mankind with the help of data science methods.
@@ -55,7 +55,7 @@ I completed my undergraduate degree in Economics at Yildiz Technical University 
 
 -   [**Fogra Research Institute**](https://www.fogra.org/en/), 06/2018 - 09/2018
 
-    -   Built a data dashboard to track the renewal dates of the color print certifications.
-    -   Designing a field experiment on common color appearance and coding the analysis tools using Python and Matlab
+    - Built a data dashboard to track the renewal dates of the color print certifications.
+    - Designing a field experiment on common color appearance and coding the analysis tools using Python and Matlab
 
 

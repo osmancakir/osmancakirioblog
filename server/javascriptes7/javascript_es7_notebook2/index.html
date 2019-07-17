@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130208509-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-130208509-1');
+    </script>
+
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Javascript ES7 2 : Arrays, Functions and Logic" />
+<meta property="og:description" content="Javascript ES7 Functionalities" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://osmancakir.io/javascriptes7/javascript_es7_notebook2/" />
+<meta property="article:published_time" content="2019-07-04T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-07-04T00:00:00&#43;00:00"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Javascript ES7 2 : Arrays, Functions and Logic"/>
+<meta name="twitter:description" content="Javascript ES7 Functionalities"/>
+<meta name="generator" content="Hugo 0.55.6" /> 
+    
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Javascript ES7 2 : Arrays, Functions and Logic",
+  "url": "https:\/\/osmancakir.io\/javascriptes7\/javascript_es7_notebook2\/",
+  "wordCount": "946",
+  "datePublished": "2019-07-04T00:00:00\x2b00:00",
+  "dateModified": "2019-07-04T00:00:00\x2b00:00",
+  "author": {
+    "@type": "Person",
+    "name": "Osman Cakir"
+  },
+  "description": "Javascript ES7 Functionalities"
+}
+</script> 
+
+    <title>Javascript ES7 2 : Arrays, Functions and Logic</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+
+     
+    <link rel="stylesheet" href="https://osmancakir.io/css/custom.css">
+    <link rel="stylesheet" href="https://osmancakir.io/css/syntax.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,500,700" rel="stylesheet">
+        
+    <link href="" rel="alternate" type="application/rss+xml" title="osman cakir" /> 
+    
+    <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="https://osmancakir.io">Osman Cakir</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav mr-auto"></ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            DS/CC Notes
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://osmancakir.io#supervised_learning">Supervised Learning</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#unsupervised_learning">Unsupervised Learning</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#deep_learning">Deep Learning</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#nlp">NLP</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#recommender_systems">Recommender Systems</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#python">Python</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#data_visualization">Data Visualization</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#postgresql">PostgreSQL</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#big_data">Big Data</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#creative_coding">Creative Coding</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://osmancakir.io#articles">Articles</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://osmancakir.io/about/osman_cakir/">About Osman</a>
+                            <a class="dropdown-item" href="https://github.com/osmancakir">GitHub</a>
+                            <a class="dropdown-item" href="https://twitter.com/osmancakirio">Twitter</a>
+                            <a class="dropdown-item" href="https://www.instagram.com/osmancakirio/">Instagram</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+
+                 
+
+
+<article>
+  <div class="technical_note">
+  <header>
+      <div class="alert alert-warning flashcard_ad" role="alert">
+          Would you like to support my research and work? <a href="https://www.patreon.com/osmancakirio" class="alert-link">My patreon link is here.</a> Thank you, I will remember you!
+      </div>
+    <h1 class="technical_note_title">Javascript ES7 2 : Arrays, Functions and Logic</h1>
+    <div class="technical_note_date">
+      <time datetime=" 2019-07-04T00:00:00Z "> 04 Jul 2019</time>
+    </div>
+  </header>
+  <div class="content">
+  
+
+<p>Let&rsquo;s continue where we left off.</p>
+
+<h1 id="contents">Contents</h1>
+
+<pre><code>8 - Arrays
+
+        * Store Data in Arrays
+        * Nested Arrays : Multidimensional Arrays
+        * Access Data in Arrays with Indexes
+        * Arrays are Mutable
+        * Manipulating Arrays
+            push()
+            pop()
+            shift()
+            unshift()
+
+9 - Functions
+
+        * A Simple Function
+        * Global Scopes and Functions
+        * Local Scopes and Functions
+        * Understanding Undefined Value Returned From A Function
+        * Assignment with A Returned Value
+        * Stand in Line.
+
+10 - Logical Operators and If Statements
+
+        * Strict Equals
+        * Other Operators
+        * Switch Statements
+        * Returning Early Pattern From Functions
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">pixiedust</span>
+<span class="kn">import</span> <span class="nn">pixiedust_node</span></code></pre></div>
+<pre><code>Pixiedust database opened successfully
+pixiedust_node 0.2.5 started. Cells starting '%%node' may contain Node.js code.
+</code></pre>
+
+<h2 id="8-arrays">8 -  Arrays</h2>
+
+<ul>
+<li><strong>Store Data in Arrays</strong></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+<span class="n">var</span> <span class="n">ourArray</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&#34;john&#34;</span><span class="p">,</span> <span class="mi">23</span><span class="p">];</span></code></pre></div>
+<ul>
+<li><strong>Nested Arrays : multidimensional array</strong></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+<span class="n">var</span> <span class="n">ourArray2</span> <span class="o">=</span> <span class="p">[[</span><span class="s2">&#34;the universe&#34;</span><span class="p">,</span> <span class="mi">42</span><span class="p">],</span> <span class="p">[</span><span class="s2">&#34;everything&#34;</span><span class="p">,</span> <span class="mi">101010</span><span class="p">]];</span></code></pre></div>
+<ul>
+<li><strong>Access Data in Arrays Data with Indexes</strong></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+<span class="n">var</span> <span class="n">ourArray3</span> <span class="o">=</span> <span class="p">[</span><span class="mi">50</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">70</span><span class="p">];</span>
+<span class="n">var</span> <span class="n">ourData</span> <span class="o">=</span> <span class="n">ourArray2</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">ourData</span><span class="p">)</span></code></pre></div>
+<pre><code>[ 'the universe', 42 ]
+</code></pre>
+
+<ul>
+<li><strong>Access elements in nested arrays</strong></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+<span class="n">var</span> <span class="n">ourData2</span> <span class="o">=</span> <span class="n">ourArray2</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">];</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">ourData2</span><span class="p">)</span></code></pre></div>
+<pre><code>the universe
+</code></pre>
+
+<ul>
+<li><strong>Strings were immutable but arrays are mutable.</strong></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+<span class="n">ourArray3</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mi">45</span><span class="p">;</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">ourArray3</span><span class="p">)</span> <span class="o">//</span> <span class="n">pay</span> <span class="n">attention</span> <span class="n">to</span> <span class="p">(</span><span class="mi">30</span> <span class="o">-&gt;</span> <span class="mi">45</span><span class="p">)</span> <span class="n">change</span> <span class="ow">in</span> <span class="n">ourArray3</span></code></pre></div>
+<pre><code>[ 50, 45, 70 ]
+</code></pre>
+
+<ul>
+<li><strong>Manipulate Arrays with push()</strong></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+<span class="n">ourArray</span><span class="o">.</span><span class="n">push</span><span class="p">(</span><span class="s2">&#34;happy&#34;</span><span class="p">)</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">ourArray</span><span class="p">)</span>
+<span class="n">ourArray</span><span class="o">.</span><span class="n">push</span><span class="p">([</span><span class="s2">&#34;cheerful&#34;</span><span class="p">,</span> <span class="mi">40</span><span class="p">])</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">ourArray</span><span class="p">)</span></code></pre></div>
+<pre><code>[ 'john', 23, 'happy' ]
+[ 'john', 23, 'happy', [ 'cheerful', 40 ] ]
+</code></pre>
+
+<ul>
+<li><strong>Anologously;</strong>
+
+<ul>
+<li>Manipulate Arrays with pop() : last element goes</li>
+<li>Manipulate Arrays with shift() : first element goes.</li>
+<li>Manipulate Arrays with unshift() : adds element as the first element.</li>
+</ul></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+<span class="n">var</span> <span class="n">removedFromArray</span> <span class="o">=</span> <span class="n">ourArray</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">removedFromArray</span><span class="p">)</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">ourArray</span><span class="p">)</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">ourArray</span><span class="o">.</span><span class="n">shift</span><span class="p">())</span>
+<span class="n">ourArray</span><span class="o">.</span><span class="n">unshift</span><span class="p">((</span><span class="s2">&#34;alexa&#34;</span><span class="p">))</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">ourArray</span><span class="p">)</span></code></pre></div>
+<pre><code>[ 'cheerful', 40 ]
+[ 'john', 23, 'happy' ]
+john
+[ 'alexa', 23, 'happy' ]
+</code></pre>
+
+<h2 id="9-functions">9 - Functions</h2>
+
+<ul>
+<li><strong>A Simple Function With Arguments</strong></li>
+</ul>
+
+<p>Below function will take the difference of its 2 arguments.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+<span class="n">function</span> <span class="n">ourFunctionWithArguments</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">a</span><span class="o">-</span><span class="n">b</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="n">ourFunctionWithArguments</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">5</span><span class="p">)</span> </code></pre></div>
+<pre><code>... ...
+5
+</code></pre>
+
+<h3 id="global-scope-and-functions">Global scope and functions:</h3>
+
+<pre><code>- variables that are defined outside a function block have global scope
+- variables that are defined inside a function with var keyword has limited scope. 
+- if you define a variable inside a function but without using the var keyword, that variable
+  becomes automatically global scope.
+</code></pre>
+
+<h3 id="local-scopes-and-functions">Local Scopes and Functions</h3>
+
+<pre><code>function myLocalScope() {
+    var myVar = 5;
+    console.log(myVar);
+}
+myLocalScope(); // will output 5 
+console.log(myVar); // will give me an error. Becuase myVar has a local scope. it is not callable
+</code></pre>
+
+<p>You can have a global and local scope variables with the same name!</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+    <span class="n">function</span> <span class="n">myLocalScope</span><span class="p">()</span> <span class="p">{</span>
+        <span class="n">var</span> <span class="n">myVar</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+        <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">myVar</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">myLocalScope</span><span class="p">();</span> <span class="o">//</span> <span class="n">will</span> <span class="n">output</span> <span class="mi">5</span> 
+    <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">myVar</span><span class="p">);</span> <span class="o">//</span> <span class="n">will</span> <span class="n">give</span> <span class="n">me</span> <span class="n">an</span> <span class="n">error</span><span class="o">.</span> <span class="n">Becuase</span> <span class="n">myVar</span> <span class="n">has</span> <span class="n">a</span> <span class="n">local</span> <span class="n">scope</span><span class="o">.</span> <span class="n">it</span> <span class="ow">is</span> <span class="ow">not</span> <span class="nb">callable</span></code></pre></div>
+<pre><code>... ... ...
+5
+
+ReferenceError: myVar is not defined
+</code></pre>
+
+<h3 id="understanding-undefined-value-returned-from-a-function">Understanding Undefined Value Returned from a Function.</h3>
+
+<ul>
+<li>funtions can have return statements but they don&rsquo;t have to
+            var sum = 0;
+            function addThree() {
+                sum = sum + 3;
+            }</li>
+
+<li><p>if you don&rsquo;t specify return value it is going to be undefined.</p>
+
+<pre><code>        function addFive() {
+            sum = sum += 5;
+        }
+</code></pre></li>
+
+<li><p>so if we log this out it would be undefined!</p></li>
+</ul>
+
+<h3 id="assignment-with-a-returned-value">Assignment with a Returned Value</h3>
+
+<pre><code>    var processed = 0; 
+    function processedArg(num) {
+        return (num+3)/2;
+    }
+    processed = processedArg(7);
+</code></pre>
+
+<ul>
+<li>processed is changed to 5!</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+<span class="n">var</span> <span class="n">processed</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> 
+<span class="n">function</span> <span class="n">processedArg</span><span class="p">(</span><span class="n">num</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">num</span><span class="o">+</span><span class="mi">3</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="n">processed</span> <span class="o">=</span> <span class="n">processedArg</span><span class="p">(</span><span class="mi">7</span><span class="p">);</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">processed</span><span class="p">)</span></code></pre></div>
+<pre><code>... ...
+5
+</code></pre>
+
+<h3 id="stand-in-line">Stand in Line</h3>
+
+<p>In computer science a cue is an abstract data structure where items are kept in order. New items can be added to the back of the cue and old items can be removed from the front.</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+<span class="n">function</span> <span class="n">nextInLine</span><span class="p">(</span><span class="n">arr</span><span class="p">,</span><span class="n">item</span><span class="p">){</span>
+    <span class="n">arr</span><span class="o">.</span><span class="n">push</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">arr</span><span class="o">.</span><span class="n">shift</span><span class="p">()</span>
+<span class="p">}</span>
+<span class="n">var</span> <span class="n">testArr</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&#34;Before: &#34;</span> <span class="o">+</span> <span class="n">JSON</span><span class="o">.</span><span class="n">stringify</span><span class="p">(</span><span class="n">testArr</span><span class="p">));</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">nextInLine</span><span class="p">(</span><span class="n">testArr</span><span class="p">,</span><span class="mi">6</span><span class="p">));</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&#34;After: &#34;</span><span class="o">+</span> <span class="n">JSON</span><span class="o">.</span><span class="n">stringify</span><span class="p">(</span><span class="n">testArr</span><span class="p">));</span> </code></pre></div>
+<pre><code>... ... ...
+Before: [1,2,3,4,5]
+1
+
+After: [2,3,4,5,6]
+</code></pre>
+
+<h2 id="10-logical-operators-and-if-statements">10 - Logical Operators and if Statements</h2>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+<span class="n">function</span> <span class="n">testEqual</span><span class="p">(</span><span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">val</span> <span class="o">==</span> <span class="mi">12</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="s2">&#34;Equal&#34;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="s2">&#34;Not Equal&#34;</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">testEqual</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span></code></pre></div>
+<pre><code>... ..... ..... ... ...
+Not Equal
+</code></pre>
+
+<h3 id="strict-equals">Strict Equals</h3>
+
+<ul>
+<li>&rsquo;==&rsquo; operator can check 3 == &lsquo;3&rsquo; and can tell true. Because it can convert the string to a number.</li>
+<li>&rsquo;===&rsquo; Strictly Equal Operator doesn&rsquo;t convert any value.</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+<span class="n">function</span> <span class="n">testStrict</span><span class="p">(</span><span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">val</span> <span class="o">===</span> <span class="mi">12</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="s2">&#34;Equal&#34;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="s2">&#34;Not Equal&#34;</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">testStrict</span><span class="p">(</span><span class="s1">&#39;12&#39;</span><span class="p">))</span></code></pre></div>
+<pre><code>... ..... ..... ... ...
+Not Equal
+</code></pre>
+
+<h3 id="other-operators">Other Operators</h3>
+
+<pre><code>* inequality operator: !=  (it also does type converting) strict inequality operator : !==
+* greater than &gt; and &lt; and &gt;= &lt;=
+* logical operators and : &amp;&amp;  or : || 
+* else statement: else {}
+* else if statement: else if {}
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+<span class="n">function</span> <span class="n">testElseIf</span><span class="p">(</span><span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">val</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="s1">&#39;greater than 10&#39;</span><span class="p">;</span>
+    <span class="p">}</span>   <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">val</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="s1">&#39;smaller than 5&#39;</span><span class="p">;</span>
+    <span class="p">}</span>
+        <span class="k">else</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="s1">&#39;between 5 and 10&#39;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">testElseIf</span><span class="p">(</span><span class="mi">7</span><span class="p">))</span>
+<span class="o">//</span> <span class="n">order</span> <span class="ow">in</span> <span class="n">logical</span> <span class="n">statements</span><span class="p">:</span> <span class="n">be</span> <span class="n">careful</span> <span class="n">above</span><span class="err">!</span> </code></pre></div>
+<pre><code>... ..... ..... ..... ..... ... ..... ..... ...
+between 5 and 10
+</code></pre>
+
+<h3 id="switch-statements-instead-of-a-chained-elseif-statements-we-can-use-a-switch-statement">Switch statements: instead of a chained elseif statements we can use a switch statement.</h3>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+<span class="n">function</span> <span class="n">caseInSwitch</span><span class="p">(</span><span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">var</span> <span class="n">answer</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">;</span>
+    <span class="n">switch</span><span class="p">(</span><span class="n">val</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">case</span> <span class="mi">1</span><span class="p">:</span> <span class="o">//</span> <span class="n">works</span> <span class="k">as</span> <span class="n">strictly</span> <span class="n">equal</span><span class="err">!</span>
+        <span class="n">answer</span> <span class="o">=</span> <span class="s2">&#34;alpha&#34;</span>
+        <span class="k">break</span><span class="p">;</span> <span class="o">//</span> <span class="n">breaks</span> <span class="n">are</span> <span class="n">important</span> <span class="n">otherwise</span> <span class="n">will</span> <span class="k">continue</span> <span class="n">to</span> <span class="n">assign</span> <span class="n">below</span><span class="o">.</span>
+        <span class="n">case</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="n">answer</span> <span class="o">=</span> <span class="s2">&#34;beta&#34;</span>
+        <span class="k">break</span><span class="p">;</span>
+        <span class="n">default</span><span class="p">:</span> <span class="o">//</span><span class="n">adds</span> <span class="n">a</span> <span class="n">default</span> <span class="n">option</span> <span class="k">for</span> <span class="n">cases</span> <span class="n">outside</span> <span class="n">switch</span> 
+        <span class="n">answer</span> <span class="o">=</span> <span class="s2">&#34;stuff&#34;</span>
+        <span class="k">break</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">answer</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">caseInSwitch</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+<span class="o">//</span> <span class="n">when</span> <span class="n">you</span> <span class="n">want</span> <span class="n">to</span> <span class="n">give</span> <span class="n">the</span> <span class="n">same</span> <span class="n">output</span> <span class="k">for</span> <span class="n">different</span> <span class="n">cases</span> <span class="n">just</span> <span class="n">take</span> <span class="n">out</span> <span class="n">the</span> <span class="k">break</span> <span class="n">between</span> <span class="n">those</span> <span class="n">cases</span><span class="o">.</span></code></pre></div>
+<pre><code>... ... ..... ..... ..... ..... ..... ..... ..... ..... ..... ..... ... ...
+alpha
+</code></pre>
+
+<h3 id="returning-early-pattern-from-functions">Returning Early Pattern From Functions.</h3>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
+<span class="n">function</span> <span class="n">abTest</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">a</span> <span class="o">&lt;</span> <span class="mi">0</span> <span class="o">||</span> <span class="n">b</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">undefined</span><span class="p">;</span>
+        
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="mi">5</span>
+<span class="p">}</span>
+<span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">abTest</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span></code></pre></div>
+<pre><code>... ..... ..... ..... ... ...
+5
+</code></pre>
+
+<hr />
+
+<h3 id="continue-to-notebook-3">Continue to Notebook 3 :)</h3>
+
+</div>
+  <aside>
+      <div class="bug_reporting">
+          <h4>Find an error or bug?</h4>
+          <p>Everything on this site is available on GitHub. Head to <a href='https://github.com/osmancakir/osmancakirioblog/issues/new'>and submit a suggested change</a>. You can also message me directly on <a href='https://twitter.com/osmancakirio'>Twitter</a>.</p>
+      </div>
+      </aside>
+
+    </div>
+</article>
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    <footer class="footer text-center">
+        <div class="container">
+            <span class="text-muted">This project contains 14 pages and is available on <a href="https://github.com/osmancakir/osmancakirioblog">GitHub</a>. Copyright &copy; Osman Cakir, <time datetime="2018">2018</time>.</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

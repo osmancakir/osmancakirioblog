@@ -1,15 +1,14 @@
 ---
 title: "Schmankerl Time Machine"
 author: "Osman Cakir"
-date: 2018-12-03
+date: 2019-07-16
 description: "Codind da Vinci Süd 2019 Winner Project, text analysis, digital humanities"
 type: technical_note
 draft: false
 ---
-
 <p style="text-align: center;">
-  <img src="Bilder/empty.png" width="25%" />
-  <img alt="Schmankerl Time Machine Logo" src="Bilder/logo_with_cdv.png" width="50%" />
+  <img src="Schmankerl_Time_Machine_Project/empty.png" width="25%" />
+  <img alt="Schmankerl Time Machine Logo" src="Schmankerl_Time_Machine_Project/logo_with_cdv.png" width="50%" />
 </p>
 
 _____
@@ -17,6 +16,8 @@ _____
 The project was created as part of the culture hackathon for open culture data, [Coding da Vinci Süd 2019](https://codingdavinci.de/events/sued/), and won the prize in the most technical category. 
 
 ## Project Description
+
+
 
 > Always the same dishes on your dining table? Are you desperately looking for some inspiration for your culinary everyday life? So not all hope is lost yet! <br /> <br /> "Schmankerl Time Machine" invites you to a culinary time travel through the traditional history of Munich-based restaurants during the past 150 years. First get an overview of Munich's gastronomic legends. Next compose your unforgettable menu from a portfolio consisting of more than 380 menus. Recipes are already linked to them. How about a lobster cocktail, followed by a rabbit in the terrine and some venison nuts, finaly crowned by Prince Pückler's ice cream variation? Let yourself be inspired by the suggestions of other users when creating your menu. Upload the menu of your favourite Munich restaurant to expand the data collection even further.
  <br /> <br /> Let's treat!
@@ -52,8 +53,8 @@ The recipes go back to [Chefkoch.de] (https://chefkoch.de/) and are available at
 In the [Notebooks](Notebooks/) folder there are some sample notebooks for evaluation, which show, among other things, the temporal distribution of the menus.
 
 <p style="max-width: 850px;">
-  <img alt="Speisekarten Wordcloud Schwein" src="Bilder/wordcloud_pig.png" width="57%" />
-  <img alt="Speisekarten Wordcloud Bier" src="Bilder/wordcloud_beer.png" width="31%" />
+  <img alt="Speisekarten Wordcloud Schwein" src="Schmankerl_Time_Machine_Project/wordcloud_pig.png" width="57%" />
+  <img alt="Speisekarten Wordcloud Bier" src="Schmankerl_Time_Machine_Project/wordcloud_beer.png" width="31%" />
 </p>
 
 ### Shiny Web-Application
@@ -63,14 +64,14 @@ In the [Webanwendung](Webanwendung/) (Webapplication) folder you will find all t
 
 
 <p float="left" style="max-width: 850px;">
-  <img alt="Screenshot 1" src="Bilder/screenshot-1.png" width="22%" />
-  <img alt="Screenshot 2" src="Bilder/screenshot-2.png" width="22%" /> 
-  <img alt="Screenshot 3" src="Bilder/screenshot-3.png" width="22%" />
-  <img alt="Screenshot 4" src="Bilder/screenshot-4.png" width="22%" />
-  <img alt="Screenshot 5" src="Bilder/screenshot-5.png" width="22%" />
-  <img alt="Screenshot 6" src="Bilder/screenshot-6.png" width="22%" /> 
-  <img alt="Screenshot 7" src="Bilder/screenshot-7.png" width="22%" />
-  <img alt="Screenshot 8" src="Bilder/screenshot-8.png" width="22%" />
+  <img alt="Screenshot 1" src="Schmankerl_Time_Machine_Project/screenshot-1.png" width="22%" />
+  <img alt="Screenshot 2" src="Schmankerl_Time_Machine_Project/screenshot-2.png" width="22%" /> 
+  <img alt="Screenshot 3" src="Schmankerl_Time_Machine_Project/screenshot-3.png" width="22%" />
+  <img alt="Screenshot 4" src="Schmankerl_Time_Machine_Project/screenshot-4.png" width="22%" />
+  <img alt="Screenshot 5" src="Schmankerl_Time_Machine_Project/screenshot-5.png" width="22%" />
+  <img alt="Screenshot 6" src="Schmankerl_Time_Machine_Project/screenshot-6.png" width="22%" /> 
+  <img alt="Screenshot 7" src="Schmankerl_Time_Machine_Project/screenshot-7.png" width="22%" />
+  <img alt="Screenshot 8" src="Schmankerl_Time_Machine_Project/screenshot-8.png" width="22%" />
 </p>
 
 ## Scripts

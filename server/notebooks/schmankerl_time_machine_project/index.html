@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130208509-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-130208509-1');
+    </script>
+
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Schmankerl Time Machine" />
+<meta property="og:description" content="Codind da Vinci Süd 2019 Winner Project, text analysis, digital humanities" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://osmancakir.io/notebooks/schmankerl_time_machine_project/" />
+<meta property="article:published_time" content="2018-12-03T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-12-03T00:00:00&#43;00:00"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Schmankerl Time Machine"/>
+<meta name="twitter:description" content="Codind da Vinci Süd 2019 Winner Project, text analysis, digital humanities"/>
+<meta name="generator" content="Hugo 0.55.6" /> 
+    
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Schmankerl Time Machine",
+  "url": "https:\/\/osmancakir.io\/notebooks\/schmankerl_time_machine_project\/",
+  "wordCount": "741",
+  "datePublished": "2018-12-03T00:00:00\x2b00:00",
+  "dateModified": "2018-12-03T00:00:00\x2b00:00",
+  "author": {
+    "@type": "Person",
+    "name": "Osman Cakir"
+  },
+  "description": "Codind da Vinci Süd 2019 Winner Project, text analysis, digital humanities"
+}
+</script> 
+
+    <title>Schmankerl Time Machine</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+
+     
+    <link rel="stylesheet" href="https://osmancakir.io/css/custom.css">
+    <link rel="stylesheet" href="https://osmancakir.io/css/syntax.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,500,700" rel="stylesheet">
+        
+    <link href="" rel="alternate" type="application/rss+xml" title="osman cakir" /> 
+    
+    <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="https://osmancakir.io">Osman Cakir</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav mr-auto"></ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            DS/CC Notes
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://osmancakir.io#supervised_learning">Supervised Learning</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#unsupervised_learning">Unsupervised Learning</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#deep_learning">Deep Learning</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#nlp">NLP</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#recommender_systems">Recommender Systems</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#python">Python</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#data_visualization">Data Visualization</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#postgresql">PostgreSQL</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#big_data">Big Data</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#creative_coding">Creative Coding</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://osmancakir.io#articles">Articles</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://osmancakir.io/about/osman_cakir/">About Osman</a>
+                            <a class="dropdown-item" href="https://github.com/osmancakir">GitHub</a>
+                            <a class="dropdown-item" href="https://twitter.com/osmancakirio">Twitter</a>
+                            <a class="dropdown-item" href="https://www.instagram.com/osmancakirio/">Instagram</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+
+                 
+
+
+<article>
+  <div class="technical_note">
+  <header>
+      <div class="alert alert-warning flashcard_ad" role="alert">
+          Would you like to support my research and work? <a href="https://www.patreon.com/osmancakirio" class="alert-link">My patreon link is here.</a> Thank you, I will remember you!
+      </div>
+    <h1 class="technical_note_title">Schmankerl Time Machine</h1>
+    <div class="technical_note_date">
+      <time datetime=" 2018-12-03T00:00:00Z "> 03 Dec 2018</time>
+    </div>
+  </header>
+  <div class="content">
+  
+
+<p style="text-align: center;">
+  <img src="Schmankerl_Time_Machine_Project/empty.png" width="25%" />
+  <img alt="Schmankerl Time Machine Logo" src="Schmankerl_Time_Machine_Project/logo_with_cdv.png" width="50%" />
+</p>
+
+<hr />
+
+<p>The project was created as part of the culture hackathon for open culture data, <a href="https://codingdavinci.de/events/sued/">Coding da Vinci Süd 2019</a>, and won the prize in the most technical category.</p>
+
+<h2 id="project-description">Project Description</h2>
+
+<blockquote>
+<p>Always the same dishes on your dining table? Are you desperately looking for some inspiration for your culinary everyday life? So not all hope is lost yet! <br /> <br /> &ldquo;Schmankerl Time Machine&rdquo; invites you to a culinary time travel through the traditional history of Munich-based restaurants during the past 150 years. First get an overview of Munich&rsquo;s gastronomic legends. Next compose your unforgettable menu from a portfolio consisting of more than 380 menus. Recipes are already linked to them. How about a lobster cocktail, followed by a rabbit in the terrine and some venison nuts, finaly crowned by Prince Pückler&rsquo;s ice cream variation? Let yourself be inspired by the suggestions of other users when creating your menu. Upload the menu of your favourite Munich restaurant to expand the data collection even further.
+ <br /> <br /> Let&rsquo;s treat!</p>
+</blockquote>
+
+<p>A detailed project description can be found under <a href="PROJECT DESCRIPTION.md">PROJECT DESCRIPTION.md</a>.</p>
+
+<h2 id="data">Data</h2>
+
+<p>A <em>Snapshot</em> of the extracted data can be found in the <a href="DATA.md">Data</a> folder.</p>
+
+<ul>
+<li><strong>addresses</strong> Adresses, annotated in tht menus.</li>
+<li><strong>categories</strong> Category of the dishes and drinks (Appetizers, main courses etc).</li>
+<li><strong>entries</strong> Links to the food and drinks in the menus, including price and quantities.</li>
+<li><strong>items</strong> Description of the food and drinks.</li>
+<li><strong>menus</strong> Metadata of the Menus.</li>
+<li><strong>owners</strong> Owners of the restaurants which their menus were annotated.</li>
+<li><strong>recipies</strong> Recipes of the dishes and the drinks.</li>
+<li><strong>restaurants</strong> Metadata about the restaurants.</li>
+<li><strong>zones</strong> Entries about the menus and their locations (<em>Bounding Boxes</em>).</li>
+</ul>
+
+<p>The recipes go back to <a href="https://chefkoch.de/">Chefkoch.de</a> and are available at: <a href="https://chefkoch.de/rezepte/{recipy_id}/">https://chefkoch.de/rezepte/{recipy_id}/</a>. The glossary is based on data of German-language <a href="https://en.wikipedia.org/wiki/Bavarian_cuisine">Wikipedia</a>:</p>
+
+<ul>
+<li><strong>glossary_categories</strong> Categories of food and drinks based on Wikipedia.</li>
+<li><strong>glossary_entries</strong> Links of the food and drinks to categories based on Wikipedia.</li>
+<li><strong>glossary_items</strong> Description of food and drinks based on Wikipedia.</li>
+</ul>
+
+<h2 id="implementation">Implementation</h2>
+
+<h3 id="jupyter-notebooks">Jupyter Notebooks</h3>
+
+<p>In the <a href="Notebooks/">Notebooks</a> folder there are some sample notebooks for evaluation, which show, among other things, the temporal distribution of the menus.</p>
+
+<p style="max-width: 850px;">
+  <img alt="Speisekarten Wordcloud Schwein" src="Schmankerl_Time_Machine_Project/wordcloud_pig.png" width="57%" />
+  <img alt="Speisekarten Wordcloud Bier" src="Schmankerl_Time_Machine_Project/wordcloud_beer.png" width="31%" />
+</p>
+
+<h3 id="shiny-web-application">Shiny Web-Application</h3>
+
+<p>In the <a href="Webanwendung/">Webanwendung</a> (Webapplication) folder you will find all the code for the Shiny Web application that is currently available at <a href="https://dhvlab.gwi.uni-muenchen.de/schmankerltimemachine/">https://dhvlab.gwi.uni-muenchen.de/schmankerltimemachine/</a> Our project is hosted by the <a href="https : //www.itg.uni-muenchen.de/index.html">LMU Center for Digital Humanities</a>.</p>
+
+<p float="left" style="max-width: 850px;">
+  <img alt="Screenshot 1" src="Schmankerl_Time_Machine_Project/screenshot-1.png" width="22%" />
+  <img alt="Screenshot 2" src="Schmankerl_Time_Machine_Project/screenshot-2.png" width="22%" /> 
+  <img alt="Screenshot 3" src="Schmankerl_Time_Machine_Project/screenshot-3.png" width="22%" />
+  <img alt="Screenshot 4" src="Schmankerl_Time_Machine_Project/screenshot-4.png" width="22%" />
+  <img alt="Screenshot 5" src="Schmankerl_Time_Machine_Project/screenshot-5.png" width="22%" />
+  <img alt="Screenshot 6" src="Schmankerl_Time_Machine_Project/screenshot-6.png" width="22%" /> 
+  <img alt="Screenshot 7" src="Schmankerl_Time_Machine_Project/screenshot-7.png" width="22%" />
+  <img alt="Screenshot 8" src="Schmankerl_Time_Machine_Project/screenshot-8.png" width="22%" />
+</p>
+
+<h2 id="scripts">Scripts</h2>
+
+<h3 id="extraction-of-the-data-from-tei-data">Extraction of the Data from TEI-Data</h3>
+
+<p>The following Python-based script is available for extracting the data from the TEI-Data exported from Transkribus (coordinates in the form of <em>Bounding Boxes</em>). It generates CSV files for each food and beverage, entries about menus, owners and addresses etc.</p>
+
+<pre><code># python &gt;= 3.6
+pip install --user -r requirements.txt
+python3 extract.py TEI.xml
+</code></pre>
+
+<h2 id="technical-tools">Technical Tools</h2>
+
+<ul>
+<li><a href="https://transkribus.eu/Transkribus/">Transkribus</a>: <em>OCR</em>- Gathering of menus and for the annotation work of food and drinks on the menus.</li>
+<li><a href="https://www.rstudio.com/products/shiny/shiny-server">RStudio Shiny-Server</a>: R based open-source platform for the web application.</li>
+<li><a href="https://jupyter.org/">Jupyter Notebooks</a>: Python Functions to import and to clean the Data and to run some statistical analysis.</li>
+<li><a href="https://leafletjs.com/">Leaflet</a>: JavaScript library for displaying the interactive map(s) in the web application.</li>
+</ul>
+
+<h2 id="citation-and-reuse">Citation and Reuse</h2>
+
+<p>All images of the menus as well as the data resulting from the project are permanently stored in the research data repository of the LMU Munich (<a href="https://data.ub.uni-muenchen.de/">Open Data LMU</a>) and clearly referenced by means of a <em>DOI</em>: <a href="https://doi.org/10.5282/ubm/data.146">https://doi.org/10.5282/ubm/data.146</a>.</p>
+
+<p>For the citation of the project, or to reuse, we recommend the following:
+&gt; Cakir, Osman / Kohl, Linus / Reißer, Alexandra / Schneider, Stefanie / Schulz, Julian: Schmankerl Time Machine: Eine kulinarische Zeitreise durch die Speisekarten traditionsreicher Münchner Gaststätten. 18. Mai 2019. Open Data LMU: <a href="https://doi.org/10.5282/ubm/data.146">https://doi.org/10.5282/ubm/data.146</a>.</p>
+
+<p>A specification of the data in the metadata schema <a href="https://schema.datacite.org/meta/kernel-4/">DataCite 4.2</a> is <a href="https://gitlab.com/cds19-team/cds19/raw/master/codav_datacite.xml">ready</a> for reuse. The specification follows the DataCite Best Practice Policy, which is currently being developed as part of the <a href="https://www.fdm-bayern.org/">eHumanities - interdisciplinary</a> project.</p>
+
+<h2 id="contribution">Contribution</h2>
+
+<p>We appreciate your support in annotating additional menus with Transkribus. We have initiated a <a href="https://transkribus.eu/r/read/projects/">Crowdsourcing-Project</a> for this purpose. Contributions in the form of programs or improvements are very welcome: In this case please open a pull request.</p>
+
+<h2 id="team">Team</h2>
+
+<ul>
+<li><strong>Osman Cakir</strong> (<a href="https://osmancakir.io/">Website</a>, <a href="https://orcid.org/0000-0002-4828-0748">ORCID</a>, <a href="https://twitter.com/osmancakirio">Twitter</a>)</li>
+<li><strong>Linus Kohl</strong> (<a href="https://munichresearch.com">Website</a>, <a href="https://orcid.org/0000-0003-3400-837X">ORCID</a>, <a href="https://www.linkedin.com/in/linuskohl">LinkedIn</a>, <a href="https://twitter.com/LinusKohl">Twitter</a>)</li>
+<li><strong>Alexandra Reißer</strong> (<a href="https://orcid.org/0000-0001-5560-1901">ORCID</a>, <a href="https://www.linkedin.com/in/alexandra-rei%C3%9Fer-379aa7180/">LinkedIn</a>, <a href="https://twitter.com/alexreisser">Twitter</a>)</li>
+<li><strong>Stefanie Schneider</strong> (<a href="https://www.kunstgeschichte.uni-muenchen.de/personen/wiss_ma/schneider/index.html">Website</a>, <a href="https://orcid.org/0000-0003-4915-6949">ORCID</a>, <a href="https://twitter.com/_stschneider">Twitter</a>)</li>
+<li><strong>Julian Schulz</strong> (<a href="https://www.hgw.geschichte.uni-muenchen.de/personen/mitarbeiter/schulz">Website</a>, <a href="https://orcid.org/0000-0003-4374-2680">ORCID</a>, <a href="https://twitter.com/SchJulzian">Twitter</a>)</li>
+</ul>
+
+<h2 id="licences">Licences</h2>
+
+<ul>
+<li>Illustrations of the menus were under license <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a> from the Munich City Library / Monacensia im Hildebrandhaus.</li>
+<li>Data generated by the project is also subject to the license <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>.</li>
+<li>Source code is subject to the <a href="https://www.gnu.org/licenses/gpl-3.0.de.html">GNU GPL v3</a> license.</li>
+</ul>
+
+<h2 id="thanks">Thanks</h2>
+
+<p>We would like to thank the organizers of this year&rsquo;s competition and the project coordination of <a href="https://codingdavinci.de/about/index-de.html">Coding da Vinci</a>.</p>
+
+</div>
+  <aside>
+      <div class="bug_reporting">
+          <h4>Find an error or bug?</h4>
+          <p>Everything on this site is available on GitHub. Head to <a href='https://github.com/osmancakir/osmancakirioblog/issues/new'>and submit a suggested change</a>. You can also message me directly on <a href='https://twitter.com/osmancakirio'>Twitter</a>.</p>
+      </div>
+      </aside>
+
+    </div>
+</article>
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    <footer class="footer text-center">
+        <div class="container">
+            <span class="text-muted">This project contains 14 pages and is available on <a href="https://github.com/osmancakir/osmancakirioblog">GitHub</a>. Copyright &copy; Osman Cakir, <time datetime="2018">2018</time>.</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -3,43 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://osmancakir.io/deep_learning/cnns_vgg16_keras_simplest/</loc>
+    <loc>https://osmancakir.io/javascriptes7/javascript_es7_notebook1/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://osmancakir.io/javascriptes7/javascript_es7_notebook2/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://osmancakir.io/javascriptes7/javascript_es7_notebook3/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://osmancakir.io/javascriptes7/javascript_es7_notebook4/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://osmancakir.io/</loc>
+    <lastmod>2019-07-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://osmancakir.io/notebooks/postgresql_basics_with_art/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://osmancakir.io/notebooks/cnns_vgg16_keras_simplest/</loc>
+    <lastmod>2018-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://osmancakir.io/notebooks/schmankerl_time_machine_project/</loc>
     <lastmod>2018-12-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://osmancakir.io/articles/historical_revision/</loc>
     <lastmod>2018-12-02T11:53:49-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://osmancakir.io/big_data/spark_and_python_introduction/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://osmancakir.io/learning_unsupervised/k_means_clustering_university_clusters/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://osmancakir.io/supervised_learning/k_nearest_neighbors_classifed_target_prediction/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://osmancakir.io/supervised_learning/linear_regression_ecommerce_consultation/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://osmancakir.io/nlp/nlp_yelp_reviews/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://osmancakir.io/learning_unsupervised/principal_component_analysis_for_doctors/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -63,34 +69,13 @@
   </url>
   
   <url>
-    <loc>https://osmancakir.io/supervised_learning/random_forests_debt_defaults/</loc>
+    <loc>https://osmancakir.io/notebooks/recommender_systems_basics_recommending_films/</loc>
     <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://osmancakir.io/recommender_systems/recommender_systems_basics_recommending_films/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://osmancakir.io/supervised_learning/support_vector_machines_iris_dataset/</loc>
-    <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://osmancakir.io/supervised_learning/logistic_regression_online_ads/</loc>
-    <lastmod>2018-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://osmancakir.io/about/osman_cakir/</loc>
     <lastmod>2017-12-20T11:53:49-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://osmancakir.io/</loc>
-    <lastmod>2018-12-03T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

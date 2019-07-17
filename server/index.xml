@@ -6,21 +6,80 @@
     <description>Recent content on osman cakir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://osmancakir.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>CNNs - The VGG16 Model with Keras Simple Prediction</title>
-      <link>https://osmancakir.io/deep_learning/cnns_vgg16_keras_simplest/</link>
+      <title>Javascript ES7 1 : Introduction</title>
+      <link>https://osmancakir.io/javascriptes7/javascript_es7_notebook1/</link>
+      <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://osmancakir.io/javascriptes7/javascript_es7_notebook1/</guid>
+      <description>I started learned programming with Python and Jupyter Notebooks. The ease to share a notebook and watching cell by cell what the code does was key to me to demistify software development. I am now addicted to this approach.
+Currently I am working on a research data management tool which is written in pure JS and so I want to get better at JS7 functionalities. I also wanted to have a reference sheet for myself.</description>
+    </item>
+    
+    <item>
+      <title>Javascript ES7 2 : Arrays, Functions and Logic</title>
+      <link>https://osmancakir.io/javascriptes7/javascript_es7_notebook2/</link>
+      <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://osmancakir.io/javascriptes7/javascript_es7_notebook2/</guid>
+      <description>Let&amp;rsquo;s continue where we left off.
+Contents 8 - Arrays * Store Data in Arrays * Nested Arrays : Multidimensional Arrays * Access Data in Arrays with Indexes * Arrays are Mutable * Manipulating Arrays push() pop() shift() unshift() 9 - Functions * A Simple Function * Global Scopes and Functions * Local Scopes and Functions * Understanding Undefined Value Returned From A Function * Assignment with A Returned Value * Stand in Line.</description>
+    </item>
+    
+    <item>
+      <title>Javascript ES7 3 : Objects, Loops, Advanced Operators</title>
+      <link>https://osmancakir.io/javascriptes7/javascript_es7_notebook3/</link>
+      <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://osmancakir.io/javascriptes7/javascript_es7_notebook3/</guid>
+      <description>The first 2 notebooks were actually the basics of javascript. The 3rd and 4th notebooks are more focused on new functionalities of ES7 and some advanced programming in JS.
+Contents  11 - Build Javascript Objects [3rd Notebook] * Manipulate Complex Objects in JS 12 - Loops * while Loop * for Loop * Nested for Loop * Do While Loops 13 - Generate Random Numbers * parseInt() 14 - The Conditional (Ternary) Operator 15 - Let and Const Variable Declaration in Detail 16 - Specify a Default Value For a Function 17 - Rest Operator 18 - Spread Operator  #!</description>
+    </item>
+    
+    <item>
+      <title>Javascript ES7 4 : Destructuring and Constructor Functions</title>
+      <link>https://osmancakir.io/javascriptes7/javascript_es7_notebook4/</link>
+      <pubDate>Thu, 04 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://osmancakir.io/javascriptes7/javascript_es7_notebook4/</guid>
+      <description>This is going to be the last notebook for our small project about learning JS and ES7 functionalities. Hope you enjoyed learning it.
+#!pip install pixiedust #!pip install pixiedust_nodeimport pixiedust import pixiedust_node Pixiedust database opened successfully pixiedust_node 0.2.5 started. Cells starting &#39;%%node&#39; may contain Node.js code.  Contents  19 - Destructuring Assignment to Assign Variables from Objects * Change the order of elements in arrays with destructuring * Another use of Destructuring * Destructuring Assignment to Pass an Object as a Function&#39;s Parameters 20 - Create Literals Using Template Literals 21 - Write Concise Object Literal Declerations Using Simple Fields 22 - Write Concise Declarative Functions 23 - Using class Syntax to Define a Constructor Function 24 - Use getters and setters to Control Access to an Object 25 - Import and Export vs Require  19 - Destructuring Assignment to Assign Variables from Objects %%node var voxel = {x:3.</description>
+    </item>
+    
+    <item>
+      <title>PostgreSQL Basics with Art</title>
+      <link>https://osmancakir.io/notebooks/postgresql_basics_with_art/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://osmancakir.io/notebooks/postgresql_basics_with_art/</guid>
+      <description>Create Table Let&amp;rsquo;s create a table called painters and save the data about the most expensive paintings in the world. Money value of an art piece is probably the most unreasonable one yet it is one of the first analysis that is demanded when a quantitative analysis on art is the aim. Money is cheap when compared to the true value of an Art. Only quality as Robert M. Pirsig defined could be the trade value for art.</description>
+    </item>
+    
+    <item>
+      <title>Remembering Kauai &#39;O&#39;o with Deep Learning</title>
+      <link>https://osmancakir.io/notebooks/cnns_vgg16_keras_simplest/</link>
       <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://osmancakir.io/deep_learning/cnns_vgg16_keras_simplest/</guid>
+      <guid>https://osmancakir.io/notebooks/cnns_vgg16_keras_simplest/</guid>
       <description>In this notebook we are just going to look at the VGG16 model and try a simple prediction with a now unfortunately extinct Kauai &amp;lsquo;O&amp;rsquo;o bird&amp;rsquo;s photo.
 The sweet, bell-like tones of the Kauai O&amp;rsquo;o were heard for the last time nearly 20 years ago. Below through the link you can listen to its sad song.
 
 Let&amp;rsquo;s also look at the photo I am going to use for this example.</description>
+    </item>
+    
+    <item>
+      <title>Schmankerl Time Machine</title>
+      <link>https://osmancakir.io/notebooks/schmankerl_time_machine_project/</link>
+      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://osmancakir.io/notebooks/schmankerl_time_machine_project/</guid>
+      <description>The project was created as part of the culture hackathon for open culture data, Coding da Vinci Süd 2019, and won the prize in the most technical category.
+Project Description  Always the same dishes on your dining table? Are you desperately looking for some inspiration for your culinary everyday life? So not all hope is lost yet! &amp;ldquo;Schmankerl Time Machine&amp;rdquo; invites you to a culinary time travel through the traditional history of Munich-based restaurants during the past 150 years.</description>
     </item>
     
     <item>
@@ -29,73 +88,8 @@ Let&amp;rsquo;s also look at the photo I am going to use for this example.</desc
       <pubDate>Sun, 02 Dec 2018 11:53:49 -0700</pubDate>
       
       <guid>https://osmancakir.io/articles/historical_revision/</guid>
-      <description>To be honest, I do not know exactly if I am writing this essay to make sense of my past. As the usual, I feel the need to sit down, take the pen in my hand and write, but don&amp;rsquo;t know how to start or even how to plan what I am going to write. It is more like my past is forcing me to write this. Sounds a lot like a scene from the Looper(2012) film.</description>
-    </item>
-    
-    <item>
-      <title>Introduction to Spark and Python</title>
-      <link>https://osmancakir.io/big_data/spark_and_python_introduction/</link>
-      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://osmancakir.io/big_data/spark_and_python_introduction/</guid>
-      <description>Let&amp;rsquo;s learn how to use Spark with Python by using the pyspark library!
-Creating a SparkContext First we need to create a SparkContext. We will import this from pyspark:
-from pyspark import SparkContext Now create the SparkContext,A SparkContext represents the connection to a Spark cluster, and can be used to create an RDD and broadcast variables on that cluster.
-Note! You can only have one SparkContext at a time the way we are running things here.</description>
-    </item>
-    
-    <item>
-      <title>K Means Clustering University Clusters</title>
-      <link>https://osmancakir.io/learning_unsupervised/k_means_clustering_university_clusters/</link>
-      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://osmancakir.io/learning_unsupervised/k_means_clustering_university_clusters/</guid>
-      <description>We will attempt to use KMeans Clustering to cluster Universities into to two groups, Private and Public.
-It is very important to note, we actually have the labels for this data set, but we will NOT use them for the KMeans clustering algorithm, since that is an unsupervised learning algorithm.
-When using the Kmeans algorithm under normal circumstances, it is because you don&amp;rsquo;t have labels. In this case we will use the labels to try to get an idea of how well the algorithm performed, but you won&amp;rsquo;t usually do this for Kmeans, so the classification report and confusion matrix at the end of this project, don&amp;rsquo;t truly make sense in a real world setting!</description>
-    </item>
-    
-    <item>
-      <title>K Nearest Neighbors Classified Target Prediction</title>
-      <link>https://osmancakir.io/supervised_learning/k_nearest_neighbors_classifed_target_prediction/</link>
-      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://osmancakir.io/supervised_learning/k_nearest_neighbors_classifed_target_prediction/</guid>
-      <description>Let&amp;rsquo;s start by importing necessary libraries for this project
-import pandas as pd import numpy as np import matplotlib.pyplot as plt import seaborn as sns %matplotlib inline Get the Data ** Read the &amp;lsquo;KNN_Project_Data csv file into a dataframe **
-df = pd.read_csv(&amp;#39;KNN_Project_Data&amp;#39;) Check the head of the dataframe.
-df.head()     XVPM GWYH TRAT TLLZ IGGA HYKR EDFS GUUB MGJM JHZC TARGET CLASS     0 1636.</description>
-    </item>
-    
-    <item>
-      <title>Linear Regression Ecommerce Consultation</title>
-      <link>https://osmancakir.io/supervised_learning/linear_regression_ecommerce_consultation/</link>
-      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://osmancakir.io/supervised_learning/linear_regression_ecommerce_consultation/</guid>
-      <description>Assume you just signed a contract with an E-commerce company based in Munich. Customers can buy clothes either on a mobile app or a website for the clothes they want. The company has also a styling store where customers can come and have sessions with a personal stylist.
-The company is trying to decide whether to focus their efforts on their mobile app experience or their website. Your job is to help them figure it out.</description>
-    </item>
-    
-    <item>
-      <title>NLP Yelp Reviews</title>
-      <link>https://osmancakir.io/nlp/nlp_yelp_reviews/</link>
-      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://osmancakir.io/nlp/nlp_yelp_reviews/</guid>
-      <description>In this NLP project, we will be attempting to classify Yelp Reviews into 1 star or 5 star categories based on the text content in the reviews. We will also build a data pipeline that will help us automate the preparation and analytics of the data.
-We will use the Yelp Review Data Set from Kaggle.
-Each observation in this dataset is a review of a particular business by a particular user.</description>
-    </item>
-    
-    <item>
-      <title>Principal Component Analysis for Doctors</title>
-      <link>https://osmancakir.io/learning_unsupervised/principal_component_analysis_for_doctors/</link>
-      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://osmancakir.io/learning_unsupervised/principal_component_analysis_for_doctors/</guid>
-      <description>Start by importing the necessary libraries for this project import matplotlib.pyplot as plt import pandas as pd import numpy as np import seaborn as sns %matplotlib inline The Data Let&amp;rsquo;s work with the cancer data set.
-from sklearn.datasets import load_breast_cancercancer = load_breast_cancer()cancer.keys() dict_keys([&#39;DESCR&#39;, &#39;data&#39;, &#39;feature_names&#39;, &#39;target_names&#39;, &#39;target&#39;])  print(cancer[&amp;#39;DESCR&amp;#39;]) Breast Cancer Wisconsin (Diagnostic) Database Notes ----- Data Set Characteristics: :Number of Instances: 569 :Number of Attributes: 30 numeric, predictive attributes and the class :Attribute Information: - radius (mean of distances from center to points on the perimeter) - texture (standard deviation of gray-scale values) - perimeter - area - smoothness (local variation in radius lengths) - compactness (perimeter^2 / area - 1.</description>
+      <description>[TL;DR]
+* I studied Economics in my Bachelor and M.Sc. degrees. I was planning to be in Academic in this field. * I changed my mind at the Master&#39;s degree because I didn&#39;t like mainstream economics approach. * I learned coding while I was trying to figure out what to do next in my life. * I loved coding, * An opportunity has risen to jump on board at digitl art history research with the new acquired skill.</description>
     </item>
     
     <item>
@@ -143,47 +137,12 @@ Since I do not want to divide the topic into more sub topics any more, this note
     </item>
     
     <item>
-      <title>Random Forests Debt Defaults</title>
-      <link>https://osmancakir.io/supervised_learning/random_forests_debt_defaults/</link>
+      <title>Recommending Films with Recommender Systems</title>
+      <link>https://osmancakir.io/notebooks/recommender_systems_basics_recommending_films/</link>
       <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://osmancakir.io/supervised_learning/random_forests_debt_defaults/</guid>
-      <description>For this project we will be exploring publicly available data from LendingClub.com. Lending Club connects people who need money (borrowers) with people who have money (investors). Hopefully, as an investor you would want to invest in people who showed a profile of having a high probability of paying you back. We will try to create a model that will help predict this.
-We will use lending data from 2007-2010 and be trying to classify and predict whether or not the borrower paid back their loan in full.</description>
-    </item>
-    
-    <item>
-      <title>Recommender Systems Basics Recommending Films</title>
-      <link>https://osmancakir.io/recommender_systems/recommender_systems_basics_recommending_films/</link>
-      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://osmancakir.io/recommender_systems/recommender_systems_basics_recommending_films/</guid>
-      <description>In this basic project, we will focus on providing a basic recommendation system by suggesting items that are most similar to a particular item, in this case, films. Keep in mind, this is not a true robust recommendation system, to describe it more accurately,it just tells you what movies/items are most similar to your movie choice.
-Let&amp;rsquo;s get started!
-Import Libraries import numpy as np import pandas as pd Get the Data column_names = [&amp;#39;user_id&amp;#39;, &amp;#39;item_id&amp;#39;, &amp;#39;rating&amp;#39;, &amp;#39;timestamp&amp;#39;] df = pd.</description>
-    </item>
-    
-    <item>
-      <title>Support Vector Machines Iris Dataset</title>
-      <link>https://osmancakir.io/supervised_learning/support_vector_machines_iris_dataset/</link>
-      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://osmancakir.io/supervised_learning/support_vector_machines_iris_dataset/</guid>
-      <description>We will be analyzing the famous iris data set in this small project!
-The Data For this series of lectures, we will be using the famous Iris flower data set.
-The Iris flower data set or Fisher&amp;rsquo;s Iris data set is a multivariate data set introduced by Sir Ronald Fisher in the 1936 as an example of discriminant analysis.
-The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor), so 150 total samples.</description>
-    </item>
-    
-    <item>
-      <title>Logistic Regression Online Ads</title>
-      <link>https://osmancakir.io/supervised_learning/logistic_regression_online_ads/</link>
-      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://osmancakir.io/supervised_learning/logistic_regression_online_ads/</guid>
-      <description>In this project we will be working with a fake advertising data set, indicating whether or not a particular internet user clicked on an Advertisement on a company website. We will try to create a model that will predict whether or not they will click on an ad based off the features of that user.
-This data set contains the following features:
- &amp;lsquo;Daily Time Spent on Site&amp;rsquo;: consumer time on site in minutes &amp;lsquo;Age&amp;rsquo;: cutomer age in years &amp;lsquo;Area Income&amp;rsquo;: Avg.</description>
+      <guid>https://osmancakir.io/notebooks/recommender_systems_basics_recommending_films/</guid>
+      <description>How do you recommend someone a film? How much information an IMDB score can reveal about a films value? In this basic project, we will focus on providing a basic recommendation system by suggesting items that are most similar to a particular item, in this case, films. Keep in mind, this is not a true robust recommendation system, to describe it more accurately,it just tells you what movies/items are most similar to your movie choice.</description>
     </item>
     
     <item>
@@ -192,7 +151,7 @@ This data set contains the following features:
       <pubDate>Wed, 20 Dec 2017 11:53:49 -0700</pubDate>
       
       <guid>https://osmancakir.io/about/osman_cakir/</guid>
-      <description>As someone with diverse interests, I am trying to maintain a peaceful life with lots of books, films, a little bit music on the side. Without comparing myself to anyone, I try to get (and give) as much as love, laughter and an understanding how things work and evolve around me. I help organizing a Turkish film festival in Munich. I like djing electronica/downtempo music with melodic warmth. My favourite activity is sitting on a bench somewhere in the city listening to the wave of thoughts in my mind quietly while enjoying my coffee.</description>
+      <description>I try to get (and give) as much as love, laughter and also an understanding how things work and evolve. I help organizing a Turkish film festival in Munich. I like djing old vinlys from different cultures&amp;rsquo; music. My favourite activity is sitting on a bench somewhere in the city listening to the wave of thoughts in my mind quietly while enjoying my coffee. These moments then become what I write about.</description>
     </item>
     
   </channel>

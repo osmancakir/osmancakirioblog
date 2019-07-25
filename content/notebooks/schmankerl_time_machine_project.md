@@ -7,11 +7,12 @@ type: technical_note
 draft: false
 ---
 <p style="text-align: center;">
-  <img src="Schmankerl_Time_Machine_Project/empty.png" width="25%" />
-  <img alt="Schmankerl Time Machine Logo" src="Schmankerl_Time_Machine_Project/logo_with_cdv.png" width="50%" />
-</p>
+  <img src="empty.png" width="25%" />
+  <img alt="Schmankerl Time Machine Logo" src="logo_with_cdv.png" width="50%" />
+  </p>
 
 _____
+
 
 The project was created as part of the culture hackathon for open culture data, [Coding da Vinci Süd 2019](https://codingdavinci.de/events/sued/), and won the prize in the most technical category. 
 
@@ -53,8 +54,8 @@ The recipes go back to [Chefkoch.de] (https://chefkoch.de/) and are available at
 In the [Notebooks](Notebooks/) folder there are some sample notebooks for evaluation, which show, among other things, the temporal distribution of the menus.
 
 <p style="max-width: 850px;">
-  <img alt="Speisekarten Wordcloud Schwein" src="Schmankerl_Time_Machine_Project/wordcloud_pig.png" width="57%" />
-  <img alt="Speisekarten Wordcloud Bier" src="Schmankerl_Time_Machine_Project/wordcloud_beer.png" width="31%" />
+  <img alt="Speisekarten Wordcloud Schwein" src="wordcloud_pig.png" width="57%" />
+  <img alt="Speisekarten Wordcloud Bier" src="wordcloud_beer.png" width="31%" />
 </p>
 
 ### Shiny Web-Application
@@ -64,14 +65,14 @@ In the [Webanwendung](Webanwendung/) (Webapplication) folder you will find all t
 
 
 <p float="left" style="max-width: 850px;">
-  <img alt="Screenshot 1" src="Schmankerl_Time_Machine_Project/screenshot-1.png" width="22%" />
-  <img alt="Screenshot 2" src="Schmankerl_Time_Machine_Project/screenshot-2.png" width="22%" /> 
-  <img alt="Screenshot 3" src="Schmankerl_Time_Machine_Project/screenshot-3.png" width="22%" />
-  <img alt="Screenshot 4" src="Schmankerl_Time_Machine_Project/screenshot-4.png" width="22%" />
-  <img alt="Screenshot 5" src="Schmankerl_Time_Machine_Project/screenshot-5.png" width="22%" />
-  <img alt="Screenshot 6" src="Schmankerl_Time_Machine_Project/screenshot-6.png" width="22%" /> 
-  <img alt="Screenshot 7" src="Schmankerl_Time_Machine_Project/screenshot-7.png" width="22%" />
-  <img alt="Screenshot 8" src="Schmankerl_Time_Machine_Project/screenshot-8.png" width="22%" />
+  <img alt="Screenshot 1" src="screenshot-1.png" width="22%" />
+  <img alt="Screenshot 2" src="screenshot-2.png" width="22%" /> 
+  <img alt="Screenshot 3" src="screenshot-3.png" width="22%" />
+  <img alt="Screenshot 4" src="screenshot-4.png" width="22%" />
+  <img alt="Screenshot 5" src="screenshot-5.png" width="22%" />
+  <img alt="Screenshot 6" src="screenshot-6.png" width="22%" /> 
+  <img alt="Screenshot 7" src="screenshot-7.png" width="22%" />
+  <img alt="Screenshot 8" src="screenshot-8.png" width="22%" />
 </p>
 
 ## Scripts

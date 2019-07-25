@@ -9,12 +9,13 @@ draft: false
 
 [TL;DR]
 
-    * I studied Economics in my Bachelor and M.Sc. degrees. I was planning to be in Academic in this field.
-    * I changed my mind at the Master's degree because I didn't like mainstream economics approach. 
-    * I learned coding while I was trying to figure out what to do next in my life. 
-    * I loved coding, 
-    * An opportunity has risen to jump on board at digitl art history research with the new acquired skill. 
-    * Got accepted - happyface.jpg
+* I studied Economics in my Bachelor and M.Sc. degrees. 
+* I was planning to be in Academic in this field.
+* I changed my mind at the Master's degree because I didn't like mainstream economics approach. 
+* I learned coding while I was trying to figure out what to do next in my life. 
+* I loved coding, 
+* An opportunity has risen to jump on board at digitl art history research with the new acquired skill. 
+* Got accepted - happyface.jpg
 
 
 To be honest, I do not know exactly if I am writing this essay to make sense of my past. As the usual, I feel the need to sit down, take the pen in my hand and write, but don't know how to start or even how to plan what I am going to write. It is more like my past is forcing me to write this. Sounds a lot like a scene from the Looper(2012) film. In the film, Bruce Willis meets Joseph Gordon Lewitt in an American diner and they were the past and the future versions of the same person. When Lewitt changes something Willis feels a little bit dizzy and says his past gets a little bit blurry. Now I need to get rid of the dizziness about 3-4 years of my life. So let’s assume as a future-past version of my present, I went back to my past, tweaking events a bit. And present me orchestrating these changes between past me and future me without breaking my space-time continuum. Everything ends in the present! The past changes, the future changes but the present doesn't change! Welcome to my interpretation of time as a black hole. The present is the gravitational center of it. Every other time collides into it. And this is my historical revision according to this interpretation.

@@ -10,7 +10,7 @@ outputs:
 ---
 
 
-<img src="osman_cakir_blog_photo.jpg"></img>
+<img src="osman_cakir_photo.jpg"></img>
 
 I try to get (and give) as much as love, laughter and also an understanding how things work and evolve. I help organizing a Turkish [film festival](https://tuerkischefilmtage.de/) in Munich. I like [djing old vinlys](https://soundcloud.com/soureditor) from different cultures' music. My favourite activity is sitting on a bench somewhere in the city listening to the wave of thoughts in my mind quietly while enjoying my coffee. These moments then become what I write about. 
 

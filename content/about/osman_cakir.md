@@ -10,7 +10,7 @@ outputs:
 ---
 
 
-<img src="osman_cakir_photo.jpg"></img>
+<img src="osman_cakir_photo.jpg" height="326" width="244"></img>
 
 I try to get (and give) as much as love, laughter and also an understanding how things work and evolve. I help organizing a Turkish [film festival](https://tuerkischefilmtage.de/) in Munich. I like [djing old vinlys](https://soundcloud.com/soureditor) from different cultures' music. My favourite activity is sitting on a bench somewhere in the city listening to the wave of thoughts in my mind quietly while enjoying my coffee. These moments then become what I write about. 
 
@@ -29,9 +29,9 @@ I completed my undergraduate degree in Economics at Yildiz Technical University 
 
 ### Education
 
--   **Ph.D. Candidate, Art History**, Ludwig Maximilians University of Munich, Munich. 10/2022 
--   **M.Sc., Economics**, Ludwig Maximilians University of Munich, Munich. 06/2017
--   **B.A., Economics**, Yildiz Technical University, Istanbul. 06/2013
+-   **Ph.D. Candidate, Art History**, Ludwig Maximilians University of Munich, Munich. 2022
+-   **M.Sc., Economics**, Ludwig Maximilians University of Munich, Munich. 2017
+-   **B.A., Economics**, Yildiz Technical University, Istanbul. 2013
     -   Graduated with 2nd Best GPA in the Economics Department.
 
 ### Selected Software Development and Data Science Experience

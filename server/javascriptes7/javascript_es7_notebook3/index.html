@@ -21,13 +21,13 @@
 <meta property="og:description" content="Javascript ES7 Functionalities" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://osmancakir.io/javascriptes7/javascript_es7_notebook3/" />
-<meta property="article:published_time" content="2019-07-04T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2019-07-04T00:00:00&#43;00:00"/>
+<meta property="article:published_time" content="2019-07-04T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-07-04T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Javascript ES7 3 : Objects, Loops, Advanced Operators"/>
 <meta name="twitter:description" content="Javascript ES7 Functionalities"/>
-<meta name="generator" content="Hugo 0.55.6" /> 
+<meta name="generator" content="Hugo 0.58.3" /> 
     
     
 <script type="application/ld+json">
@@ -36,7 +36,7 @@
   "@type": "BlogPosting",
   "headline": "Javascript ES7 3 : Objects, Loops, Advanced Operators",
   "url": "https:\/\/osmancakir.io\/javascriptes7\/javascript_es7_notebook3\/",
-  "wordCount": "1344",
+  "wordCount": "1350",
   "datePublished": "2019-07-04T00:00:00\x2b00:00",
   "dateModified": "2019-07-04T00:00:00\x2b00:00",
   "author": {
@@ -98,15 +98,10 @@ MathJax.Hub.Config({
                             DS/CC Notes
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="https://osmancakir.io#supervised_learning">Supervised Learning</a>
-                            <a class="dropdown-item" href="https://osmancakir.io#unsupervised_learning">Unsupervised Learning</a>
-                            <a class="dropdown-item" href="https://osmancakir.io#deep_learning">Deep Learning</a>
-                            <a class="dropdown-item" href="https://osmancakir.io#nlp">NLP</a>
-                            <a class="dropdown-item" href="https://osmancakir.io#recommender_systems">Recommender Systems</a>
-                            <a class="dropdown-item" href="https://osmancakir.io#python">Python</a>
-                            <a class="dropdown-item" href="https://osmancakir.io#data_visualization">Data Visualization</a>
-                            <a class="dropdown-item" href="https://osmancakir.io#postgresql">PostgreSQL</a>
-                            <a class="dropdown-item" href="https://osmancakir.io#big_data">Big Data</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#notebooks">Notebooks</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#Javascript_ES7_Jupyter_Notebook">JS ES7 Notebooks</a>
+                            <a class="dropdown-item" href="https://osmancakir.io#python">Learning Python and To Code</a>
+                           
                             <a class="dropdown-item" href="https://osmancakir.io#creative_coding">Creative Coding</a>
                         </div>
                     </li>
@@ -143,7 +138,7 @@ MathJax.Hub.Config({
   <div class="technical_note">
   <header>
       <div class="alert alert-warning flashcard_ad" role="alert">
-          Would you like to support my research and work? <a href="https://www.patreon.com/osmancakirio" class="alert-link">My patreon link is here.</a> Thank you, I will remember you!
+          Would you like to support my research and work? <a href="https://www.paypal.me/osmancakirio" class="alert-link">My paypal link is here!.</a> Thank you, I will remember you!
       </div>
     <h1 class="technical_note_title">Javascript ES7 3 : Objects, Loops, Advanced Operators</h1>
     <div class="technical_note_date">
@@ -173,7 +168,7 @@ MathJax.Hub.Config({
  18 - Spread Operator
 </code></pre>
 <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="ch">#!pip install pixiedust</span>
-<span class="ch">#!pip install pixiedust_node</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">pixiedust</span>
+<span class="c1">#!pip install pixiedust_node</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">pixiedust</span>
 <span class="kn">import</span> <span class="nn">pixiedust_node</span></code></pre></div>
 <pre><code>Pixiedust database opened successfully
 pixiedust_node 0.2.5 started. Cells starting '%%node' may contain Node.js code.
@@ -419,21 +414,21 @@ zero
 <li>let : only allows you declare a variable once. you can not declare it with the same name twice. you can set it twice though. you can reassign it.</li>
 <li>let is only limited to block scope so your variable can be accessed only inside a block of a code. {} : is a block scope means</li>
 <li>const is a read only variable decleration meaning you can not reassign it. but you can mutate if const is an array using [] notation.</li>
-<li>by convention const are ALLCAPITALS</li>
-</ul>
+
+<li><p>by convention const are ALLCAPITALS</p>
 <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
 <span class="n">function</span> <span class="n">printManyTimes</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span> <span class="p">{</span>
-    <span class="s2">&#34;use strict&#34;</span><span class="p">;</span> <span class="o">//</span> <span class="n">catches</span> <span class="n">common</span> <span class="n">coding</span> <span class="n">mistakes</span><span class="o">.</span> <span class="n">such</span> <span class="k">as</span> <span class="k">if</span> <span class="n">you</span> <span class="n">create</span> <span class="n">a</span> <span class="n">varible</span> <span class="n">but</span> <span class="n">don</span><span class="s1">&#39;t declare it.</span><span class="err">
-</span><span class="err"></span><span class="s1">    const SENTENCE = str + &#34; is cool&#34;;</span><span class="err">
-</span><span class="err"></span><span class="s1">    for(let i = 0; i&lt; str.length; i+=2){</span><span class="err">
-</span><span class="err"></span><span class="s1">        console.log(SENTENCE)</span><span class="err">
-</span><span class="err"></span><span class="s1">    }</span><span class="err">
-</span><span class="err"></span><span class="s1">}</span><span class="err">
-</span><span class="err"></span><span class="s1">printManyTimes(&#34;art&#34;)</span></code></pre></div>
-<pre><code>... ... ... ..... ..... ...
+<span class="s2">&#34;use strict&#34;</span><span class="p">;</span> <span class="o">//</span> <span class="n">catches</span> <span class="n">common</span> <span class="n">coding</span> <span class="n">mistakes</span><span class="o">.</span> <span class="n">such</span> <span class="k">as</span> <span class="k">if</span> <span class="n">you</span> <span class="n">create</span> <span class="n">a</span> <span class="n">varible</span> <span class="n">but</span> <span class="n">don</span><span class="s1">&#39;t declare it.</span>
+<span class="n">const</span> <span class="n">SENTENCE</span> <span class="o">=</span> <span class="nb">str</span> <span class="o">+</span> <span class="s2">&#34; is cool&#34;</span><span class="p">;</span>
+<span class="k">for</span><span class="p">(</span><span class="n">let</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span> <span class="nb">str</span><span class="o">.</span><span class="n">length</span><span class="p">;</span> <span class="n">i</span><span class="o">+=</span><span class="mi">2</span><span class="p">){</span>
+    <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">SENTENCE</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="p">}</span>
+<span class="n">printManyTimes</span><span class="p">(</span><span class="s2">&#34;art&#34;</span><span class="p">)</span></code></pre></div>
+<p>&hellip; &hellip; &hellip; &hellip;.. &hellip;.. &hellip;
 art is cool
-art is cool
-</code></pre>
+art is cool</p></li>
+</ul>
 
 <h4 id="prevent-object-mutation">Prevent Object Mutation</h4>
 
@@ -444,38 +439,31 @@ art is cool
 <h2 id="16-arrow-functions-to-write-concise-anonymous-functions">16 - Arrow functions to write concise Anonymous Functions</h2>
 
 <ul>
-<li>below function is an anonymous function. it is assigned to a variable but it doesn&rsquo;t have a name.</li>
-</ul>
+<li><p>below function is an anonymous function. it is assigned to a variable but it doesn&rsquo;t have a name.</p>
 <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
 <span class="n">var</span> <span class="n">magic</span> <span class="o">=</span> <span class="n">function</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="n">new</span> <span class="n">Date</span><span class="p">();</span>
+<span class="k">return</span> <span class="n">new</span> <span class="n">Date</span><span class="p">();</span>
 <span class="p">}</span></code></pre></div>
-<pre><code>... ...
-</code></pre>
+<p>&hellip; &hellip;</p></li>
 
-<ul>
-<li>you can convert an anon function to an arrow function as shown below =&gt;</li>
-</ul>
+<li><p>you can convert an anon function to an arrow function as shown below =&gt;</p>
 <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
 <span class="n">var</span> <span class="n">magic2</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="n">new</span> <span class="n">Date</span><span class="p">()</span>
+<span class="k">return</span> <span class="n">new</span> <span class="n">Date</span><span class="p">()</span>
 <span class="p">}</span></code></pre></div>
-<pre><code>... ...
-</code></pre>
+<p>&hellip; &hellip;</p></li>
 
-<ul>
-<li>you can even shorten this arrow function as shown below.</li>
-</ul>
+<li><p>you can even shorten this arrow function as shown below.</p>
 <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
 <span class="n">const</span> <span class="n">MAGIC3</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="n">new</span> <span class="n">Date</span><span class="p">();</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="o">%%</span><span class="n">node</span>
 <span class="n">var</span> <span class="n">myConcat</span> <span class="o">=</span> <span class="p">(</span><span class="n">arr1</span><span class="p">,</span> <span class="n">arr2</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">arr1</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">arr2</span><span class="p">);</span>
 <span class="n">var</span> <span class="n">myConcat1</span> <span class="o">=</span> <span class="p">(</span><span class="n">arr1</span><span class="p">,</span> <span class="n">arr2</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="o">//</span><span class="n">the</span> <span class="n">same</span> <span class="k">as</span> <span class="n">above</span>
-    <span class="k">return</span> <span class="n">arr1</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">arr2</span><span class="p">);</span>
+<span class="k">return</span> <span class="n">arr1</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">arr2</span><span class="p">);</span>
 <span class="p">}</span>
 <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">myConcat1</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]))</span></code></pre></div>
-<pre><code>... ...
-[ 1, 2, 3, 4, 5 ]
-</code></pre>
+<p>&hellip; &hellip;
+[ 1, 2, 3, 4, 5 ]</p></li>
+</ul>
 
 <h3 id="high-order-arrow-functions">High Order Arrow Functions</h3>
 
@@ -486,7 +474,7 @@ art is cool
 <span class="n">const</span> <span class="n">REALNUMBERARRAY</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span><span class="mf">5.6</span><span class="p">,</span><span class="o">-</span><span class="mf">9.8</span><span class="p">,</span> <span class="mf">3.14</span><span class="p">,</span><span class="mi">42</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mf">8.34</span><span class="p">]</span>
 
 <span class="n">const</span> <span class="n">SQUARELIST</span> <span class="o">=</span> <span class="p">(</span><span class="n">arr</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
-    <span class="n">const</span> <span class="n">SQUAREDINTEGERS</span> <span class="o">=</span> <span class="n">arr</span><span class="o">.</span><span class="nb">filter</span><span class="p">(</span> <span class="n">num</span> <span class="o">=&gt;</span> <span class="n">Number</span><span class="o">.</span><span class="n">isInteger</span><span class="p">(</span><span class="n">num</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">num</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="nb">map</span><span class="p">(</span><span class="n">x</span> <span class="o">=&gt;</span> <span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="p">)</span>
+    <span class="n">const</span> <span class="n">SQUAREDINTEGERS</span> <span class="o">=</span> <span class="n">arr</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span> <span class="n">num</span> <span class="o">=&gt;</span> <span class="n">Number</span><span class="o">.</span><span class="n">isInteger</span><span class="p">(</span><span class="n">num</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="n">num</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">x</span> <span class="o">=&gt;</span> <span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">SQUAREDINTEGERS</span>
 <span class="p">}</span>
 <span class="n">const</span> <span class="n">SQUAREDINTEGERS</span> <span class="o">=</span> <span class="n">SQUARELIST</span><span class="p">(</span><span class="n">REALNUMBERARRAY</span><span class="p">)</span>

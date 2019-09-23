@@ -6,10 +6,20 @@
     <description>Recent content on osman cakir</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://osmancakir.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Schmankerl Time Machine</title>
+      <link>https://osmancakir.io/notebooks/schmankerl_time_machine_project/</link>
+      <pubDate>Tue, 16 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://osmancakir.io/notebooks/schmankerl_time_machine_project/</guid>
+      <description>The project was created as part of the culture hackathon for open culture data, Coding da Vinci Süd 2019, and won the prize in the most technical category.
+Project Description  Always the same dishes on your dining table? Are you desperately looking for some inspiration for your culinary everyday life? So not all hope is lost yet! &amp;ldquo;Schmankerl Time Machine&amp;rdquo; invites you to a culinary time travel through the traditional history of Munich-based restaurants during the past 150 years.</description>
+    </item>
     
     <item>
       <title>Javascript ES7 1 : Introduction</title>
@@ -73,23 +83,13 @@ Let&amp;rsquo;s also look at the photo I am going to use for this example.</desc
     </item>
     
     <item>
-      <title>Schmankerl Time Machine</title>
-      <link>https://osmancakir.io/notebooks/schmankerl_time_machine_project/</link>
-      <pubDate>Mon, 03 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://osmancakir.io/notebooks/schmankerl_time_machine_project/</guid>
-      <description>The project was created as part of the culture hackathon for open culture data, Coding da Vinci Süd 2019, and won the prize in the most technical category.
-Project Description  Always the same dishes on your dining table? Are you desperately looking for some inspiration for your culinary everyday life? So not all hope is lost yet! &amp;ldquo;Schmankerl Time Machine&amp;rdquo; invites you to a culinary time travel through the traditional history of Munich-based restaurants during the past 150 years.</description>
-    </item>
-    
-    <item>
       <title>A Personal Historical Revision</title>
       <link>https://osmancakir.io/articles/historical_revision/</link>
       <pubDate>Sun, 02 Dec 2018 11:53:49 -0700</pubDate>
       
       <guid>https://osmancakir.io/articles/historical_revision/</guid>
       <description>[TL;DR]
-* I studied Economics in my Bachelor and M.Sc. degrees. I was planning to be in Academic in this field. * I changed my mind at the Master&#39;s degree because I didn&#39;t like mainstream economics approach. * I learned coding while I was trying to figure out what to do next in my life. * I loved coding, * An opportunity has risen to jump on board at digitl art history research with the new acquired skill.</description>
+ I studied Economics in my Bachelor and M.Sc. degrees. I was planning to be in Academic in this field. I changed my mind at the Master&amp;rsquo;s degree because I didn&amp;rsquo;t like mainstream economics approach. I learned coding while I was trying to figure out what to do next in my life. I loved coding, An opportunity has risen to jump on board at digitl art history research with the new acquired skill.</description>
     </item>
     
     <item>

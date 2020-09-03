@@ -7,5 +7,9 @@ theme = "berbera"
 pygmentsCodeFences=true
 pygmentsUseClasses=true
 canonifyURLs=true
-publishDir="docs"
+contentDir="content"
 disableKinds = ["section", "taxonomy", "taxonomyTerm"]
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["RSS"]

@@ -6,7 +6,7 @@
                 <h1>
                     <span class="minor_line">Perceptrons of the world, unite!</span>
                     <br>
-                    <span class="major_line">Data Science &amp; React Web Development Notes</span>
+                    <span class="major_line"> Digital Humanities &amp; Web Development Notes</span>
                     <br>
                     <span class="minor_line">Because why not?</span>
                 </h1>
@@ -15,15 +15,15 @@
         <div class="row">
             <div class="col-sm-12 blurb">
                 <p>
-                    <a href="https://osmancakir.io/about/osman_cakir/">I do </a> data analysis with Python and Web Development with React. Currently I am working at the Digital Humanities Center (IT-Gruppe Geisteswissenschaften LMU) at Ludwig Maximilians University of Munich and also I am a Ph.D. candidate in Art History. My Ph.D. thesis is about annotation of art images with deep learning algorithms.
-                    
-                    </p>
+                    <a href="https://osmancakir.io/about/osman_cakir/">I am </a> a self-learned React Developer. I am doing a Ph.D. in Art 
+                    History at the Ludwig-Maximilians University of Munich. I hold a BA and M.Sc. degree in Economics. I help organizing a 
+                    Turkish <a href="https://tuerkischefilmtage.de/">film festival</a> in Munich. I like to 
+                    dj 70s & 80s gems of Mediterranean Musicians. 
+                    I like libraries. I am learning German since forever.
+                   
+                </p>
                 <p> Here I try to document what I learned and I am also happy that now I have a place to share my interests and thoughts.</p>
-                <div class="alert alert-warning flashcard_ad" role="alert">
-                    If you want to employ me and looking for a CV, you can find it <a href="https://osmancakir.io/osman_cakirCV.pdf" target="_blank" >here.</a> 
-                    </div>
-
-                    <p>or </p>
+               
 
                 <div class="alert alert-warning flashcard_ad" role="alert">
                 If you would like to support my research and work? <a href="https://www.paypal.me/osmancakirio" class="alert-link">My paypal link is here!</a> Thank you, I will remember you!
@@ -31,14 +31,12 @@
                 
             </div>
         </div>
-
-
         <div class="row" id="articles">
             <div class="col-sm-12">
-                <h3 class="category_header">Articles</h3>
-                <div class="article_list card-body">
+                <h3 class="category_header">Turkish Articles</h3>
+                <div class="card-body">
                         <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/articles/") }}
+                            {{ range (where .Pages "File.Dir" "in" "\\articles\\") }}
                             <li>
                                 {{ .PublishDate.Format "Jan 2006" }} -
                                 <a href="{{.Permalink}}">{{.Title}}</a>
@@ -51,27 +49,15 @@
 
         <div class="row" id="sideprojects">
             <div class="col-sm-12">
-                <h3 class="category_header">Projects</h3>
+                <h3 class="category_header">Deployed Projects Links</h3>
                 <div class="card-body">
                         <ul>
-                            
-                            <li>
-                                <a href="https://osmancakir.io/museenDigital/" target="_blank">Museen Digital Seminar</a>
-                            </li>
-                            <li>
-                                <a href="https://osmancakir.io/kunstdenken/" target="_blank">Kunst/Denken Seminar</a>
-                            </li>
-                            <li>
-                                <a href="https://osmancakir.io/belleepoque/" target="_blank">Kunst der Belle Epoque Seminar</a>
-                            </li>
                             <li>
                                 <a href="https://dhvlab.gwi.uni-muenchen.de/datacite-generator/" target="_blank">Research Data Management: DataCite</a>
                             </li>
                             <li>
                                 <a href="https://dhvlab.gwi.uni-muenchen.de/schmankerltimemachine/" target="_blank">Schmankerl Time Machine</a>
                             </li>
-                           
-                            
                         </ul>
                 </div>
             </div>
@@ -82,7 +68,52 @@
                 <h3 class="category_header">Notebooks</h3>
                 <div class="card-body">
                         <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/notebooks/").ByTitle }}
+                            {{ range (where .Pages "File.Dir" "in" "\\notebooks\\").ByTitle }}
+                            <li>
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="javascriptnotes">
+            <div class="col-sm-12">
+                <h3 class="category_header">Javascript Notes</h3>
+                <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "\\javascriptnotes\\").ByTitle }}
+                            <li>
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="reactnotes">
+            <div class="col-sm-12">
+                <h3 class="category_header">React Notes</h3>
+                <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "\\reactnotes\\").ByTitle }}
+                            <li>
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="digitalhumanities">
+            <div class="col-sm-12">
+                <h3 class="category_header">Digital Humanities and Art History</h3>
+                <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "\\digitalhumanities\\").ByTitle }}
                             <li>
                                 <a href="{{.Permalink}}">{{.Title}}</a>
                             </li>
@@ -97,7 +128,7 @@
                 <h3 class="category_header">Javascript ES7 Jupyter Notebooks</h3>
                 <div class="card-body">
                         <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/javascriptes7/").ByTitle }}
+                            {{ range (where .Pages "File.Dir" "in" "\\javascriptes7\\").ByTitle }}
                             <li>
                                 <a href="{{.Permalink}}">{{.Title}}</a>
                             </li>
@@ -106,58 +137,12 @@
                 </div>
             </div>
         </div>
-<!--
-        <div class="row" id="deep_learning">
-            <div class="col-sm-12">
-                <h3 class="category_header">Deep Learning</h3>
-                <div class="card-body">
-                        <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/deep_learning/").ByTitle }}
-                            <li>
-                                <a href="{{.Permalink}}">{{.Title}}</a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="row" id="nlp">
-            <div class="col-sm-12">
-                <h3 class="category_header">NLP</h3>
-                <div class="card-body">
-                        <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/nlp/").ByTitle }}
-                            <li>
-                                <a href="{{.Permalink}}">{{.Title}}</a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="row" id="recommender_systems">
-            <div class="col-sm-12">
-                <h3 class="category_header">Recommender Systems</h3>
-                <div class="card-body">
-                        <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/recommender_systems/").ByTitle }}
-                            <li>
-                                <a href="{{.Permalink}}">{{.Title}}</a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                </div>
-            </div>
-        </div>
-    -->
         <div class="row" id="python">
             <div class="col-sm-12">
                 <h3 class="category_header">Learning Python and To Code</h3>
                 <div class="card-body">
                         <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/python/").ByTitle }}
+                            {{ range (where .Pages "File.Dir" "in" "\\python\\").ByTitle }}
                             <li>
                                 <a href="{{.Permalink}}">{{.Title}}</a>
                             </li>
@@ -167,70 +152,6 @@
             </div>
         </div>
 
-<!--
-        <div class="row" id="data_visualization">
-            <div class="col-sm-12">
-                <h3 class="category_header">Data Visualization</h3>
-                <div class="card-body">
-                        <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/data_visualization/").ByTitle }}
-                            <li>
-                                <a href="{{.Permalink}}">{{.Title}}</a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="row" id="postgresql">
-            <div class="col-sm-12">
-                <h3 class="category_header">PostgreSQL</h3>
-                <div class="card-body">
-                        <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/postgresql/").ByTitle }}
-                            <li>
-                                <a href="{{.Permalink}}">{{.Title}}</a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                    </div>
-            </div>
-        </div>
-
-
-
-        <div class="row" id="big_data">
-            <div class="col-sm-12">
-                <h3 class="category_header">Big Data</h3>
-                <div class="card-body">
-                        <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/big_data/").ByTitle }}
-                            <li>
-                                <a href="{{.Permalink}}">{{.Title}}</a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="row" id="creative_coding">
-            <div class="col-sm-12">
-                <h3 class="category_header">Creative Coding</h3>
-                <div class="card-body">
-                        <ul>
-                            {{ range (where .Pages "File.Dir" "in" "/creative_coding/").ByTitle }}
-                            <li>
-                                <a href="{{.Permalink}}">{{.Title}}</a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                    </div>
-            </div>
-        </div>
-    -->
     </div>
 
 </main>

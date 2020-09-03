@@ -5,14 +5,4 @@ tags = ["bootstrap", "blog", "font awesome"]
 features = ["responsive", "blog"]
 min_version = 0.25
 
-[author]
-  name = "OSman Cakir"
-  homepage = "https://osmancakir.io"
 
-[based on]
-  name = "Alan Orth"
-  homepage = "https://englishbulgaria.net"
-
-[original]
-  author = "mdo"
-  homepage = "https://v4-alpha.getbootstrap.com/examples/blog/"

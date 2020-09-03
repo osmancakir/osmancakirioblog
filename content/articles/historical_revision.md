@@ -1,13 +1,14 @@
 ---
-title: "Aritificial Intelligence Equations"
+title: "Türkce Yazmak Istiyorum"
 author: "Osman Cakir"
-date: 2019-11-25T11:53:49-07:00
-description: "Understanding artificial intelligence equation by equation "
-type: article
+date: 2020-09-03T11:53:49-07:00
+description: "Ana dilinde yazmak üzerine bir yazi"
+type: technical_note
 draft: false
 ---
 
-After reading this article you will understand what is AI. 
+Türkce de yazmak istedigime karar verdim. Ama türkce klavyem yok. Affola almanca klavye ile anca bu kadar olacak. Bu yazi da 
+yakin zamanda kendine bir konu edinir.
 
----to be continued---
+---devami gelecek---
 

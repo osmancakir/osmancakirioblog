@@ -1,7 +1,7 @@
 ---
 title: "Haftanin Notlari 1"
 author: "Osman Cakir"
-date: 2020-09-18T11:53:49-07:00
+date: 2020-09-18T06:53:49-07:00
 description: "bu hafta üzerine biraz düsündügüm okudugum seyler"
 type: technical_note
 draft: false

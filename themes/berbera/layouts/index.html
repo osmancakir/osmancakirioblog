@@ -36,7 +36,7 @@
                 <h3 class="category_header">Turkish Articles</h3>
                 <div class="card-body">
                         <ul>
-                            {{ range (where .Pages "File.Dir" "in" "\\articles\\") }}
+                            {{ range (where .Pages "File.Dir" "in" "\\articles\\").ByTitle }}
                             <li>
                                 {{ .PublishDate.Format "Jan 2006" }} -
                                 <a href="{{.Permalink}}">{{.Title}}</a>

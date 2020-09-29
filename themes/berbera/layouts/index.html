@@ -153,6 +153,24 @@
         </div>
 
     </div>
+    <div class="row" id="contact">
+        <div class="col-sm-12">
+            <h3 class="category_header">Contact Form</h3>
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+                action="https://formspree.io/osmancakironline@gmail.com" method="post">
+                <fieldset id="fs-frm-inputs">
+                    <label for="full-name">How should I call you?</label>
+                    <input type="text" name="name" id="full-name" placeholder="Rick Sanchez?" required="">
+                    <label for="email-address">Give me your 2nd best email adress</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@email.com" required="">
+                    <label for="message">Let me have it!</label>
+                    <textarea rows="5" name="message" id="message" placeholder="hubbala dub bub" required=""></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                </fieldset>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
 
 </main>
 {{ end }}

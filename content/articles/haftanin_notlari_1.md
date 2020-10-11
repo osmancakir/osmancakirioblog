@@ -7,7 +7,7 @@ type: technical_note
 draft: false
 ---
 
-* [Capsule Wardrobe](https://en.wikipedia.org/wiki/Capsule_wardrobe), Türkcesi kapsül gardirop'tur heralde. Ev arkadasimdan ögrendim. Az kiyafetle de iyi görünebilmek icin oldukca iyi bir yöntem gibi geldi. Kendimce basladim bakalim. Biraz daha olgunlassin ayri bir postun konusu olabilir bu denemem.
+* [Capsule Wardrobe](https://en.wikipedia.org/wiki/Capsule_wardrobe), Türkcesi kapsül gardirop'tur heralde. Ev arkadasimdan ögrendim. Az kiyafetle de iyi görünebilmek icin oldukca iyi bir yöntem gibi geldi. Kendimce basladim bakalim. Biraz daha olgunlassin ayri bir postun konusu olabilir bu denemem.fsdf
 
 * Kalben'in bende kal parcasi baya iyi club parcasi aslinda. Müzik biraz fazla Billie Eilish andiriyor, [Bad guy](https://www.youtube.com/watch?v=DyDfgMOUjCI) parcasini 0.75 hizda ve daha sade hayal edin. Canlandi degil mi? 
 

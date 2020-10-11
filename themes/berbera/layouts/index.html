@@ -38,7 +38,7 @@
                         <ul>
                             {{ range (where .Pages "File.Dir" "in" "\\articles\\").ByTitle }}
                             <li>
-                                {{ .PublishDate.Format "Jan 2006" }} -
+                                {{ .PublishDate.Format "02 Jan 2006" }}
                                 <a href="{{.Permalink}}">{{.Title}}</a>
                             </li>
                             {{ end }}
@@ -70,6 +70,7 @@
                         <ul>
                             {{ range (where .Pages "File.Dir" "in" "\\notebooks\\").ByTitle }}
                             <li>
+                                
                                 <a href="{{.Permalink}}">{{.Title}}</a>
                             </li>
                             {{ end }}

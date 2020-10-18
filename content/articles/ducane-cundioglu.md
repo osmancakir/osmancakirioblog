@@ -1,7 +1,7 @@
 ---
 title: "Insani Anlamak - Dücane Cindioglu Youtube Söylesisi Notlari"
 author: "Osman Cakir"
-date: 2020-10-11T01:53:49-07:00
+date: 2020-10-17T01:53:49-07:00
 description: "Munihte gidilebilecek güzel mekanlar"
 type: technical_note
 draft: false
@@ -20,7 +20,7 @@ Sohbetten benim dikkatimi ceken kisimlari ve notlarimi da bir kac gün sonra yaz
     * Tarihi uzun ve tartismali oldugundan özellikle vurgulanmasi gereken, kadinin konumu ne olacak toplumda vs. vs. konularda yani nerdeyse sosyal hayatin her boyutunda kurallari, adetleri oluyor.\
 
     &nbsp;
-    
+
     Din sanki bu tüm konulara dogrudan dahil ve asil iktidari burada kuruyor. Bu konulardaki kendinin disindan gelen degisimleri tehdit olarak algilayip; din adamlari, alimleri, toplumda din hakkinda konustugunda nahos karsilanmayan baska baska kanaat önderleri vasitasi ile de tepkisini ortaya koyuyor. Bilimden olsun, teknolojik degisimler, tarihsel olaylardan olsun, bir paradigma kaymasinin önüne gecmek icin karsisinda kim varsa karsilik vermeye, savasmaya hazir hep. Bence din ve bilim arasindaki catismayi okumanin en dogru yolu böyle. 
     
     Bilim kendini bu iktidardan korumak icin, arastirmalarina devam edebilmek icin, na-ahlaki olmayi secti bana göre. Ve Dücane hocanin belirttigi gai ve fail nedenle ilgili olmadigini ilan etti. Bu sayede dinden serbest kalabildi cogu konuda. Bilim ne zamanki sosyal hayatin düzenini degistirme potansiyeli var olabilecek bir gelisme kaydetti bu degisim önerisini veya yorumu bizzatihi kendi yapmasa da (kendi konumunu na-ahlaki olarak belirttigi ve salt objektif olarak olgulari aciklamaya calistigi iddiasi ile), din tarafindan susturulmaya, durdurulmaya calisildi. 

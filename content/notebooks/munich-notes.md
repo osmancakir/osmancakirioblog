@@ -4,7 +4,7 @@ author: "Osman Cakir"
 date: 2020-10-13T01:53:49-07:00
 description: "Munich's nice places to eat and have a drink or to dance"
 type: technical_note
-draft: true
+draft: false
 ---
 
 ## Bars & Cafes 

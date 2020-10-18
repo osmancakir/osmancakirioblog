@@ -4,87 +4,48 @@ author: "Osman Cakir"
 date: 2020-10-11T01:53:49-07:00
 description: "Munihte gidilebilecek güzel mekanlar"
 type: technical_note
-draft: true
+draft: false
 ---
 
-Gecen [Insani Anlamak Sinan Canan ve Dücane Cindioglu](https://youtu.be/J8KtJMHiEgs) söylesisini izledim gece 2 bucuga kadar. Abim tavsiye etmisti. Yorumlarda Ejder Turan youtube kullanicisi da Dücane Hocanin konustugu kisimlardan notlari derlemis. Öncelikle bu notlari bir kopyalayip yapistiriyorum. Buralardan kendi notlarima dogru evrilecek bu yazi. 
+Gecen [Insani Anlamak Sinan Canan ve Dücane Cindioglu](https://youtu.be/J8KtJMHiEgs) söylesisini izledim gece 2 bucuga kadar. Ertesi gün ise gitmek epey zor oldu ama epeydir üzerinde ara ara düsündügüm, kendi ailemden ve konyada gecen cocuklugumdan ilk gencligimden kulagimda asili kalan konulari derli toplu düsünme firsatim olmamisti. Güzel oldu o yüzden. 
 
-Dücane Cündioğlu - Söyleşi Notları
-*	Bilim açıklar. Açıklamak olguları neden-sonuç dizgesine yerleştirmek demektir. Tekil olguları tümel ilkelerin altına getirmek demektir. Açıklama olguyu kendi tekilliği içinde gözlemeyi, takip etmeyi gerektirir ve her zaman tümevarımsal bir ilişkidir. Hiçbir zaman elde bir tüm yoktur, birikim vardır. Aristotelesçi nedensellikte dört tür neden vardır;
-    * Maddi neden; bir masanın neden yapıldığı 
-    * Sûrî neden; masayı iskemleden ayıran yön
-    * Fail neden; masayı kim yaptı? 
-    * Gaî neden; masayı niçin yaptı?	
-*	Bilim maddi ve formel nedenle ilgilenir.
-*	Din doğrudan fail ve gai nedene yönelir.
-*	Din evreni düzenli bir işleyişe sahip entite olarak kabul eder. Onun, bilinçli bir özenenin yönetiminde gerçekleştiğini varsayar fakat açıklayamaz. Ulema dinin açıkladığını da varsayar. Bunun da siyasal sonuçları olur.
-*	Dine göre yeryüzünde rastlantı ve abes yoktur. Çünkü bu bilinçli özneye hakaret olur.
-*	Ben bilim ve dini iki ayrı kutba koyuyorum, baltayla ortadan ayırıyorum.
-*	Kutsal kitabı bilimsel yöntemlerle açıklamaya çalışmak saçmadır.
-*	Yoktan yaratmak imgesel düzeyde bir açıklamadır.
-*	Düşünmenin görevi sağduyuyu boşa çıkarmak olmalı.
-*	Milletin milli birlik ve beraberlik duyguları genel kanılar üzerinden yükselir ve bunlar küçük yaştan itibaren verilir. Hiçbir kesinlik içermezler. Bunlar iknai önermelerdir, bunları çürütemezsiniz.(Örnek, Bir Türk dünyaya bedeldir.)
-*	Şiirsel sözlerin hakikat değeri nedir? Farabi’ye göre şiirsel sözlerin hiçbir doğruluk değeri yoktur. Şiirsel sözler bir şeyleri ya çok güzel ya da çok çirkin göstermeye yarar. 
-*	Kelam-i İnşâî’de doğruluk olmaz. Haberî önermelerde olur.
-*	Şiirsel sözler Farabi’ye göre iki yerde işe yarar.
-    1.	Adamın düşünce kabiliyeti yoktur hızlıca ona ne yapması gerektiğini öğretmek için şiir okursun.
-    2.	Ya da düşünme kabiliyeti vardır fakat onu nasıl kullanacağını bilmez. Şiir aracılığıyla ona yön verirsin.
-*	İnsan ikna edici olmak istediğinde düşüncelerinden değil yaşantısından örnek verir.
-*	Gençler için deneyim hiçbir anlam ifade etmez. 
-*	Bilim aynı zamanda insanlığın bilincinin tarihidir, kavramsal tarihtir.
-*	Doğadan uzaklaştıkça felsefe dine dönüşür.
-*	Felsefe doğayı açıklamak yönünden bilimseldir.
-*	Bilimin usla yaptığını, felsefe muhayyileden de yardım alarak yapma eğilimdedir. 
-*	İslam inancından dolayı evrim düşünesine karşı çıkılmıyor, birtakım çevrelerce üretilmiş İslam düşüncesiyle evrime karşı çıkılıyor.
-*	İnanç adına bilime karşı geliştirilen savunma yöntemleri var. 
-*	Dindar bilinç temsilcilerinin önemli bir kısmı hastadır. İnançlarını korumak konusunda kitlenmiş bir bilinç çok sıradan sözlerini bile anlama hakkından vazgeçmiş demektir.
-*	İdeolojinin genç bilinçlere verdiği en zarar, hakikati anlamak konusunda sahip olduğumuz insanı yetenekleri atıl bırakmak zorunda kalıyor. (olmasıdır)
-*	İrfan(özbilinç), insanın kendisine kendi dışından bakabilme yeteneğidir.
-*	Hiçbir nefis iltifata karşı koyamaz. (Balzac)
-*	Kim, hafızasının aynasında sâdık akisler bulabilir? Sâdık, yani kendisini hiç çarpıtmadan, aynen, olduğu gibi yansıtan akisler. (Cemil Meriç)
-*	“Rahmet” yağdığını iddia etmek için köylü ya da çiftçi olmak gerekir. Bir memur yağmuru rahmet nedeni olarak mı görür? Bu (rahmet yağması) yaşam biçiminin ürettiği bir sözdür. 
-*	Anlam verme sizi tatmin etmeye, korkularınızı yatıştırmaya yönelik bir eylemdir.
-*	İnsan belirsiz olandan korkar (tanımlayamadığı ve sınırlarını çizemediği her şeyden korkar), anlam verme birliğe getirir. Açıklama birliğe getirmeyi başaramaz.
-*	Düşüncenin yenisi makbuldür, inancın eskisi.
-*	İnançlar salgın hastalık, deprem vs. olduğunda bize destek olur. Düşünce alanında ise inançlar bize yük olur.
-*	Din dayanak olma gücünü aforozla sağlar.
-*	Fayda felsefenin umrunda olan bir şey değildir.
-*	İlahiyatçı bilinci inançlarının çağdaş doğa bilgisiyle sınanmasına izin veremez. Bundan kaçtıkları için düşünemezler.
-*	Bilim düşünmez. (Heiddeger) “Yöntemsel düşünmeden kavramsal düşünmeye geçemez.”
-*	Düşünmek kelimelere şifa vermektir. (Heiddeger)
-*	Felsefenin insana kazandırdığı en temel terbiye; kendisinden önce bir konuda yapılmış düşünmeleri hiç üşenmeden en baştan ele alabilme yeteneğidir.
-*	İslam felsefecileri bedenin geri dirileceğine inanmaz. “Biz ruhuz-Kindî”
-*	Dindar bilinç konuyu tartışmak istemediğinde bilimin henüz kesinliğe ulaşamadığı alanları vurgulayarak bir mistifikasyona kaçar.
-*	Mantıktaki sezgi ile bilimsel ve dini sezgi birbirinden farklıdır.
-*	İnsan ruh ve bedenden müteşekkil bir varlıktır önermesi dinlerde ve felsefelerde değişmez bir kabul olmuştur. 
-*	Yeniçağda ruh kelimesinin yerini zihin aldı.
-*	İnsanı diğer canlılardan doğada farklı kılan şey eskiden ruhtu. Bu ruh üçe ayrılırdı.(Platon’a göre)
-    1.	Nefs-i Nebatî beslenme-büyüme-üreme
-    2. Nefs-i hayvani duyular ve irade
-    3. Akıl 
-* Ölümsüz olan nefs, nefsin akıllı olan kısmıdır, sadece us dirilecek. Platon’a göre nefs, Aristoteles’e göre ruh ölümsüzdür.
-*	Dinle bilim arasındaki çelişki genellikle düşünsel bir sorun olarak karşımıza çıkmaz. Bu psikolojik/kişisel bir sorundur.
-*	İnanç kendisini hep karanlıkta muhafaza edebilir.
-*	Din zihinsel bir açıklık kazandırma yeteneğinden uzaktır.
-*	Doğayı ve toplumu açıklamak gibi bir görevimiz var. 
-*	Bir şeyin anlamından söz ettiğimde o şeyin amacından söz etmiş oluruz. 
-*	Evrenin bir amacı olabilmesi için evrenin bir bilinçli öznesi olması lazımdır ve doğada olan her şeyin bu bilinçli özneden pay alması lazım. Fakat bu teleolojik anlayış yıllar önce Kant tarafından çökertildi.
-*	İnsanın trajedisi nerden gelip nereye gittiğini bilmemesi değil, kabul etmemesidir.
-*	Modern bilim rastlantıyı esas alıyor, düzenliliği değil fakat biz eğer inanca referans yapmak istiyorsak amaçlılığı (düzenliliği) esas almak zorundayız.
-*	Rastlantıyı esas almazsak toplumsal olgularda bile ne olup bittiğini analiz demeyiz.
-*	İnsan esas itibarıyla rasyonel değil irrasyonel bir canlıdır, rasyonalite insan için bir idealdir. Sahip olduğumuz bir şey değildir.
-*	Kapitalizmin temelinde insanın karlarını maksimize edeceği kabulü vardır. (bir çeşit düzenlilik) (Bu maddede hocadan anladığımı kendi sözcüklerimle ifade etmeye çalıştım.)
-*	Geleneksel kabuller ne olup bittiğini perdeliyorsa bu sorundur. 
-*	Hakikat tahammül edilmesi güç olan bir şeydir. Elinizde tuttuğunuz fener (gelenek) önünüzü karartabilir.
-
-Sonrasinda benim dikkatimi ceken kisimlar, güzel örnekler, 
+Sohbetten benim dikkatimi ceken kisimlari ve notlarimi da bir kac gün sonra yazmaya calistim. Buyrunuz efendim;
 
 * Dinin doga ile ilgili mekanizmalari aciklamaya calisma isinden tümüyle vazgecemeyecegi bunun politik sonuclari olacagi meselesi önemli bir itiraf bana göre. Din ayni zamanda siyaset ve iktidardir da ya hani. Ama bu mesele ne zaman tartisilmaya acilsa, taca vurulur, dinin asil meselesinin insanin manen kurtulusu, huzurudur denir ya. Dinin siyasi ve ekonomik boyutlarini iyice arastiran sorgulayan bir calisma bulabilsem keske. Bir toplumu ayni dinde, mezhepte birlestirmenin veya ayristirmanin ekonomik, sosyal, politik boyutlari nelerdir? Müslüman müslümandan, ya da daha genel ifade etmek gerekirse bizden olan bizden olandan alis veris etse daha iyi olur gibi bir telkinden daha derin, kurumsal etkilerinden bahsediyorum. Sonucta bir dine mensup olmak o dine mensup olan topluluga da mensup olmak demek. O toplulugun da;
+
     * emek gelirinin dagilimi (kim ne is yapacak, kim ne kadar maas alacak, kimin kariyeri olabilir, yükselebilir vs.), 
-    * sermayenin dagilimi (zenginler nasil zengin kalmaya devam edecek, ne kadar sosyal yardim yapiyor olacaklar, bu yardimlar fakirleri fakir kilmaya devam ettirirken ayni zamanda fakirlerin nasil hallerinden memnun olmalari saglanacak, zenginlerin zengin olup onlara yardim ettikleri icin sükretmeleri saglanacak, bu insanlar nasil yasadiklari hayatin adil olduguna inandirilacaklar), 
+    * sermayenin dagilimi (zenginler nasil zengin kalmaya devam edecek, ne kadar sosyal yardim yapiyor olacaklar, bu yardimlar fakirleri fakir kilmaya devam ettirirken ayni zamanda hallerinden nasil memnun ettirecek, zenginlerin onlara yardim ettikleri icin sükretmeleri saglanacak, bu insanlar nasil yasadiklari hayatin adil olduguna inandirilacaklar), 
     * mirasin paylasimi, 
-    * eglencesi, dügünü, dogumu, cenazesi
-* insanin dininin sadece allahla kul arasinda kalamayacagi, bunun toplumsal bir olusum oldugu. Sinan Canan'in bana ahirette hangi dindensin diye sormayacaklar amellerimi soracaklar örnegi karsisinda Dücane'nin katolik ateist misin, protestan ateist misin örnegi
-* dini anlamaya calisirken karsilasilan putlar. O böyle diyor, bu böyle diyor. 
-* siradan insanlara hikaye anlatmak, konuyu saptirmak.
-* dindar'in ahlaksizligi. Bir ahlaksizlik yaptiginizda bilirsiniz. Hirsizlik yaparsaniz hirsizligi bilirsiniz. Ama dindar adam yaptiklarinin farkina varamaz. 
+    * eglencesi, dügünü, dogumu, cenazesi nasil olacak? ne zaman olacak? Ne icilecek, yenilecek, giyilecek?
+    * Tarihi uzun ve tartismali oldugundan özellikle vurgulanmasi gereken, kadinin konumu ne olacak toplumda vs. vs. konularda yani nerdeyse sosyal hayatin her boyutunda kurallari, adetleri oluyor.\
+
+    &nbsp;
+    
+    Din sanki bu tüm konulara dogrudan dahil ve asil iktidari burada kuruyor. Bu konulardaki kendinin disindan gelen degisimleri tehdit olarak algilayip; din adamlari, alimleri, toplumda din hakkinda konustugunda nahos karsilanmayan baska baska kanaat önderleri vasitasi ile de tepkisini ortaya koyuyor. Bilimden olsun, teknolojik degisimler, tarihsel olaylardan olsun, bir paradigma kaymasinin önüne gecmek icin karsisinda kim varsa karsilik vermeye, savasmaya hazir hep. Bence din ve bilim arasindaki catismayi okumanin en dogru yolu böyle. 
+    
+    Bilim kendini bu iktidardan korumak icin, arastirmalarina devam edebilmek icin, na-ahlaki olmayi secti bana göre. Ve Dücane hocanin belirttigi gai ve fail nedenle ilgili olmadigini ilan etti. Bu sayede dinden serbest kalabildi cogu konuda. Bilim ne zamanki sosyal hayatin düzenini degistirme potansiyeli var olabilecek bir gelisme kaydetti bu degisim önerisini veya yorumu bizzatihi kendi yapmasa da (kendi konumunu na-ahlaki olarak belirttigi ve salt objektif olarak olgulari aciklamaya calistigi iddiasi ile), din tarafindan susturulmaya, durdurulmaya calisildi. 
+
+    Ancak tabii ki de bilim aslinda hic bir zaman na-ahlaki bir kurum olamadi. En basinda bilimsel ahlak denen seyden nasil söz edebiliyoruz bilim ahlaktan muaf bir kurum ise degil mi? Bilim na-ahlaki oldugu iddiasi ile sadece ve sadece ahlak otoritelerinden kendi pacasini kurtarmaya calismistir bana göre. Objektif bir ahlak kurami kurma isinden istifa etmistir. Objektif ahlak teorisi kurmak mümkün müdür peki? Bence mümkündür. Ve bunun tek yolu da insana metafiziksel bir anlam, görev yükleme ugrasi degildir. Her neyse bu konuyu ayri bir kitap yazma hayalim ve simdilik bir kenarda dursun. Burada söylemek istedigim asil mesele, bilim Dücane hocanin dedigi gibi anlamlandiramaz degil anlamlandirma isiyle pacasini dinden kurtarabilmek icin hakkiyla ilgilenememistir demek bence daha dogru olur. Bilimsel calismalar toplum tarafindan ama yanlis ama dogru yorumlanmasi yoluyla, teknoloji yoluyla ama her daim ahlak kurallarini etkilemis, degistirmistir. Kilise mi bir gece uyandi ve kadinlarin da insan oldugunu farketti diye sormazlar mi insana? Geyler bilim bu konuda henüz konusmamisken sapik kabul ediliyordu. Mevcut bilgimizle bu insanlarin patolojik bir durumu yoktur diyen ve bu insanlara da toplumda bir nebze de olsa nefes aldiran hangi kilise, hangi imamdi? 
+
+* Insanin dininin sadece allahla kul arasinda kalamayacagi, bunun toplumsal bir olusum oldugu. Sinan Canan'in bana ahirette hangi dindensin diye sormayacaklar amellerimi soracaklar o yüzden bana suncu musun buncu musun diye soranlara muslukcu dinindenim diyorum demesine karsilik olarak Dücane'nin irlanda'da askerler tarafindan durdurulan bir adama dini soruldugunda ateistim cevabina katolik ateist misin, protestan ateist misin diye sorulmasi örnegi. Yine yukarida bahsettigimiz dinin toplum üzerinde kurdugu iktidari itiraf eden bir baska örnek. Konya'da, türkiyenin belki de en muhafazakar sehrinde büyümüs biri olarak hissettigim bir sey var. Herhangi bir sekilde kanitlayabilecegimi sanmiyorum bunu. O yüzden buna simdilik sadece bir sezgi diyelim. Din aslinda epey özgür bir ortam eger icindeyseniz. Yasam biciminiz, düsünceleriniz eger dinin toplumdaki iktidarini cok sorgulamiyorsa tehdit etmiyorsa pek dokunulmaz size. Burada Sinan Canan'in özgürlügü de böyle bir sey. Oturup kendi kendine din hakkinda düsüncelere daliyor, belki arada günah olan eylemleri de yapiyordur. Ne biliyim, alkol aliyordur, ailelerin tanisip onaylamasindan önce kendine kiz arkadas edinmistir, kafelere oturmustur vs. vs. Bunlari Konya gibi kücük bir yerde bile yapabiliyorsunuz artik. Önemli olan sanki, bunlari icindeyken yapmak. Dinin toplumdaki iktidarini sorgulamadan yapmak. Müslüman bir ateist bile olabilirsiniz. Ama bir de ateizmi yaymaya calisan, din adamlarini insanlari koyuna dönüstüren öcüler olarak göstermeye calisan biri olun, dinin, cemaatinizin disindan ateist olun, görün bakalim böyle rahat konustururlar mi sizi! 
+
+* Ibn-i rüsd'ün dinin ve kuranin söylediklerinin bilimsel verilerle aciklanmaya calisilmamasi gerektigi, bunun sacma olacagini belirtmesi fikrini baya begendim. Bunun karsilik bulmamis olmasi inanc dünyasinda yine dinin iktidari acisindan anlasilabilir bir durum bana göre. Allah gökteyse gökte, eli varsa eli var. Gökteyse stratosferde mi ayda mi güneste mi sormanin lüzumu yoktur demek net bir sinir ciziyor. Ülkemizde modern zamanin bilgisiyle kuran'in görüsleri arasindaki tezatlarin doga görüsleri üzerinde degil de hukuksal konular üzerinde, kadinin konumu, miras vs üzerinde tartisiliyor olmasi önemli bir tespit. Belki bunun istisnasi evrim üzerinedir. Evrim üzerine epey tartisma dönüyor Türkiye'de.  
+
+* Yine ayni konunun devaminda yoktan var etmek fikri sacmadir demesi epey hosuma gitti Dücane'nin. Yukaridaki Ibn-Rüsd aciklamasi gibi bu tarz kafa acan aciklamalari özellike cok seviyorum dindar birinden duydugumda. Burada kendilerini ateist, agnostic olarak ilan etmis arkadaslarima da bazen bunu anlatmaya calisiyorum. O kadar kendinizden emin misiniz? Söylediginiz, kabul ettiginiz 'bilimsel' gercekler karsisinda dinin argümanlarini yeterince taniyor musunuz acaba diye soruyorum. Cogunuzu Konya'da kafasi calisan bir dindar insanla samimi bir ortamda denk getirelim, aklinizi alirlar sizin aklinizi diye. Klasik olarak kendi düsüncenizin dinin argümanlarini nasil cürütecegini kanitlamak icin mesela yoktan var etme diye bir sey yoktur, termodinamigin ilk yasasi ikinci yasasi diye saymaya baslarsiniz karsinizdaki dindar insana belki, ama hop dur dur dur derler, evet yoktan var etmek diye bir sey yoktur, bu standart insanin tahayyül ölcüsünde bir imgelemdir, tanrinin nasil yoktan var ettigini bilemeyiz zaten derler ve karsi cikisiniz sönüverir bir anda. Sonra diger argümaniniz sonra diger argümaniniz derken karsinizdaki insanin da kafasinin calistigina ikna olursunuz. Iyi bir insan olduguna kanaat da getirirseniz, hosgörüsü, dinginligi sizi etkilerse mazallah dinle kavgaya gittiginiz yerden kelime-i sahadet ederek dönüverirsiniz diye de ignelerim.
+
+* Kurani aciklama cabasinda karsilasilan putlar da cok ilginc konu. Tartisma daha cok ayetlerin mealinin ne olabilecegi ve yine Kuran'in doga görüsleri ve bilimsel görüs arasindaki farklar boyutunda ele alinmis olsa da bence önemli bir boyutu da gercek islam'in ne oldugu tartismasinda beliriyor. Ne zaman din elestirisi olsa bir yerde, ve din biraz köseye sikismis olsa gercek islam bu degil deniyor ya, aklim almiyor bunu. Gercek islam modern islam degildir demek, islami hakkinda konusulamaz bir mesele haline getirmek olmuyor mu? Mesele sadece halifelik mi? Islam adina sekreterlik yapacak merkezi bir kurumun olmayisi mi? Sanmiyorum bunu da kabul etmeyeceklerdir. Cünkü hocanin da dedigi gibi ayni ekolün icerisinde bile birbiriyle uyum icinde olmayan pek cok islam alimi var. Ve bazi insanlar o alimlerin anlattigi islami islam olarak kabul ediyorlar. Böyle bir merkezilesme denemesi dahi ne kadar cok insanin dislanmasina eziyet edilmesine neden olacak acaba? Gercek islam, insanin vicdaninda kafasindadir desek kendi akil ve kalp kabiliyetiyle Kuran'i anlamaya ve yasamaya calisan insan da cürretinden dolayi kücümseniyor. Hatta bu tavir organize olursa bir tehdit olma potansiyeline de sahip ayni zamanda dinin toplumdaki iktidarina. 
+
+* Dücane hocanin kuran'in gercek mealini belli bir ekolden alan insana laf anlatamazsiniz o insana ya siir okuyacaksiniz ya da kissa anlatacaksiniz, konuyu saptiracaksiniz demesi ise cok komik. Dini sohbetlerin kissalarla, alegorik hikayelerle dolup tasiyor olmasi belki de bundandir. Bu kadar cok hikaye yoluyla anlatimin olmasi aslinda benim de tam nedenini epey merak ettigim bir konu. Farabi'nin akil yürütme bicimlerini tartismis olmasi da arastiracagim bir konu oldu bu sohbetten sonra. Siir ile ilgili aciklamari da epey enterasandi. Siirsel sözlerin hic dogruluk degeri yoktur, siirler kelimeler dizeler araciligiyla bir seyi ya cok güzel ya da cok cirkin göstermeye yararlar diyormus Farabi. Siir, düsünme kabiliyeti düsük insanlara ne yapacagini anlatmak, düsünme kabiliyeti yüksek olanlarina ise ne yapacagi ile ilgili yön vermek icin kullanilir diyormus. 
+
+    Bu konunun baglandigi yer ise aslinda Dücane'nin din hakkindaki görüslerinin catisini görebildigimiz yer oluyor bence. Yani diyor ki Dücane, Kuran'in meali bir insana aktarilamaz. Tipki Aristo'nun insanlara sosyal bilimleri ögretmeye calismanin bos bir ugras oldugunu, bu bilgilerin deneyime dayandigini, ve deneyimlerin aktarilmasinin etkin bir iletisim olamayacagi iddiasi gibi Kuran mealinin bir insana aktarilmasinin da imkansiz oldugunu iddia ediyor. Belki de bir cesit nirvana'ya, fenafillah'a isaret ediyordur sufiler gibi. Ibadet edersiniz, tefekkür edersiniz, inzivaya cekilirsiniz, meditasyon yaparsiniz ve bu deneyimler araciligiyla Kuran'i ve islami anlarsiniz diyor belki de. Ben buradan bunu cikardim. Bir baskasinin, bir ekolün mealini okuyarak, kabul ederek, bilimsel görüslerle inanciniz arasinda bir köprü kurmaya calisarak, bu ikisini uzlastirmaya calisarak bu is olmaz diyor. Böyle yapmaya calisan insanin da düsebilecegi iki kategori vardir diyor. Ya bu isten ekmek yemek derdindedir ya da bilim ile dinin uzlasamayacagini, arasinda köprü kurulamayacagini anlayamamistir diyor. 
+
+    Buna karsilik olarak Sinan Canan ise diyor ki benim acimdan bilimsel olarak bulabilecegimiz tüm gercekler allahin sunneti dahilindedir. Sünnetinden sual olunmaz, onu anlamaya calismakla inanc dünyasi arasinda catisma aramaya gerek yoktur. Ibadetimi yapar, kelime-i sahadet getiririm, sabah da derse labarotuvara gider evrim teorisi anlatirim elbet diyor. Bu düsünce tarzi agnostic olmayi tercih edene kadar benim de bir ara sahip olmayi düsledigim bir düsünce tarzi idi acikcasi. Adem ile Havva'dan baslattim insanligi diyen bir tanriyi mesela illa cümlenin direkt anlamiyla yalnizca bitkiler ve diger her tür canlilarin oldugu bos bir dünya'ya iki tane insani alip koyuverdi diye mi anlamak lazim? Bu ifade belki de baska bir anlama isaret eden bir metafordur diye sorardim kendime. Sinan Canan'in yaklasimi burada Ibn-i Rüsd'ün yaklasimi ile ayni görülebilecek olsa da ayrildigi konu 'bilim ile elde ettigim bilgi belki de inancimi anlamaya yardim edebilir' demesi. Yani bilimsel bilgi isiginda sürekli update edilmesi gereken bir din öneriliyor bana göre burada. Bunu kendine vazife görmese de. Bilimini inanclarina göre bükme, inanmaya da devam et, bilimi anladikca inancini da anlayacaksin demeye calisiyor sanki. Hatta belki cift yönlü olabilecegi de bu update ve anlama iliskisinin belirtiliyor.
+
+    Bunun üzerine Dücane, Sinan'in bu niyetinde ne kadar samimi olabilecegini sorguluyor. Ve diyor ki herkes kendini hakli ve ahlakli görme egilimindedir. Ahlaksizlik yapan insan bunun farkindadir diyor, hirsizlik yapan hirsizlik yaptiginin farkindadir, alkol icen günah islediginin farkindadir ama baska bir cesit olarak dindar ahlaksizligi yapanin bunun farkina varamayacagini belirtiyor. Samimi olarak yaptigi yanlislari göremeyecegini söylüyor. Saraylarda yasayan roma katolik kilisesinin papazlarini örnek veriyor. Ne oyunlar döndürmüyorlar mi, paraya güce erismek icin diyor, ama sorsan ne yüce bir amac icin bu isin icindelerdir diyor. Bence bu tanim cok sinirli ve bunun adi dindar ahlaksizligi degil. Kendini herhangi bir ideolojinin üyesi olarak gören her insan bu körlüge meyillidir bence. Yüce oldugu kabul edilen herhangi bir amac ugruna yapilabilir olarak görülen her eylemde gözlemlenebilen bir olgu. Raskolnikov rehincinin kafasina baltayi neden indirdi degil mi?
+
+* Epey uzunca bir süre de ruh var midir nedir diye konusuldu. Ben pek anlayamadim Dücane ne demek istiyor. Bana kafasi epey karismis göründü. O da ruh dedigimiz seyin belki de beynimizdeki cok büyük norön aglarinin karmasik kombinasyonlar ile inhübasyon ve aktivasyon eylemlerinden ibaret olabilecegi anlamina gelmek üzere gibi geldi bana :). Bu aglara atfedilen kutsallik ve yeniden dirilebilecegi inanci kendi bilecegi is tabii. 
+
+* Benim bu sohbete dair notlarim burada bitiyor simdilik. Toparlarsam, bilimin anlamlandirma isini yapamayacak bir kurum oldugunu düsünmüyorum. Bu tarihsel bir tercih bana göre. Dinin toplumun en ince kilcal damarlarinda bile varligi bulunan bir iktidar meselesi oldugunun aciga kavusmus olmasi güzel oldu. Bilim ile din bence de yan yana getirilemeyecek iki ayri konu. Bu caba bence de bir enerji israfi. Sinan Canan'inki gibi bilimsel calisma yapmayi ve inanclari ayirma cabasi ise salt olarak inanmama / ilgilenmeme seceneginden psikolojik ve toplumdaki konumu bakimindan korkmaktan kaynaklaniyor bana göre. Kuran mealinin aktarilamayacagi, bunun bir deneyim meselesi oldugu noktasi ilginc bir konu. Lakin bu 'deneyim' denen seyi cok muglak ve kisisel birakiyor ve psikolojik bir rahatsizlik gibi duyuluyor bana. Neyin kafasini yasiyorsun abi diye sormazlar mi? Lakin en masum inanma yöntemi de bu olabilir. Git ötede deneyimle arkadasim denebilir böyle bir insana ve seni büyük ihtimal rahat birakir. 
+
+Saati de 2 ettim yine. Ben kactim gari. 
+

@@ -2,7 +2,7 @@
 title: "Insani Anlamak - Dücane Cindioglu Youtube Söylesisi Notlari"
 author: "Osman Cakir"
 date: 2020-10-17T01:53:49-07:00
-description: "Munihte gidilebilecek güzel mekanlar"
+description: "Din ve bilim ve insan üzerine Dücane Cundioglu soylesisinden notlarim"
 type: technical_note
 draft: false
 ---

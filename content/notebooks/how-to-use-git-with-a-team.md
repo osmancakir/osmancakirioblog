@@ -1,11 +1,14 @@
 ---
-title: "How To Use Git With A Team"
+title: "How To Use Git With A Small Team"
 author: "Osman Cakir"
 date: 2020-10-28T01:53:49-07:00
 description: "git tutorial for using git with a team"
 type: technical_note
 draft: true
 ---
+
+This document will give you a proper git cheatsheet alongside with some git workflow recommendations for especially small teams. 
+
 
 ## Installed git? Good, Proceed : Install git!
 
@@ -128,6 +131,10 @@ There is no point memorizing all the arguments in my opinion. For further refere
 !["xkcdcomic"](https://imgs.xkcd.com/comics/git_commit.png)
 *Comic source: [xkcd](https://m.xkcd.com/1296/)*
 
+* When you are working with a team on the same branch. first thing you do is git pull then work in your project then you want to push? first you will commit your changes then check git pull then you push your changes. 
+
+* Reverting a single file from git gui: click on the file from git gui -> go to commit menu on the top bar -> Revert Changes -> there you go! 
+
 ## git Branches
 * `git branch` : ? create a new branch
 * `git merge` : ? 
@@ -164,3 +171,4 @@ You might have personal repos in your personal account and a work account where 
 - [Set the Username and Email in git Globally or Per Project](https://smarterco.de/set-the-username-and-email-in-git-globally-and-per-project/)
 - [.gitignore managemement Stackoverflow question](https://stackoverflow.com/questions/11451535/gitignore-is-ignored-by-git)
 - [Pro Git Book by Scott Chacon and Ben Straub - free](https://play.google.com/store/books/details?id=jVYnCgAAQBAJ&rdid=book-jVYnCgAAQBAJ&rdot=1&source=gbs_vpt_read&pcampaignid=books_booksearch_viewport)
+- [A Basic Git Workflow for Small Projects](https://medium.com/@peterjussi/a-basic-git-workflow-for-smaller-projects-d8694d50297d)

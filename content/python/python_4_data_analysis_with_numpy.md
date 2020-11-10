@@ -1,12 +1,14 @@
 ---
 title: "Python 4 : Data Analysis with Numpy"
 author: "Osman Cakir"
-date: 2018-12-02
+date: 2020-11-10
 description: "Introduction to Numpy"
 type: technical_note
 draft: false
 ---
 
+Published at: 02.12.2018
+Updated at : 10.11.2020
 
  We will have 3 big sections on NumPy. 
 
@@ -19,7 +21,7 @@ draft: false
 
 ## Installation Instructions
 
-**It is highly recommended you install Python using the Anaconda distribution to make sure all underlying dependencies (such as Linear Algebra libraries) all sync up with the use of a conda install. If you have Anaconda, install NumPy by going to your terminal or command prompt and typing:**
+It is highly recommended you install Python using the Anaconda distribution to make sure all underlying dependencies (such as Linear Algebra libraries) all sync up with the use of a conda install. If you have Anaconda, install NumPy by going to your terminal or command prompt and typing:
     
     conda install numpy
     
@@ -61,9 +63,9 @@ my_list
 
 
 
-One important **bullet point** here: Whenever you want to use a package's function you use package_abbreviation.function notation. (Ex.: np.array())
+One important **bullet point** here: Whenever you want to use a package's function you use `package_abbreviation.function` notation. (Ex.: `np.array()`)
 
-package_abbreviation comes from how you imported the package (i.e. 'import numpy as np')
+package_abbreviation comes from how you imported the package (i.e. `import numpy as np`)
 
 
 ```python
@@ -108,9 +110,9 @@ np.array(my_matrix)
 
 There are lots of built-in ways to generate Arrays
 
-### arange
+### ``np.arange()`
 
-Very similar to range() function, np.arange(start(inclusive), stop(exclusive), step)) function returns evenly spaced values within a given interval.
+Very similar to `range()` function, `np.arange(start(inclusive), stop(exclusive), step))` function returns evenly spaced values within a given interval.
 
 
 ```python
@@ -138,8 +140,11 @@ np.arange(0,11,2)
 
 ### zeros and ones
 
-To generate arrays of zeros or ones: np.zeros(shape of the matrix typed in as a tuple (rows, columns), np.ones(shape of the matrix typed in as a tuple). When only one argument is given, creates a vector.
---> array([1,2,3]).shape - (3,)
+To generate arrays of zeros or ones: 
+
++ `np.zeros(shape of the matrix typed in as a tuple (rows, columns)`
++ `np.ones(shape of the matrix typed in as a tuple)` When only one argument is given, creates a vector.
+
 
 
 ```python
@@ -195,8 +200,8 @@ np.ones((3,3))
 
 
 
-### linspace
-Returns evenly spaced numbers over a specified interval. np.linspace(start, stop, number of numbers to be returned). **Notice** that stop is inclusive here. 
+### `np.linspace()`
+Returns evenly spaced numbers over a specified interval. `np.linspace(start, stop, number of numbers to be returned)`. **Notice** that stop is inclusive here. 
 
 
 ```python
@@ -234,7 +239,7 @@ np.linspace(0,10,50)
 
 
 
-## eye
+## `np.eye()`
 
 Creates an identity matrix. Assuming you know what is an identity and matrix. Otherwise check it out the use of it.
 
@@ -255,12 +260,12 @@ np.eye(4)
 
 ## Generating Random Number Arrays
 
-Numpy also has lots of ways to create random number arrays. Do not forget to type in np.**random** first when using random number generating functions!. It is a common mistake you will do when you start coding. 
+Numpy also has lots of ways to create random number arrays. Do not forget to type in `np.random` first when using random number generating functions!. It is a common mistake you will do when you start coding. 
 
-### np.random.rand()
+### `np.random.rand()`
 Creates an array of the given shape and populate it with
 random samples from a uniform distribution
-over ``[0, 1)``. If no argument is given, creates a single float
+over ``[0, 1)``. If no argument is given, creates a single float`.
 
 
 ```python
@@ -290,7 +295,7 @@ np.random.rand(5,5)
 
 
 
-### np.random.randn()
+### `np.random.randn()`
 
 Returns a sample (or samples) from the "standard normal" distribution. Unlike rand which is uniform:
 
@@ -322,7 +327,8 @@ np.random.randn(5,5)
 
 
 
-### np.random.randint()
+### `np.random.randint()`
+
 Returns random integers from `low` (inclusive) to `high` (exclusive).
 
 
@@ -351,7 +357,7 @@ np.random.randint(1,100,10)
 
 ## Array Attributes and Methods
 
-Let's discuss some useful attributes and methods or an array. Below two arrays created with np.arange() and np.random.randint().
+Let's discuss some useful attributes and methods or an array. Below two arrays created with `np.arange()` and `np.random.randint()`.
 
 
 ```python
@@ -384,8 +390,8 @@ ranarr
 
 
 
-## Reshape
-With .reshape() method you can return an array containing the same data with a new shape. Below the one dimensional arr array is reshaped to 5 rows and 5 columns two dimensional matrix. Important **bullet point** here: When you apply methods to the objects (numpy objects or other objects that numpy can work with) you do not need to type in 'np.' notation any more. (ie. arr is an array object and numpy's reshape() method can be run without 'np.')
+## `.reshape()`
+With `.reshape()` method you can return an array containing the same data with a new shape. Below the one dimensional arr array is reshaped to 5 rows and 5 columns two dimensional matrix. Important **bullet point** here: When you apply methods to the objects (numpy objects or other objects that numpy can work with) you do not need to type in 'np.' notation any more. (ie. arr is an array object and numpy's `.reshape()` method can be run without `np.`)
 
 
 ```python
@@ -403,7 +409,7 @@ arr.reshape(5,5)
 
 
 
-### max(),min(),argmax(),argmin()
+### `max()`,`min()`,`argmax()`,`argmin()`
 
 These are useful methods for finding max or min values in the arrays. To find their index locations use argmin and argmax.
 
@@ -467,9 +473,9 @@ ranarr.argmin()
 
 
 
-## Attributes : Shape
+## Attributes : `shape`
 
-shape shows the shape attribute of arrays. Attributes are not methods. Notice there are no paranthesis () on them.
+`shape` shows the shape attribute of arrays. Attributes are not methods. Notice there are no paranthesis () on them.
 
 
 ```python
@@ -558,9 +564,9 @@ arr.reshape(25,1).shape
 
 
 
-### Attributes : dtype
+### Attributes : `dtype`
 
-dtype shows the data type of the object in the array. **Notice** it is different than the type() function. type() function shows the type of the object. -->type(arr) would return numpy.ndarray.
+`dtype` shows the data type of the object in the array. **Notice** it is different than the `type()` function. `type()` function shows the type of the object. -->`type(arr)` would return `numpy.ndarray`.
 
 
 ```python
@@ -574,7 +580,7 @@ arr.dtype
 
 
 
-## Well done Now you have finished the first Section of the NumPy! Have a break now, maybe grab a coffee or something, before continuing. : ) 
+*Well done Now you have finished the first Section of the NumPy! Have a break now, maybe grab a coffee or something, before continuing. : )* 
 
 # 2 - NumPy Indexing and Selection
 
@@ -661,7 +667,7 @@ arr
 
 
 
-### Now again it is very important to keep in mind that Python will not copy the lists or arrays when you specifically mean it. If you make changes on a slice of an array, the changes will be applied to the original list too.
+**Now again it is very important to keep in mind that Python will not copy the lists or arrays unless you specifically mean it. If you make changes on a slice of an array, the changes will be applied to the original list too.**
 
 
 ```python
@@ -744,7 +750,7 @@ arr_copy
 
 ## Indexing a 2D array (matrices)
 
-The general format is **arr_2d[row][col]** or **arr_2d[row,col]**. The second method is more common to see. But it is your taste how to index anyways
+The general format is **`arr_2d[row][col]`** or **`arr_2d[row,col]`**. The second method is more common to see. But it is your taste how to index anyways.
 
 
 ```python
@@ -779,7 +785,6 @@ arr_2d[1]
 
 ```python
 # Format is arr_2d[row][col] or arr_2d[row,col]
-
 # Getting individual element value 1st Method
 arr_2d[1][0]
 ```
@@ -808,7 +813,8 @@ arr_2d[1,0]
 ```python
 # 2D array slicing
 
-#This will get all the elements of indexed 0 row and indexed 1 row and from indexed 1 column to the rest of the columns.
+#This will get all the elements of indexed 0 row and indexed 1 row and 
+#from indexed 1 column to the rest of the columns.
 arr_2d[:2,1:]
 ```
 
@@ -1011,7 +1017,7 @@ arr[arr>x]
 
 
 
-### Well done! Selection and Indexing is really really important. I can not recommend more to practice on this... Ready? Let's go the final session of NumPy. 
+**Well done! Selection and Indexing is really really important. I can not recommend more to practice on this... Ready? Let's go the final session of NumPy.** 
 
 # 3 - NumPy Operations
 
@@ -1067,12 +1073,9 @@ arr - arr
 arr/arr
 ```
 
-    C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: RuntimeWarning: invalid value encountered in true_divide
-      This is separate from the ipykernel package so we can avoid doing imports until
-
-
-
-
+    C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:3: 
+    RuntimeWarning: invalid value encountered in true_divide
+    This is separate from the ipykernel package so we can avoid doing imports until
 
     array([nan,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.,  1.])
 
@@ -1084,13 +1087,9 @@ arr/arr
 1/arr
 ```
 
-    C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:2: RuntimeWarning: divide by zero encountered in true_divide
+    C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:2: 
+    RuntimeWarning: divide by zero encountered in true_divide
       
-
-
-
-
-
     array([       inf, 1.        , 0.5       , 0.33333333, 0.25      ,
            0.2       , 0.16666667, 0.14285714, 0.125     , 0.11111111])
 
@@ -1171,18 +1170,15 @@ np.sin(arr)
 np.log(arr)
 ```
 
-    C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:1: RuntimeWarning: divide by zero encountered in log
+    C:\ProgramData\Anaconda3\lib\site-packages\ipykernel_launcher.py:1: 
+    RuntimeWarning: divide by zero encountered in log
       """Entry point for launching an IPython kernel.
-
-
-
-
 
     array([      -inf, 0.        , 0.69314718, 1.09861229, 1.38629436,
            1.60943791, 1.79175947, 1.94591015, 2.07944154, 2.19722458])
 
 
 
-# Well Done!
+**Well Done!**
 
 That's all we need to know for now!

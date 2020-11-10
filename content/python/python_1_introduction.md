@@ -1,8 +1,8 @@
 ---
 title: "Python 1 : Introduction"
 author: "Osman Cakir"
-date: 2018-12-02
-description: "Introduction to Python"
+date: 2020-11-10
+description: "Introduction to Python: datatypes, variable decleration"
 type: technical_note
 draft: false
 ---
@@ -11,6 +11,8 @@ Python started as a fun project by a dutch guy who got bored on a Christmas Holi
 Anyways we are going to do some basic calculations, introducing variables and data types in this introduction tutorial. 
 
 Let's Start I am psyched!
+
+I started to write this tutorial 2 years ago 02 Dec 2018 now I am slowly updating it
 
 ## Calculations
 
@@ -100,12 +102,9 @@ As you can guess basic calculation operators are : summing: ' + ', subtracting: 
 
 
 
--->Important note here: Python does the mathematical operations in mathematical order. So be careful to wrap in paranthesis where you need.
++ Important note here: Python does the mathematical operations in mathematical order. So be careful to wrap in paranthesis where you need.
 
 
-```python
-
-```
 
 ## Variable Assignment
 
@@ -121,7 +120,7 @@ height=182
 weight=65
 ```
 
--->height and weight variables are created. 
++ height and weight variables are created. 
 
 
 ```python
@@ -144,7 +143,7 @@ weight=65
     ERROR:root:Line magic function `%aba` not found.
 
 
--->5aba and %aba variables couldn't be created. 
++ 5aba and %aba variables couldn't be created. 
 
 ## Data Types
 
@@ -247,7 +246,7 @@ False
 
 
 
-To learn about a variable's type you can use type() function. For example: 
+To learn about a variable's type you can use `type()` function. For example: 
 
 
 ```python
@@ -296,6 +295,7 @@ print(savings)
 
 
 You can convert variables to each other. To do that use: 
+
 * str(variable name) : to convert it to a string
 * float(variable name) : to convert it to a float
 * bool(variable name) : to convert it to a boolean.
@@ -304,7 +304,7 @@ But this only works if two data types are convertible to each other
 
 ### Lists
 
-to create a list, use brackets []. Lists can contain any data types. Floats, booleans, strings, integers; anything.
+to create a list, use brackets `[]`. Lists can contain any data types. Floats, booleans, strings, integers; anything.
 
 
 ```python
@@ -339,7 +339,8 @@ heights3=[['berk', 1.73],['salih', 1.82], ['dad', 1.75], ['mum',1.65]]
 
 ### List Indexing
 
-To print specific elements of a list you can use indexing. Python indexes data as 
+To print specific elements of a list you can use indexing. Python indexes data as
+
 * from left to right :      0  1  2  3  4  5 ... 
 * from right to left : ... -6 -5 -4 -3 -2 -1 
 
@@ -369,11 +370,11 @@ heights3[-1]
 
 
 
-to slice a list, use colon ([:]) notation. The first indexed element is going to be included but the last indexed element is not going to be included in the list. 
+to slice a list, use colon `[:]` notation. The first indexed element is going to be included but the last indexed element is not going to be included in the list. 
 
-* [:] --> will take the entire list
-* [2:] --> will take from 2nd indexed element (inclusive) till the last element (inclusive again)
-* [:9] --> will take from the first element (inclusive) till the 9th indexed element (exclusive)
+* `[:]` : will take the entire list
+* `[2:]` : will take from 2nd indexed element (inclusive) till the last element (inclusive again)
+* `[:9]` : will take from the first element (inclusive) till the 9th indexed element (exclusive)
 
 
 ```python
@@ -427,7 +428,7 @@ dad_height
 
 ### Tuples
 
-The main difference between tuples and lists is that the values in tuples are immutable!. Tuples are created with paranthesis notatiton. ()
+The main difference between tuples and lists is that the values in tuples are immutable!. Tuples are created with paranthesis notatiton `()`.
 
 
 ```python
@@ -499,12 +500,12 @@ a[0]
 
     ---------------------------------------------------------------------------
 
-    TypeError                                 Traceback (most recent call last)
+    TypeError 
+    Traceback (most recent call last)
 
     <ipython-input-79-5ccf417d7af1> in <module>()
     ----> 1 a[0]
     
-
     TypeError: 'set' object does not support indexing
 
 
@@ -525,12 +526,12 @@ d[0]
 
     ---------------------------------------------------------------------------
 
-    KeyError                                  Traceback (most recent call last)
+    KeyError
+    Traceback (most recent call last)
 
     <ipython-input-81-17371c6688f6> in <module>()
     ----> 1 d[0]
     
-
     KeyError: 0
 
 

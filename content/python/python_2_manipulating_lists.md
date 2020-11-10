@@ -1,11 +1,13 @@
 ---
 title: "Python 2 : Manipulating Lists"
 author: "Osman Cakir"
-date: 2018-12-02
+date: 2020-11-10
 description: "Python tutorial 2 manipulating lists"
 type: technical_note
 draft: false
 ---
+
+Publish Date: 02.12.2018
 First let's create a list called cars
 
 
@@ -61,22 +63,11 @@ cars + ['lancia', 33]
 
 
 
-    ['porsche',
-     60,
-     'audi',
-     37,
-     'mercedes',
-     45,
-     'bmw',
-     43,
-     'fiat',
-     22,
-     'lancia',
-     33]
+    ['porsche', 60, 'audi', 37, 'mercedes', 45, 'bmw', 43, 'fiat', 22, 'lancia', 33]
 
 
 
-**important** thing to note here. Adding elements to a list with this way won't change the list in memory. If we look at the cars list again it will be same. Lancia will not appear. 
+**Important** thing to note here. Adding elements to a list with this way won't change the list in memory. If we look at the cars list again it will be same. Lancia will not appear. 
 
 
 ```python
@@ -90,7 +81,7 @@ cars
 
 
 
-If you want to save it, you can give a new name to your list . If you want the changes to be saved in the list you are working on you should use .append() method. (We will cover methods and functions of Python later in more detail, so no worries!)
+If you want to save it, you can give a new name to your list . If you want the changes to be saved in the list you are working on you should use `.append()` method. (We will cover methods and functions of Python later in more detail!)
 
 
 ```python
@@ -105,18 +96,7 @@ cars_ext
 
 
 
-    ['porsche',
-     60,
-     'audi',
-     37,
-     'mercedes',
-     45,
-     'bmw',
-     43,
-     'fiat',
-     22,
-     'lancia',
-     33]
+    ['porsche', 60, 'audi', 37, 'mercedes', 45, 'bmw', 43, 'fiat', 22, 'lancia', 33]
 
 
 
@@ -137,7 +117,7 @@ cars
 
 
 
-**Deleting Elements** : For this purpose you can use del() function. 
+**Deleting Elements** : For this purpose you can use `del()` function. 
 
 
 ```python
@@ -157,8 +137,9 @@ cars
 
 
 **Another important note** When you create a list such as cars here, the variable name cars is just a reference where your list is stored. lets say you created another list (cars2) which is equal to cars (cars=cars2) and then changed one element in cars2. Your cars list will be also affected by this change. Python does not copy unless you specifically copy the list. You can copy the list by:
-* cars2=list(cars)
-* cars2=cars[:]
+
+* `cars2=list(cars)`
+* `cars2=cars[:]`
 
 
 ```python
@@ -238,32 +219,13 @@ cars_merged
 
 
 
-    ['porsche',
-     60,
-     'audi',
-     37,
-     'mercedes',
-     45,
-     'bmw',
-     43,
-     'fiat',
-     22,
-     'ferrari',
-     60,
-     'audi',
-     37,
-     'mercedes',
-     45,
-     'bmw',
-     43,
-     'fiat',
-     22]
+    ['porsche', 60, 'audi', 37, 'mercedes', 45, 'bmw', 43, 'fiat', 22, 'ferrari', 60, 'audi', 37, 'mercedes', 45, 'bmw', 43, 'fiat', 22]
 
 
 
 ### List Comprehension 
 
-This is actually going to be extremely easy when we learn the numpy arrays but for now it is a nice to know feature so I am gonna add it here. Let's say you have a list x=[1,2,3,4] and you want to make a calculation for every element in the list. Lets say you want to square every element in your list. you just type the following line below. 
+This is actually going to be extremely easy when we learn the numpy arrays but for now it is a nice to know feature so I am gonna add it here. Let's say you have a list `x=[1,2,3,4]` and you want to make a calculation for every element in the list. Lets say you want to square every element in your list. you just type the following line below. 
 
 
 ```python
@@ -280,10 +242,3 @@ x_squared
 
 
     [1, 4, 9, 16]
-
-
-
-
-```python
-
-```

@@ -1,11 +1,13 @@
 ---
 title: "Python 3 : Functions, Loops, Lambdas"
 author: "Osman Cakir"
-date: 2018-12-02
-description: "A few more python programming concepts for data analysis"
+date: 2020-11-10
+description: "python programming concepts for data analysis; if, elif, else statements; for, while loops; list comprehension and lampda functions; map and filter functions"
 type: technical_note
 draft: false
 ---
+Original Publish date: 02.12.18.
+
 Please note, this is not meant to be a comprehensive overview of Python or programming in general, but this crash course covers the basics that you need to know when you work with the data. I am planning to provide some more python learning material that focuses on more of the software development topics too. However for now here we focus on **data science** aspects of it. 
 
 Since I do not want to divide the topic into more sub topics any more, this notebook will be a little bit long and we will cover many stuff. Get your pen and paper ready to take notes. 
@@ -14,16 +16,15 @@ Let's see what we will cover :
 
 
 * Comparison Operators
-* if,elif, else Statements
-* for Loops
-* while Loops
-* range() function
+* `if, elif, else` Statements
+* `for` Loops
+* `while` Loops
+* `range()` function
 * list comprehension
 * Creating Custom Functions
 * lambda expressions
-* map() and filter() functions
+* `map()` and `filter()` functions
 * Various methods
-____
 
 ## Comparison Operators
 
@@ -117,9 +118,9 @@ Here you can see how you can create comparison operators in Python. Comparison o
 
 With Logic Operators you can combine multiple comparison operators together. Logic Operators will output boolean values
 
-* and operator: all of the conditions must be met in order to have 'true' as the output
-* or operator: it is sufficient to meet one of the conditions as true in order to have 'true' as the output. 
-**Remember** : 'and' and 'or'  logic operators can only work with one instance of condition.
+* `and` operator: all of the conditions must be met in order to have 'true' as the output
+* `or` operator: it is sufficient to meet one of the conditions as true in order to have 'true' as the output. 
+**Remember** : `and` and `or`  logic operators can only work with one instance of condition.
 
 
 ```python
@@ -157,9 +158,9 @@ With Logic Operators you can combine multiple comparison operators together. Log
 
 
 
-## if,elif, else Statements
+## `if, elif, else` Statements
 
-If statements basically tell us : ' If the condition is true, then run the following code after the colon (:)'
+If statements basically tell us: 'If the condition is true, then run the following code after the colon `:`'
 
 
 ```python
@@ -171,15 +172,7 @@ if 1 < 2:
 
 
 
-```python
-if 1 < 2:
-    print('yep!')
-```
-
-    yep!
-
-
-When combined with else statement it tells us ' If the condition is not true after the if statement, go for the else statement. And run it's code after the colon (:)' 
+When combined with else statement it tells us: 'If the condition is not true after the if statement, go for the else statement. And run it's code after the colon `:`' 
 
 
 ```python
@@ -203,7 +196,7 @@ else:
     last
 
 
-You can combine if statements with elif statements. It tells us ' If the condition is not true after the if statement, go for the elif statement. And run it's code after the colon (:). If elif's statement was not also true, go for the else statement and run else's code.' **Remember** whichever statement's the condition is first met the code of that statement will be executed.
+You can combine `if` statements with `elif` statements. It tells us: 'If the condition is not true after the `if` statement, go for the `elif` statement. And run it's code after the colon `:`. If elif's statement was not also true, go for the `else` statement and run it's code.' **Remember** whichever statement's the condition is first met the code of that statement will be executed.
 
 
 ```python
@@ -218,7 +211,7 @@ else:
     middle
 
 
-## for Loops : Iterate through a sequence
+## `for` Loops : Iterate through a sequence
 
 
 ```python
@@ -266,9 +259,9 @@ for jelly in seq:
     10
 
 
-## while Loops
+## `while` Loops
 
-While loops, like the ForLoop, are used for repeating sections of code - but unlike a for loop, the while loop will not run n times, but until a defined condition is no longer met. If the condition is initially false, the loop body will not be executed at all. If you do not have defined condition at the bottom you can create an infinite loop. In this case you can have a crash. In order to solve it, go to Kernel and press restart. You can also try to interrupt but it is not always helpful. 
+While loops, like the `for` loop, are used for repeating sections of code - but unlike a `for` loop, the `while` loop will not run n times, but until a defined condition is no longer met. If the condition is initially false, the loop body will not be executed at all. If you do not have defined condition at the bottom you can create an infinite loop. In this case you can have a crash. In order to solve it, go to Kernel and press restart. You can also try to interrupt but it is not always helpful. 
 
 
 ```python
@@ -284,9 +277,9 @@ while i < 5:
     i is: 4
 
 
-## range()
+## `range()` function:
 
-Range function creates a sequence automatically. It takes three arguments. range(start(inclusive), stop(exclusive), step)
+Range function creates a sequence automatically. It takes three arguments. `range(start(inclusive), stop(exclusive), step)`
 
 
 ```python
@@ -325,7 +318,7 @@ list(range(5))
 
 
 
-## list comprehension
+## List comprehension
 
 It is a shortcut when you want to make a quick calculation over all of the elements in your list. It is a nice to know thing but this kind of operations will be extremely easy with Numpy.
 
@@ -447,7 +440,7 @@ times2(2)
 
 
 
-The lambda operator or lambda function is a way to create small anonymous functions, i.e. functions without a name. These functions are throw-away functions, i.e. they are just needed where they have been created. With lambda expressions above 2 lines of code can be decreased to one line. You can define functions with lambda expressions. 
+The `lambda` operator or `lambda` function is a way to create small anonymous functions, i.e. functions without a name. These functions are throw-away functions, i.e. they are just needed where they have been created. With lambda expressions above 2 lines of code can be decreased to one line. You can define functions with lambda expressions. 
 
 
 ```python
@@ -478,9 +471,9 @@ t2(2)
 
 
 
-## map() and filter() functions
+## `map()` and `filter()` functions
 
-Let's say you have a list called seq. Untill now we learned that you can use list comprehension for basic calculation operations over the elements of a list . Here we add one more way to do this; map() function. With map() function you can iterate through any function over your sequence. You can use lambda expressions, built-in functions or your own functions. It takes two arguments: map(function, sequence). When you concenate it with the list function you can create lists with it. 
+Let's say you have a list called seq. Untill now we learned that you can use list comprehension for basic calculation operations over the elements of a list . Here we add one more way to do this; `map()` function. With `map()` function you can iterate through any function over your sequence. You can use lambda expressions, built-in functions or your own functions. It takes two arguments: `map(function, sequence)`. When you concenate it with the list function you can create lists with it. 
 
 
 ```python
@@ -706,12 +699,8 @@ lst
 
 
 
-In operator : This is an easy way to check whether one element is in your list. 
+`in` operator : This is an easy way to check whether one element is in your list. 
 
-
-```python
-
-```
 
 
 ```python

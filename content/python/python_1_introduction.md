@@ -16,7 +16,14 @@ I started to write this tutorial 2 years ago 02 Dec 2018 now I am slowly updatin
 
 ## Calculations
 
-As you can guess basic calculation operators are : summing: ' + ', subtracting: ' - ', Multiplying: ' \* ' Division: ' / ', Exponentiation: ' \*\* ', and Modulo: ' % ' (Which is the operation for giving you the result of the reminder of a division)
+As you can guess basic calculation operators are: 
+
+* summing: `+`, 
+* subtracting: `-`, 
+* Multiplying: `*`  
+* Division: ' `/` ', 
+* Exponentiation: `**`, 
+* Modulo: `%`: (Which is the operation for giving you the result of the reminder of a division)
 
 
 ```python

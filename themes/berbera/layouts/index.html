@@ -34,9 +34,32 @@
         <div class="row" id="articles">
             <div class="col-sm-12">
                 <h3 class="category_header">Turkish Articles</h3>
+            </div>
+        </div>
+        <div class="row"></div>
+        <div class="col-sm-12">
+            <div class="card">
+                <h4 class="card-header">Haftanin Notlari</h4>
                 <div class="card-body">
                         <ul>
-                            {{ range (where .Pages "File.Dir" "in" "\\articles\\").ByTitle }}
+                            {{ range (where .Pages "File.Dir" "in" "\\articles\\weekly-notes\\").ByTitle }}
+                            <li>
+                                {{ .PublishDate.Format "02 Jan 2006" }}
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row"></div>
+        <div class="col-sm-12">
+            <div class="card">
+                <h4 class="card-header">Life Notes</h4>
+                <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "\\articles\\life-notes\\").ByTitle }}
                             <li>
                                 {{ .PublishDate.Format "02 Jan 2006" }}
                                 <a href="{{.Permalink}}">{{.Title}}</a>
@@ -66,9 +89,15 @@
         <div class="row" id="notebooks">
             <div class="col-sm-12">
                 <h3 class="category_header">Notebooks</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Life Notes</h4>
                 <div class="card-body">
                         <ul>
-                            {{ range (where .Pages "File.Dir" "in" "\\notebooks\\").ByTitle }}
+                            {{ range (where .Pages "File.Dir" "in" "\\notebooks\\life-notes\\").ByTitle }}
                             <li>
                                 
                                 <a href="{{.Permalink}}">{{.Title}}</a>
@@ -78,7 +107,23 @@
                 </div>
             </div>
         </div>
-
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <h4 class="card-header">Technical Notes</h4>
+                    <div class="card-body">
+                        <ul>
+                            {{ range (where .Pages "File.Dir" "in" "\\notebooks\\technical-notes\\").ByTitle }}
+                            <li>
+                                <a href="{{.Permalink}}">{{.Title}}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="row" id="javascriptnotes">
             <div class="col-sm-12">
                 <h3 class="category_header">Javascript Notes</h3>
@@ -94,7 +139,7 @@
             </div>
         </div>
 
-        <div class="row" id="reactnotes">
+        <!-- <div class="row" id="reactnotes">
             <div class="col-sm-12">
                 <h3 class="category_header">React Notes</h3>
                 <div class="card-body">
@@ -122,9 +167,9 @@
                         </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row" id="Javascript_ES7_Jupyter_Notebook">
+        <!-- <div class="row" id="Javascript_ES7_Jupyter_Notebook">
             <div class="col-sm-12">
                 <h3 class="category_header">Javascript ES7 Jupyter Notebooks</h3>
                 <div class="card-body">
@@ -137,10 +182,10 @@
                         </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="row" id="python">
             <div class="col-sm-12">
-                <h3 class="category_header">Learning Python and To Code</h3>
+                <h3 class="category_header">Python Notes</h3>
                 <div class="card-body">
                         <ul>
                             {{ range (where .Pages "File.Dir" "in" "\\python\\").ByTitle }}

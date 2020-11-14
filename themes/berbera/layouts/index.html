@@ -36,7 +36,7 @@
                 <h3 class="category_header">Turkish Articles</h3>
             </div>
         </div>
-        <div class="row"></div>
+        <div class="row">
         <div class="col-sm-12">
             <div class="card">
                 <h4 class="card-header">Haftanin Notlari</h4>
@@ -52,11 +52,11 @@
                 </div>
             </div>
         </div>
-
-        <div class="row"></div>
+    </div>
+        <div class="row">
         <div class="col-sm-12">
             <div class="card">
-                <h4 class="card-header">Life Notes</h4>
+                <h4 class="card-header">Diger Notlar</h4>
                 <div class="card-body">
                         <ul>
                             {{ range (where .Pages "File.Dir" "in" "\\articles\\life-notes\\").ByTitle }}
@@ -69,6 +69,7 @@
                 </div>
             </div>
         </div>
+    </div>
 
         <div class="row" id="sideprojects">
             <div class="col-sm-12">

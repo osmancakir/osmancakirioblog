@@ -93,6 +93,9 @@ Date:   Tue Aug 11 20:00:58 2020 +0200
 Path> git log --oneline
 9a85645 (HEAD -> master, origin/master, origin/HEAD) initial commit
 ```
+
+If you have many many commits every key stroke will continue showing more commit logs in order to quit this view press 'q'.
+
 ### Time Traveling with git 
 
 Time Traveling with git should be intuitive as ctrl+z and ctrl+y to you. 

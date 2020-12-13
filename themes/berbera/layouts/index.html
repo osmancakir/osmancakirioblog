@@ -42,7 +42,7 @@
                 <h4 class="card-header">Haftanin Notlari</h4>
                 <div class="card-body">
                         <ul>
-                            {{ range (where .Pages "File.Dir" "in" "\\articles\\weekly-notes\\").ByTitle }}
+                            {{ range (where .Pages "File.Dir" "in" "\\articles\\weekly-notes\\").ByPublishDate }}
                             <li>
                                 {{ .PublishDate.Format "02 Jan 2006" }}
                                 <a href="{{.Permalink}}">{{.Title}}</a>

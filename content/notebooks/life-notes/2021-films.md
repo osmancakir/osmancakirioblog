@@ -36,3 +36,23 @@ Grade : 2 / 5 - a bit boring, slow.
 The most beautiful part to me is seeing Paris in the 60s. And that scene with Cleo's friend where she is posing nude for sculptors. The sculptures at the gallery were also looking interesting. It is the french sculptore [Robert Couturier](https://en.wikipedia.org/wiki/Robert_Couturier_(sculptor))'s Atelier. The dialogue for posing nude was impressive.
 
 In general, the dialogues weren't very inspiring or impressive to me.  
+
+
+<h6> 2 - Inside Llewyn Davis - Coen Brothers - 2013 - U.S. - 03.01.2021</h6>
+
+![png](/2021Films/insideLlewynDavis.PNG)
+
+Grade : 3 / 5 - not so boring, okay. 
+
+Coen Brothers are known for being one of the most acclaimed independent film makers in U.S. They deserve this title, I give that to them. Their films are different than Hollywood films. The film reminded me another film by them, A Serious Man. What I like about this film that it felt real. We see a man trying to do his own thing, folk music. Trying to make a life with it. Doing the thing he likes. And he struggles. But his struggles are not extraordinary things. They are very very probable struggles. There are not so much heroic things in it. We don't see really bad people around him. We don't see poeple trying to undermine him because they have other agenda, motives, or simply they don't want him to be successful. They are like normal people, normal friends. They might want you to be happy, they might occasionally help you for little things but in reality they do not have so much time for you (they have their own life and problems etc.), not willing to really listen to you and your dreams. And often they give advices that they think the best for you without really empathizing with you. 
+
+And we don't see a man "who always believed in himself, his music, his talent etc." He gives up. Something gives him a ray of hope again and he try again and fail again. In accordance with this, we don't see a man who we know for sure has great talent from the beginning. He has something, he is a little bit different, unique. He is serious about his music. All these qualities are there but this story is not like a genius's story who is wasted  because of the society that never understood him kind of story.
+
+
+<h6> 3 - Azizler - Taylan Brothers - 2020 - Turkey - 07.01.2021</h6>
+
+Grade : 3 / 5 - not so boring, okay. 
+
+Taylan brothers are Turkish Coen Brothers. The reality of some situations can be better visible and tangible (recognizable??) if you tell/show them in a cleverly absurd way. Aziz's girlfriend looping when he wanted to break up. What an amazing image. 
+
+![jpg](/2021Films/azizler.jpg)

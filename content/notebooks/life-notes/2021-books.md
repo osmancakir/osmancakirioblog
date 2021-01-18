@@ -20,3 +20,9 @@ Berger, A young man just moved to Vienna to study medicine. His friends Schamare
 ![jpeg](/2021Books/stefanZweig-BilinmeyenBirKadindanMektup.jpg)
 
 An attractive fuckboy writer and a little girl who fell in love with him without his knowledge. Then later the girl become obsessed with him. Emotional garbage accumulated. Derived, unhealthy pride. Consistent and loyal to her virtues and bearing all of the suffering caused by them. Deserving respect with a question mark; why not ever trying to communicate openly? Offended for life. Expectations from other people.
+
+<h6>3 / 50 - Yevgeni Zamyatin - We - Translated from Russian to Turkish by Fatma & Serdar Arikan - 06.01.2021</h6>
+
+![jpeg](/2021Books/yevgeniZamyatin-We.jpg)
+
+Translation was terrible, I guess. I don't know. I feel like a very inspiring science fiction idea lost its readability. It felt very dry, not flowing. Maybe I will try to read it in English to compare in the future. I felt the same clunky reading feeling for the One Billion Years to the End of the World by Strugatskyies. Maybe this proud publisher of the first Turkish translation from russian did not do a good job. 

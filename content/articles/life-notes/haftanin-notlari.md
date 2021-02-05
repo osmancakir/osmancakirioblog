@@ -8,8 +8,36 @@ draft: false
 ---
 ### 01 Agustos 2020 - 01 Mart 2021
 
+Merhaba, bu notebook benim günlügüm. Umarim buradaki her seyi okuyacak kadar sikici bir hayatin yoktur kips:) 
 
-## Haftanin Notlari - 1
+### Index 
+
+
+#### Haftanin Notlari - 1 - 18.09.2021
+#### Haftanin Notlari - 2 - 25.09.2020
+#### Haftanin Notlari - 3 - 02.10.2020
+#### Haftanin Notlari - 4 - 11.10.2020
+#### Haftanin Notlari - 5 - 16.10.2020
+#### Haftanin Notlari - 6 - 25.10.2020
+#### Haftanin Notlari - 7 - 01.11.2020
+#### Haftanin Notlari - 8 - 08.11.2020
+#### Haftanin Notlari - 9 - 13.11.2020
+#### Haftanin Notlari - 10 - 22.11.2020
+#### Haftanin Notlari - 11 - 29.11.2020
+#### Haftanin Notlari - 12 - 06.12.2020
+#### Haftanin Notlari - 13 - 12.12.2020
+#### Haftanin Notlari - 14 - 20.12.2020 --
+#### Haftanin Notlari - 15 - 27.12.2020
+#### Haftanin Notlari - 16 - 03.01.2021
+#### Haftanin Notlari - 17 - 10.01.2020
+#### Haftanin Notlari - 18 - 17.01.2020
+#### Haftanin Notlari - 19 - 24.01.2020
+#### Haftanin Notlari - 20 - 31.01.2020
+_______________________
+
+
+
+## Haftanin Notlari - 1 - 18.09.2021
 
 
 * [Capsule Wardrobe](https://en.wikipedia.org/wiki/Capsule_wardrobe), Türkcesi kapsül gardirop'tur heralde. Ev arkadasimdan ögrendim. Az kiyafetle de iyi görünebilmek icin oldukca iyi bir yöntem gibi geldi. Kendimce basladim bakalim. Biraz daha olgunlassin ayri bir postun konusu olabilir bu denemem.fsdf
@@ -180,7 +208,7 @@ draft: false
 * Eve bir Nas kurmak istiyorum. 3 tane ayri harddiskim var su anda. Biri cok eski, digeri ölmek üzere. Yeni olanda ise müzik arsivim var. Hepsini tek bir hard-diskte toparlamak istiyorum, 4tb bir harddisk isimi görür. Black Friday 27sinde umarim indirimden temiz bir hdd düsürürüm. 
 
 
-## Haftanin Notlari - 13.11.2020
+## Haftanin Notlari - 9 - 13.11.2020
 
 * Bu hafta blogumu okuyup biri bana ulasti :) Cok sevindim. Hem de Almanya'dan. 
 
@@ -247,3 +275,33 @@ draft: false
 * Evde kendime güzel bir çalışma ortamı kurdum ama nedense ekranlarım çok ışık veriyor gözlerimi yoruyor sürekli. Mavi ışık filtresini açtım, brightness ve contrast ayarlarını düşürdüm. Öyle aman aman bir geri ışık yansıması da yok ama nedense bir geçmedi. Biraz oturunca başından kalkıp dinlendirmem gerekiyor. Ah ofisim canım ofisim.. 
 * Tony Alicea, benim javascripti gerçek anlamda anlamamı sağlayan adam en son udemy kursunu 6 yıl önce yapmıştı. Ve şu an geri dönmüş gibi görünüyor. Twitter'da tekrar aktif olmuş. Güzel bir css ve html kursu hazırlıyormuş. Merakla bekliyorum. 
 * Repolarımı gitlaba aktarmaya başladım bu hafta sonu. Bence githubdan daha iyi bir platform ya. CI/CD vermesi, static ve dynamic testleri kendin ayarlayabilmen, bedava olarak sana on premise yazılımı da verebiliyor olmaları çok çok harika özellikler. Ama şu anda benim en çok hoşuma giden şey repoları gruplayabilme olanağı. Mesela benim bazı repolarım react ile ilgili bazıları deep learning ile ilgili. Bunları konularına göre gruplayabilmek hatta sub gruplara ayırabilmek istiyordum. Githubda bu sadece organizasyon açarak mümkün oluyor. Çok saçma. 
+
+## Haftanin Notlari - 21 - 05.02.2021
+
+Uzun bir süreden sonra merhaba! 
+
+Tatil adligim 22.12.2020'den sonra ilk haftanin notuna hosbuldum, siz de hosgeldiniz. Haftanin notu epey retrospektiflerle basladi, hayrini görün.
+
+Öncelikle neden bu kadar ara verdim? 
+
+* Yilbasinda epey bir resolution'um oldu onlarin stabillesmesi icin aslinda. 
+
+    * Kitap okumaya basladim ve bir kitap kulübü kurdum. 2021 icin hedefim 50 kitap. (Sayi cok önemli degil ama her gün okumak asil hedef.)
+    + Tekrar keyifle film izlemeye basladim ve notlar almaya basladim. Mubi'ye ödedigim üyelik ücretini cikaracagim söz.
+    + Sigarayi biraktim! Bu en güzel olani. 2 yil önce birakmistim sigarayi ve tamamiyle kurtuldugumu hissediyordum ve aptalca bir nedenden olayi (sigarayi hala canim istedigi icin degil) gecen sene tekrar icmeye baslamistim. Tekrar birakmak hep aklimdaydi. 
+    
+        Sevmiyorum sigarayi, bagimli olmayi, kötü kokmayi, öksürmeyi ama bagimlilik iste. Kurtulmak zor ve ciddi bir determinasyon ve rahat stressiz ortam istiyor ilk baslarda basarili olmak icin. Tekrar bu determinasyonu ve ortami bulmam 1 yil sonra mümkün olabildi.
+    
+        Tatili firsat bilerek dedim stressiz ortam saglandi ya simdi yaparsin osman'cim ya da bir senelik yillik iznini unutacaksin önümüzdeki yillarda bunu basarmak icin. Ve ha gayret deyip basardim. Bu konuda deneyimlerimi duymak isteyen, destek isteyen olursa bana ulasabilir. Allen Carr metodunu kendime göre yorumlayarak biraktim. Ana yorumum ise 9 sezon how i met your mother ya da 10 sezon friends'i ilk 8 gün icinde maraton seyretmek :)
+
+    + Ömrümde hic spor yapmadim. Vücudumda da kas yok gibi. Yani obez veya sisko degilim, boyum da kisa degil, ama iste siradan bir vucut. Dedimki bu sene fitness'i da bir deneyeyim. 
+    
+        Düz bir karin, sekile girmis gögüs ve omuzlar sanki benim icin asla olamayacak seyler gibi. Üstüne fitness sporunu ve özellikle de salonlarda yapmayi dünyanin en gerzekce islerinden biri olarak görüyorum. Bana göre vucudunun sekli, ilgilendigin yapmaktan zevk aldigin bir sporun sana dogal olarak verdigi sekil olmali. Fitness salonunda anlamsiz yere kaldirdigin agirliklarla, cektigin iplerle, vs. programlanarak verilen sekil degil. 
+    
+        Hala da böyle düsünüyorum aslinda ve sadece yüzme ögrenmek ve yüzmek ve yüzme sporunun bana verecegi genis omuzlarla, vucüt sekliyle mutlu olmak istiyorum. Ama malum korona, yüzmem mümkün degil. Ayrica erkek olsun kadin olsun söyle bakinca fit, seksi görünen herkes yapiyor fitness, bunu da kabul etmemek zor. Modern dünyada iyi bir match, partner bulmanin dikkata deger bir degiskeni de bu. Ve bir bakima adil de. Cok yakisikli veya güzel bir yüzle, uzun boyla vs. dünyaya gelmesen bile fit olmak senin elinde. Cok daha komik gelecek ama fitness aslinda cok da demokratik bir sey. Söyle anlatiyim. Kendini 3 set 20'ser sinav cekerken bir düsün simdi. Son settesin, kaslarinda oksijen kalmamis, tabir yerindeyse götünden ter akiyor ve kendi kendine "ben ne yapiyorum ya su anda?" diyorsun. "Niye sacma sapan bir pozisyonda yere bakiyorum, kendimi kaldirmaya calisiyorum ve cok zorlaniyorum su an?" ... Simdi bunu yeryüzündeki en zengin adamlardan tut, süper modellerinden, en güzel ve yetenekli oyunculara, en sevdigin müzisyenlere, yazarlara, bilim adamlarina kadar fit görünüyorlarsa eger herkes yapiyor ve öyle yapmak zorunda ve belki de durumun sacmaliginin onlar da farkinda :). Bu insanlarla 3 set 20ser sinav cekerken harcanan zaman ve efor (götten akan ter) bakimindan tamamiyle esit seviyedesin. Paylastiginiz bir sey var, fitness sacmaligi.
+
+    * Bu yil bir denemem daha olacak almanca ögrenmek icin! Umarim bu sefer basaririm. 
+
+* Haftanin notlari serisini tek bir notebookda toplamaya karar verdim. Her biri ayri notebooklar olunca hem web sitesinde cok yer kapliyorlar hem de hangi notebookda ne yazmistim artik hatirlamiyorum bile. Notebook tutma islerine baslarken kendi halinde, gelisen, büyüyen, statik olmayan notebooklar tutmanin cok güzel bir fikir oldugunu düsünmeme de ters düsüyordu bu durum ayrica. Bence su anda tam da istedigim haline büründü. 
+
+* Yeni bir notebooka gecme isini de yillara göre yapabilirim. Ama bu notebook'u biraz daha özel tutacagim. Agustos ayinda hayat benim icin gercekten büyük bir degisim sürecine girdi ve degisim sürecine girisini farketmem, nelerin degistigini gözlemlemeye baslamam, ne düsündügüm, konustugumdan, nasil uyudugum uyandigimdan, tekrar hayaller kurmaya, planlar yapmaya baslamama kadar tüm olan bitenin de biraz günlügü burasi. O yüzden biraz özel kalacak. Ama en fazla da 1 yili koyacagim icine.

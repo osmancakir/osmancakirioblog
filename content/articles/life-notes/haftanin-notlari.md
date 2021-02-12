@@ -33,6 +33,8 @@ Merhaba, bu notebook benim günlügüm. Umarim buradaki her seyi okuyacak kadar 
 #### Haftanin Notlari - 18 - 17.01.2020
 #### Haftanin Notlari - 19 - 24.01.2020
 #### Haftanin Notlari - 20 - 31.01.2020
+#### Haftanin Notlari - 21 - 05.02.2021
+#### Haftanin Notlari - 22 - 12.02.2021
 _______________________
 
 
@@ -305,3 +307,32 @@ Tatil adligim 22.12.2020'den sonra ilk haftanin notuna hosbuldum, siz de hosgeld
 * Haftanin notlari serisini tek bir notebookda toplamaya karar verdim. Her biri ayri notebooklar olunca hem web sitesinde cok yer kapliyorlar hem de hangi notebookda ne yazmistim artik hatirlamiyorum bile. Notebook tutma islerine baslarken kendi halinde, gelisen, büyüyen, statik olmayan notebooklar tutmanin cok güzel bir fikir oldugunu düsünmeme de ters düsüyordu bu durum ayrica. Bence su anda tam da istedigim haline büründü. 
 
 * Yeni bir notebooka gecme isini de yillara göre yapabilirim. Ama bu notebook'u biraz daha özel tutacagim. Agustos ayinda hayat benim icin gercekten büyük bir degisim sürecine girdi ve degisim sürecine girisini farketmem, nelerin degistigini gözlemlemeye baslamam, ne düsündügüm, konustugumdan, nasil uyudugum uyandigimdan, tekrar hayaller kurmaya, planlar yapmaya baslamama kadar tüm olan bitenin de biraz günlügü burasi. O yüzden biraz özel kalacak. Ama en fazla da 1 yili koyacagim icine.
+
+## Haftanin Notlari - 22 - 12.02.2021
+
+Tam anlamiyla ne zaman rahatlayacagimi hesaplamaya calistim bu hafta. Ve gercekci olursam yaklasik olarak 1 Mart 2022'de mümkün olacak. Yani tam bir yil sonra. Sonra bir 8 ay daha askerlik ve eger ev degistirmek durumunda kalirsam depozito ve emlakci vs tasinma masraflari icin de kenarda param olmasi gerektigini düsünürsem para biriktirmem gerekecek. Bu da gercekci olursak 1 Ocak 2023'e denk geliyor. 1 Ocak 2023'te bir aksilik cikmazsa, 34 yasina geldigimde hayatima soyle bir bakip, Su an basima saglik vs haric bir sey gelse 6 ay idare ederim (Söz gelimi isimi kaybettim 6 ay icerisinde yeni bir is bulabilirim güveni de dahil) diyebilecegim. 34 yilin finansal basarisi bu olacak. Sonra sanirim geriye lisansta aldigim kyk borcu (12.235 tl borcum 21.740 tl olmus gecikme zammiyla) ve master'de aldigim bursun geri ödemesi kalacak (yaklasik 12000 + 4000 euro). Ama onlari simdi hesaba katmiyorum. Minimum 1 Mart 2024 oluyor bunlar da hesaba katildiginda. 
+
+Geldigim yeri ve icinden ciktigim kuyuyu düsünürsem ve sadece finansal kismi degil de edindigim tecrübe ve deneyimleri de degerlendirmeye katarsam aslinda hic de azimsanacak bir basari degil tabii ki. Ve su an durdugum yerden hic de heyecanim, motivasyonum kirilmiyor. Canimi sikan sey hayatin ne kadar adaletsiz oldugu ve cocukken bize gelecegimizle ilgili anlatilan hikayedeki dev bosluklar ve yanlislar. 
+
+Günaydin?! diyeceksiniz, evet katiliyorum, ilk kez duydugum bir konsept degil hayatin adaletsiz olusu zaten. 
+
+Ben büyürken isci emeklisi babam ve ev hanimi annem, benim okumamdan, ve iyi notlarimdan memnundular, cünkü biliyorlardi ki böylece ablalarim ve abilerimin izledigi yoldan gidebilecek, üniversite egitimi alacak, bizim gibi fakir olmayacaktim. En iyi üniversitelere girmek, burslar kazanmak, sinavlarda ve mezuniyetlerde derece yapmak yokluktan ve mutsuzluktan tek cikis biletimizdi. Cok calis, basarili ol, sabret ve ceremesini al. Sosyal sinif olarak mobilite kazanmanin tek öngörülebilir yolu bu olarak anlatildi bana. Futbolcu ya da popcu olmak da vardi ama bunlar daha riskli seylerdi. Bizim gibi averaj'a regress etme (geri dönme, iltica etme) tehlikesi cok yüksek insanlar icin daha öngörülebilir, daha az riskli ve kazanimlari daha bölünebilir, zamana yayilabilir olan secenekler ancak feasible (uygulanabilir) olabilirdi. 
+
+Nitekim bu daha feasible yolda ilerlemeyi kabul ettim. Hayallerimin ne oldugu zamanla epey degismis olsa da hayallerim icin yapmam gerekenler net oldugu sürece yaptim. Sinavlar'da, mezuniyetlerde dereceler yaptim. Sabrettim, cok calistim, dirsek cürüttüm. Eglenirken sucluluk hissettim daha fazla calismadigim icin. Ömrümde bir kere tatil yapmadim. Bir yere gezmeye gitmedim. Ve su an 32 yasina girerken, kostum, yetisiyorum diye düsünmüsken onca yil hic de öyle olmadigini, hic bir seye yetisemedigimi, her seye gec kaldigimi, yetismeye calistiklarimin arayi daha da actiklarini, yakinda gencligimin de bitecegini ve hayatin olasiliklarla doluymus gibi hissini de yitirecegimi düsünmek canimi yakiyor. Kendimi aldatilmis hissediyorum. Ailem bu konuda baska ne yapabilirdi cok fikrim yok ama toplumsal olarak egitimle ve cok calisarak genclerimizi kurtarabiliriz algisinin calismadigini gösteren tertemiz bir örnek olarak karsinizdayim. Hayir Türkiye'yi daha iyi bir egitim politikasi kurtarmayacak. Isci cocuklarini kurtarmayacak en azindan. 
+
+Ben büyürken, ve üniversitedeyken paraya deger vermemek, önemsememek, amac olarak görmemek yüceltilirdi. Iyi egitimli, kültürlü olmak, kendini yetistirmek, hayatta ne yapmak istedigini bulmaya calismak, bilmek, yaptigin ise kendini adamak, tutkulu olmak asil mesele denirdi. Para ve finansal basari/rahatlik, zenginlik bunlarin meyvesi ya da yan etkisi olarak zaten gelecekti. 
+
+Tahmin edin bakalim; hayir gelmiyor, gelmedi. Bu hikayeye de sizden baska inanan enayi de yok aslinda. Ingilizcede Money speakes louder diye bir söz var. Tam karsiligi sanirim Paranin sesi daha cok cikar gibi bir sey. Ilk olarak lisans'tan mezun oldugumda karsilasmistim bu soguk gercekle. Ögrenci olmak, bir sekilde seni yasadigin fakirlige karsi kusatiyor, koruyor Istanbul'da. Mezun oldum ve bogaz kenarinda cay/kahve ictigimiz yerlerin bile beni sokaga tükürdügünü hissettim. Sanki her kaldirim tasi, cebimdeki parayi görüyor ve bana ona göre davraniyor gibiydi. O zaman bu iste bir gariplik oldugunu hissetmistim ama adini koymam, teshis etmem mümkün olmamisti. Sonra tekrar ögrenci oldum, master'a Almanya'ya geldim ve unuttum olanlari. Ögrencilik yeniden kusatti, kollarina aldi beni. Hem de zaten bursum da hayatimda hic almadigim bir miktar veriyordu bana. 
+
+Tekrar bu soguk gercekle yüzlesmem ve bu sefer olan biteni anlamam master'dan mezuniyetten sonra oldu. Bir baktim ki herkes kariyer planlarini yapmis, cv'leri, jilet gibi takimlari cekmis; ögrenciyken zorunluluktan, can sikintisindan yapiyormus gibi bahsettikleri stajlardan tanidiklarina yagli balli emailler atip en cok para veren uluslararasi firmada ise girmek icin bir taraflarini yirtiyor afedersiniz. **Nerde kaldi siir, nerde kaldi gazel?** Hepsi bos mu simdi? 
+
+Bunlari gördükten sonra kendimi manipüle edilmis hissetmistim. Bana böyle ancak paraya deger vermeyerek mutlu olunabilecegini, ve ancak parayi önemsemeyerek para kazanilabilecegini diyen insanlarin iyi niyetini dahi sorgular oldum. Hakim tavsiye buyken etrafimizda hic bir arkadasimin da osman "abi bu anlatilan ne bicim bir oksimorondur böyle?" dememis olmasi yukardaki serzenisimin sebebi aslinda.
+
+Tek basina gercekten anlamsiz olsa da paranin özellikle hayat kalitesinde (ne giydigin, ne ictigin, ne yedigin, nerede oturdugun, zamanini ne yaparak gecirdigin) ve stres ve endise terminator olarak sesinin daha cok ciktigini unutmamak cok cok önemli. 
+
+Saglikli olani sanirim, sevdigin isi bulmaya ve yapmaya calismak ama parayi, geliri denklemden cikarmamak. Sevdigin isin seni finansal olarak güvencede ve refah tutup tutamayacagi ile ilgili objektif bir beklentiye sahip olmak. Finansal olarak istedigin rahatlik ve güvence miktarini da en az sevdigin isi secmeye harcadigin zaman kadar düsünmek. Bu konuda hedef belirlemek. 
+
+Ben de büyürken bu bilince sahip olmayi cok isterdim dogrusu. Neleri degistirirdi yasadiklarimda diye düsününce epey bir dönüm noktasi geliyor cünkü aklima. 
+
+.... devami gelecek
+

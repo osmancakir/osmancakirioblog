@@ -182,8 +182,9 @@ omg omg!
 - Life is wasted on people
 - It is huge to finally embrace the life you never planned on
 
-These two sentences are actually revealing so much comfort and relief and so well explained in this film, it feels like a hug. 
+Our guy, Greenberg, used to make music and become almost famous. He refused a record deal thinking it will not be the only one and unfortunately it was and now he is a carpenter. He is depressed and visiting his brother and trying to do nothing for a while. 
 
+These two sentences are actually revealing so much comfort and relief and so well explained in this film, it feels like a hug. 
 
 
 <h6>19 - While We're Young - Noah Baumbach - USA - 2014 - 23.02.2021</h6>
@@ -192,10 +193,53 @@ Grade : 5 - 5 - a-ma-zing
 
 omg there are so many things to talk about this film. 
 
-first lets talk about adam driver in this film. he is a selfish manipulative dishonest (trying to look like someone than himself) bastard. and it is not about being young? is it I mean how can it be? 
+First lets talk about adam driver in this film. he is a selfish manipulative dishonest (trying to look/behave/seem like someone "cooler" than himself) bastard. And Noah sees this as it is about being young? I mean What? How? Why? Is it, really is it? This is a pure fucked up evil shit kind of behaviour. Albeit I am happy that Noah is able to show a solid example of this kind of people, I am awfully disappointed that he thinks that this is actually an okay behaviour, somewhat a trait of being young. 
 
-the fathers words about success i will say hard work, luck bla bla although I ruined you and my wife. 
-    
-The guy who married the daughter. did he also do the same things? did he manipulate did he steal? did he marry the girl because he wanted to reach his dad? 
+There are billions of people believing the idea of being honest, kind and hard-working pays off. These people can not even ask a basic favor from others yet being so manipulative and dishonest and so eager to use others. 
 
-I need to rewatch and take note of that power elite pitch. 
+These people grow up thinking that they need to earn anything to deserve in life, yet thinking that they are entitled to anything. I am so angry and sad for these people. I thought this film is about this. Finally, I thought, someone saw the fuckers around these people and able to point the finger. So they can not sneak around and steal the life, talent, warmth and love among us, exploit the sharing and trust among us. 
+
+oh god! please! someone! figure out who are the yavsak ones any more!
+
+The fathers words about success is probably where he finds the connection with being young and being an awful person is actually related. 
+
+Father: You know, looking back on my career, I wonder, how did I accomplish so much? If I'm honest with myself, it sometimes took being a selfish prick at the expense of you and your mother. Of course, I don't say that. I say talent, work, luck. Your husband doesn't realize what it takes, he... He still believes the speeches.
+
+Cornelia : You know, when I first started dating him,
+he reminded me so much of you.
+
+Father: He wants what I have, but he's not merciless enough to get it. 
+________
+
+I need to rewatch and take note of that power elite pitch. It was a good one to think about. 
+
+Josh: is our guy who wants to make a documentary about power elite
+SP: Studio producer guy. 
+
+Josh is making a pitch to get funding for his film.
+
+- Josh: Do you know the percentage of African-American adult males currently in jail?
+- SP:  I don't.
+- Josh: Take a guess.
+- SP:  Like 60%?
+- Josh: Jesus, no. It's over 9%. That's nearly 1-in-10 African-American adult males, nearly a million and a half. 
+- SP:  A million and a half is a lot. 
+- Josh: It's insane, but people don't realize this. They think because we have a black president...
+- SP:  So this is about prison. Like a black <i>Shawshank.</i> But real.
+- No, not... No. There's a section, an entr'acte really, about the function of race in the prison industrial complex, but the film is really about how power works in America. Do you know the historian Ira Mandelstam?
+- SP:  Yeah.
+- Josh: Really?
+- SP:  No.
+- Josh: Well, we have over 100 hours of interviews with him. 
+- SP:  The movie's 100 hours?
+- Josh: No, we'll cut it.
+- SP:  Phew!
+- Josh: Now, this guy, he's... He isn't particularly charismatic, he's kind of anti-social, maybe Asperger's, but not interesting Asperger's. He's kind of boring, even. But he's a charismatic thinker.
+- SP:  How do you show what he thinks? Cartoons?
+- Josh: No, not cartoons. He says it.
+- SP:  But he's boring.
+- Josh: Well, yes. But as with many boring things, the longer you watch it, it takes on a different dimension. It's really a very simple idea. The three sections correspond with the three nodes of what Mills called the power elite. The political, military and economic. But, and this is key,
+each part has to interconnect to show how none of the three nodes functions without the other. It's a linear film, of course, but I imagine it as kind of a hypertext.
+- SP:  So, what's it about?
+- Josh: To be clear, the film is really about the working class, and I can't speak on behalf of the working class. I can't make their film, of course. But they have to be felt as the impossible subject of the text. If that makes sense. But it isn't even really about the power structure but about what it means to make a film about it. It's about the very possibility of making this film. It's really about America.
+

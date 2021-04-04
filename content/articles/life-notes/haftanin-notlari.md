@@ -351,3 +351,58 @@ Bu konuda kesinlikle bir seyler yapmak istiyorum ama biraz daha yüklenirsem ken
 Sigrayi birakmanin hep yasadigim bir baska etkisi de agiz tadim. Dis etlerim kaniyor sürekli. Sigara büyük ihtimalle cok stres altinda biraktigi icin dis etlerim cekilip sertlesiyorlardi ve kanamiyorlardi o kadar, birakinca bi kendilerine gelip hassaslasiyorlar galiba. Kendi kendime teshisim bu. Bir doktora görünmek istiyorum ama lanet gitsin sigorta problemim hala cözülmedi. Eger sigarayi birakali beri biraz daha fazla yemeye de baslamissam bunun bir müsebibi de agiz tadimin bozuk olmasi. Agiz tadim degissin diye bir seyler yiyorum, iciyorum resmen.
 
 Madem iyice saglik konusunda daldim. Lanet sigortam hala hallolmadigi icin bir de göz doktoruna gidememe durumum var. Gidip bir baktirmak istiyorum. 2 hafta önce falan gözlerimde korkunc bir yanma hissi vardi. sürekli sulaniyorlardi. Cok fazla ekrana bakmaktan oldugunu biliyorum ve özellikle telefona daha az bakarak biraz kontrol altina aldim bu durumu. 
+
+
+## Haftanin Notlari - 07.03.2021
+
+Pazartesi yani yarin almanca kursum basliyor. Bu demek oluyor ki sabah 8de is basi yapacagim ve aksam 5te isten cikip 5:45'te almanca kursuna gelip aksam 8'de kurstan cikacagim ve mutlaka biraz ödev de olur sonrasinda yapmam gereken aksam 9 gibi free olacagim. Önümüzdeki 6 ay boyunca tempom bu olacak. Kendime cok sabirlar diliyorum. 
+
+Haftasonu ilk yardim kursundaydim. Bütün cumartesi günümü aldi. Kurs cok rahat 3 saate düsürülebilecekken 7 saat sürdü. Bu uzun sürenin bayginlik verici olmasi disinda ama eglenceli ve bilgilendiriciydi. (Türkcem niye böyle berbat?) 
+
+En cok aklimda kalan seyler : 
+
+- Insanin tansiyonu 30'un altina düserse nefes alma duruyor. 60'ta beyin cortex (bilinc) calismaya basliyor 80 90 normal olani. 
+- 30 ile 60 arasindaysa shock geciriyor olma ihtimali cok yüksek. Uyanik ama konusamayan hasta.
+- Saatte 30km'den fazla hiz iceren her spor veya aktivite aslinda tehlikeli. 
+- ilk yardima ihtiyac duyan birini görünce ilk olarak etrafin ve kendinizin güvenligini saglamak gerekiyor. 
+- kanama varsa durdurmak gerekiyor. üstüne bastirmak faydali bir eylem kanamanin üstünde bir yerden sikica baglamak faydali bir eylem. major bir kanama varsa yardim edilebilecek süre - cok kisitli. 
+- insanin refleks süresi milisaniyelere kadar düsebiliyor. Refleksler egitilebilir. Bilincli reaksiyon süresi ise 7/8 saniye.
+- kanama yoksa nefes alma kontrol edilmeli nefes almayi gögüs kafesinden ve boyundan en iyi anlayabiliriz. nefes almiyorsa yapilacak sey cpr. cpr uzun süreler yapilabilecek bir sey - gögüs kafesinden iceri 5/6 cm maximum iceri dogru bastirilarak yapilabiliyor cpr ile 30 40'a kadar cikarilabilir tansiyon. 112 veya 911'i arayabilirsin. 911'in ses kalitesi daha iyi. 
+- inme (stroke) beyin damarlarindan birinin tikanmasi ile olusuyor. 
+- motorsikletli birinin kaza yaptiktan sonra kaskini mutlaka cikarmak gerekiyor. boynunu alttan destekleyerek.
+
+## Haftanin Notlari - 14.03.2021
+
+Almanca kursu'nun ödevlerini kesinlikle yapamiyorum. Bel agrilarim basladi. :/ Ama vazgecmeyecegim. Bu is bu sefer bitecek. Bu yazin sonunda o sertifika alinacak. Almancam ucmasa da yerden havalanacak. Sabahleyin 8'den aksam 8'e kadar calisiyor olmak beni restless yapmaya basladi. Ilk haftadan göcüyorum. Ehliyet ile ilgili belgeleri vesaire hallettim. Kayit ücretini de ödedim. Sinava hazirlanmam gerekecek simdi. 
+
+## Haftanin Notlari - 21.03.2021
+
+Bel agrim cekilmeyecek bir hal aldi. Ehliyet kursunun app'ine bakamadim hic. Ödevleri sabah ise biraz daha erken gelerek yapmaya calistim ama yok biraz daha yüklenirsem catlayacagim. Bu ayin sonunda mutlaka bir kac gün izin almali ve calismaliyim. Bugün ögrendigimi ertesi gün geri unutuyorum ne faydasi oldu bana kursun simdi. 
+
+## Haftanin Notlari - 28.03.2021
+
+Lisedeyken bir dersane hocamiz össye calisirken öyle uyumadim, yemedim, tuvalette bile test cözdüm diyenlere kulak asarak moralinizi bozmayin aslanlarim demisti. Öss iyi uyuyarak, iyi yiyerek, cok calisilarak iyi puan alinabilen bir sinav demisti. Hayatta uyguladigim güzel bir prensip oldu benim icin bu sonra. Eger performans isteyen bir ise kalkisacaksan, performans istedigim konu disindaki degiskenleri sabit tutmaya ya da, elemeye calisyorum. Su an performans istedigim konuyu tek bir konuya indiremesem de birazcik diger konulari rahatlatma yoluna gittim. En azindan iyi yeme ve iyi uyku kismini halletmek, iyi dinlenme kismini cözmek istedim. Bu ay borc ödeme isinden feragat ederek odamin fiziksel ihtiyaclarini gidermek üzere harekete gectim. 
+
+Mattress, Masa ve isik aldim. Toplamda malzemeler 740 euro nakliye de 200 euro tuttu. Oha 200 euro nakliye mi tutar diyorsunuz biliyorum ama macerasi var. Birazdan anlaticam, önce esyalardan baslayim. Odayi kiraladigim cocuktan kalma cok eski, kendine bile hayri olmayan bir mattress'im vardi. Bel agrilari olanlar icin biraz daha sert yataklar öneriliyor. Ortopedik yataklar da daha sert yataklar oluyorlarmis. Ortopedik yataklar cok pahali oldugu icin gittim full pocket spring kocaman bir yatak mattress'i aldim. Odamdaki calima masam da uyduruktan teyyare bir masa idi. Uzun süreler calismak icin uygun degildi. Arada oturmaktan belim agridiginda yükseltebilecegim bir calisma masasi almak istiyordum. Öyle masalar genelde elektrikli oluyor ve cok pahalilar. Ikea'da elle manuel olarak cevrilenini görünce gözüm acildi resmen. Stabilitesi falan da iyi, oldukca kaliteli bir masa. Yalniz bir araya getirmesi 2 3 saatimi aldi. (masanin yapim kilavuzu 24 sayfa). En son olarak odam cok karanlikti. Isiklandirmasi yetersizdi. Bu yüzden de bilgisayar ekranina bakarak özellikle kod yazarken, ekranda kücük yazilara dikkatli bakmayi gerektiren bir is yaparken, göz bebeklerim oyuluyordu resmen. Ne kadar blue isik filtresi koyarsam koyayim, isigi monitör ayarlarindan kisarsam kisayim olmuyordu. Careyi iki tane ayakli isik alarak cözdüm. Internetten arastirmalarima göre is ortaminin minumum 470 lümen iyi dagitilmis isikla aydinlatilmasi gerekiyor. Köselere 70er wattlik 2 tane ayakli lamba koydum. Calisma masasinin gün isigini da yandan almasi makbulmüs. Önden ya da arkadan almamasi gerekiyormus. Yeni masami ona göre de ayarladim ve su an fena olmadi. 
+
+Aldigim mattress ve masa münih ikeasinda olmadigi icin Augsburg'a gidip oradan almak zorunda kaldim. Spontane olarak yardim etmesini istedigim arkadasimla beraber elimizde benim eski valizim ve bir el arabasi yola ciktik. Güya git gel ayri bilet almamak ve grup olarak arkadasima da bilet almak icin Bayern Ticket almistim ama iyice bakmayarak single bilet almisim. 25 euro ekstradan o tuttu. Sonra esyalari click & collect'ten teslim alip disari cikinca herkesi bir gülme aldi. Yatak 140 x 33 x 200 cm boyutlarinda ve 40 kilogram! Imkansiz tasiyamazdik. Büyük araci olan birine gittim sordum münihe mi gidiyolar diye, gitmiyorlarmis. Taksi cagirdim artik. 140 Euro civarinda tutar dedi taksi bürosu. Okay dedim. Türk bir taksici abi geldi. Cok fazla naz yapmayip taksisine yatagi aldigi icin yine de sag olsun ama yol boyu bütün bagnazligini üstümüze kustu resmen abi. Kendi kizina müzik dinlemeyi biraktirabildigi icin kendisiyle gurur duyuyordu! Münihteki derneklerine, camilerine götürmeyi teklif etti. Size sahip cikarlar vs. vs. Hic yeri ve zamani olmuyor ki su insanlara yaptiklari seyin en azindan ayip oldugunu hatirlatayim. Hosuna gitmeyen bir sey desem yolda birakip gider mi, isimiz gücümüz var niye dindir siyasettir tartismaya gireyim derken derken kafamin icinde 70 km boyunca hak veriyormus gibi yapmak durumunda kaldim. Rezil olmadan getirdim yerlestirdim ya cok sükür yani. Ve son hali böyle artik; 
+
+![jpeg](/odam.jpg)
+
+Ayrica bir de unutmadan not düsmek istedigim bir sey daha var. Hani yardimsever olmayan bencil insanlar icin derler ya yarali parmaga isemez diye. Bunun bir versiyonu daha olmali. Isine gelmedi mi yarali parmaga isemeyen insanlar. Burada baska bir tanidigimdan yardim istemistim. Kendisi de taksicilik yapiyor, ehliyeti var, bi sürü baska taksici taniyor falan. Abi benim böyle böyle bir ikea'ya gitme durumum var bir sorar misin araci olan var mi kaca mal olur diye. Hic cevap yok. Ama eminim ki kendi cikarina uygun olsaydi arardi, geri dönüs yapardi. Mesela ne biliyim kendi de kanepe alacak olsun, kanepeyi apartmana tasimasina yardim edecek biri olacak diye arardi bir kac insani sorardi yani. Bu sadece bu örnekte de degil. Hep yaptigi bir sey. Böyle insanlar da var ne yazik ki. Kantci bir iyi insan olma ahlakini savundugumdan degil ama bu davranis da hos degil. Samimiyetsiz. 
+
+Buradaki en yakin arkadaslarimdan birini Türkiye'ye ugurladim. :/ 
+
+## Haftanin Notlari - 04.04.2021
+
+Easter var bu hafta. Sali Carsamba ve Persembe'yi de izin alip doktordan randevu aldim bel agrim icin. Bir kan testi de araya sikistirmak istiyorum. Biraz da almanca tekrar yapicam. Cuma'nin tatil olmasi Cumartesi günü güzelce bir uyuyup dinlenmemi sagladi. Bütün evi süpürdüm, temizledim. 2017 yilindan 2020 yilina kadar acmaya korktugum postalarim vardi. Sigorta ve Tv-medya vergisi ve finanzamt ile problemli oldugum zamanlardan. Vay be diyerek hepsini teker teker actim okudum. Artik sigorta borcum da Tv-media vergi borcum da kalmadi. En son sürpriz bir gelir vergisi cikmisti onu da kapattim. 
+
+Bes parasiz, sokaga düsme tehlikem oldugu zamanlarda calistigim haftalik ve günübirlik islerden kalma hepsi. Her birinde kontrati imzalarken neyi nasil dolduracagimi bilmedigimden baska iste calismiyorum yaziyordum, vergi dilimimi yanlis yaziyordum vs bi seyler yanlis oluyordu mutlaka yani. Sigorta meselem karanlikta oldugu icin problem cikmamasi icin ugrasiyordum. Bir sürü endise üstüne endise, endiseyi dürüm yapip yiyordum ya o zamanlar. Almanya zaten bürokrasi cehennemi bir de bunu dil bilmeyen, hayatta kalmaya calisan bir osman'la birlikte düsünün. Bir gün daha calisabilmek, biraz para kazanmak icin önüme ne koysalar imzaliyordum zaten. Her neyse o mektuplari atmak o kadar iyi geldi ki... 
+
+O zamanlarimdan kalan her seyden kurtulmaya devam ediyordum ama o an bir anda hepsini atmak istedim. Söyle bir bakinca o zamanlardan geriye kislik kabanim, t-shirtlerimi delmesiyle ünlü bir kemer, biri yirtik biri epey eskimis iki pantalonum ve bir kac yirtik don kaldigini görünce dedim ki osmancim, bu ay borc ödememe karari da almisken kasayi kiralim hepsini halledelim. Kapsül gardirop projesi de basariyla tamamlanmis olsun hem. Almak istedigim kislik kaban indirime girdi önce onu aldim. (Bahara girerken müthis zamanladim resmen 50% indirimle 350€'ya geldi). Sonra gittim kendime boxer, iki tane yeni pantalon, bir tane tshirt ve kemer aldim. Ama harbiden de göctüm. Neyse bakalim halledicem bir sekilde. Bundan sonra artik ihtiyacim oldukca 1-2 tshirt'tü, corapti, kazakti alabilirim normal insanlar gibi. 
+
+Borclarimi bitirince kendime güzel bir saat alayim demistim. Mekanik olacak, isvicre mali olacak ve markasi ve fiyati hava atma amacli degil sadece kalite gösterecek bir saat alicam diyordum. Patronumdan hediye olarak geldi listemdeki saatlerden biri. Bu kadar denk gelir. Cok asiri mutlu oldum. 
+
+En son sürprizi de verip bitiriyorum haftanin notunu. Daha önce söyledim mi bilmiyorum da gerci ama blogu react'e aktariyorum. Calistigimiz yazilimi release ettikten sonra sirketimizin web sayfasini yapicam. O yüzden biraz react'te static web sitesi generation nasil oluyor ögreniyim diyordum. Gatsby bakmaya basladim. Ama graphql ve yavas compilation beni itti baya gatsbyjs'den. Onun yerine next-js bakmaya basladim. Tailwind-css de kullanmak istiyorum. Böylece ikisini de kodlayarak ögrendigim bir proje olacak. Kendi blogumu yaparken ögrenmis olurum sonra sirketin web sayfasini yapmak kolaylasir zaten.
+
+

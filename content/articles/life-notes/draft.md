@@ -1,3 +1,12 @@
+---
+title: "Insani Anlamak - Dücane Cindioglu Youtube Söylesisi Notlari"
+author: "Osman Cakir"
+date: 2020-10-17T01:53:49-07:00
+description: "Din ve bilim ve insan üzerine Dücane Cundioglu soylesisinden notlarim"
+type: technical_note
+draft: true
+---
+
 su üc video'ya bir bakalim öncelikle : 
 
 1 - [Teoman'in Mirgün Cabas'la söylesisi](https://www.youtube.com/watch?v=Gu_RN3BVgFg) : Abimizin ne hayalleri varmis ya. Önce bir rockstar olmak, sonra author yönetmen sonra da milan kundera'nin türkiye subesi sayilabilecek kalitede bir yazar. Rockstarligi ve rockstar hayatini pek alasini alarak yaptigini biliyoruz teoman abimizin. Yönetmenlik denemesi de oldu. Sanirim seyretmistim filmini de. Balans ve Manevra. Simdi de en azindan autobiographical bir kitap yazmis. Ya bir de asiri güzel buldugum bir sey var. Yine hayatimda bir kac defa daha farkina varip, uygulamaya basladigim ama sonrasinda nasil olduysa unuttugum seylerden biri. insanin kendine has aliskanliklarinin, tavirlarinin davranislarinin olmasi hissi. Sevdigin bir seyi düzenli yapmak, teomaninki gibi iki renkli ayakkabi giymek gibi seyler. 

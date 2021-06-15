@@ -35,6 +35,13 @@ Merhaba, bu notebook benim günlügüm. Umarim buradaki her seyi okuyacak kadar 
 #### Haftanin Notlari - 20 - 31.01.2020
 #### Haftanin Notlari - 21 - 05.02.2021
 #### Haftanin Notlari - 22 - 12.02.2021
+#### Haftanin Notlari - 23 - 19.02.2021
+#### Haftanin Notlari - 24 - 26.02.2021
+#### Haftanin Notlari - 25 - 07.03.2021
+#### Haftanin Notlari - 26 - 14.03.2021
+#### Haftanin Notlari - 27 - 21.03.2021
+#### Haftanin Notlari - 28 - 28.03.2021
+#### Haftanin Notlari - 29 - 04.04.2021
 _______________________
 
 
@@ -336,11 +343,11 @@ Ben de büyürken bu bilince sahip olmayi cok isterdim dogrusu. Neleri degistiri
 
 .... devami gelecek
 
-## Haftanin Notlari - 19.02.2021
+## Haftanin Notlari - 23 - 19.02.2021
 
 Calistigim yerde bir is arkadasimizin testi pozitif cikti. Hemen gidip bütün ekip test olduk. Carsamba Persembe biraz endise dolu gecti. Sonra testim negatif geldi, ilk testi pozitif olan is arkadasimizin ikinci testi de negatif cikti rahatladim büyük cogunlukta. Ama yine de pazartesi günü ikinci testi olmadan karantinaya devam edicem. Endise etmemek icin film seyretmeye basladim. Keyfim yerinde aslinda. Her gün bira icip film seyrediyorum. Yukardaki yazima da devam edicem sonra
 
-## Haftanin Notlari - 26.02.2021
+## Haftanin Notlari - 24 - 26.02.2021
 
 Pazartesi olan testim negatif cikti :) Yey! Yaklasik olarak 13 tane film seyrettim Carsamba'dan Carsambaya. Bir güne 2 film. Filmler hakkindaki yazilarimi [suradan](https://osmancakir.io/notebooks/life-notes/2021-films/) okuyabilirsiniz. 
 
@@ -353,7 +360,7 @@ Sigrayi birakmanin hep yasadigim bir baska etkisi de agiz tadim. Dis etlerim kan
 Madem iyice saglik konusunda daldim. Lanet sigortam hala hallolmadigi icin bir de göz doktoruna gidememe durumum var. Gidip bir baktirmak istiyorum. 2 hafta önce falan gözlerimde korkunc bir yanma hissi vardi. sürekli sulaniyorlardi. Cok fazla ekrana bakmaktan oldugunu biliyorum ve özellikle telefona daha az bakarak biraz kontrol altina aldim bu durumu. 
 
 
-## Haftanin Notlari - 07.03.2021
+## Haftanin Notlari - 25 - 07.03.2021
 
 Pazartesi yani yarin almanca kursum basliyor. Bu demek oluyor ki sabah 8de is basi yapacagim ve aksam 5te isten cikip 5:45'te almanca kursuna gelip aksam 8'de kurstan cikacagim ve mutlaka biraz ödev de olur sonrasinda yapmam gereken aksam 9 gibi free olacagim. Önümüzdeki 6 ay boyunca tempom bu olacak. Kendime cok sabirlar diliyorum. 
 
@@ -371,15 +378,15 @@ En cok aklimda kalan seyler :
 - inme (stroke) beyin damarlarindan birinin tikanmasi ile olusuyor. 
 - motorsikletli birinin kaza yaptiktan sonra kaskini mutlaka cikarmak gerekiyor. boynunu alttan destekleyerek.
 
-## Haftanin Notlari - 14.03.2021
+## Haftanin Notlari - 26 - 14.03.2021
 
 Almanca kursu'nun ödevlerini kesinlikle yapamiyorum. Bel agrilarim basladi. :/ Ama vazgecmeyecegim. Bu is bu sefer bitecek. Bu yazin sonunda o sertifika alinacak. Almancam ucmasa da yerden havalanacak. Sabahleyin 8'den aksam 8'e kadar calisiyor olmak beni restless yapmaya basladi. Ilk haftadan göcüyorum. Ehliyet ile ilgili belgeleri vesaire hallettim. Kayit ücretini de ödedim. Sinava hazirlanmam gerekecek simdi. 
 
-## Haftanin Notlari - 21.03.2021
+## Haftanin Notlari - 27 - 21.03.2021
 
 Bel agrim cekilmeyecek bir hal aldi. Ehliyet kursunun app'ine bakamadim hic. Ödevleri sabah ise biraz daha erken gelerek yapmaya calistim ama yok biraz daha yüklenirsem catlayacagim. Bu ayin sonunda mutlaka bir kac gün izin almali ve calismaliyim. Bugün ögrendigimi ertesi gün geri unutuyorum ne faydasi oldu bana kursun simdi. 
 
-## Haftanin Notlari - 28.03.2021
+## Haftanin Notlari - 28 - 28.03.2021
 
 Lisedeyken bir dersane hocamiz össye calisirken öyle uyumadim, yemedim, tuvalette bile test cözdüm diyenlere kulak asarak moralinizi bozmayin aslanlarim demisti. Öss iyi uyuyarak, iyi yiyerek, cok calisilarak iyi puan alinabilen bir sinav demisti. Hayatta uyguladigim güzel bir prensip oldu benim icin bu sonra. Eger performans isteyen bir ise kalkisacaksan, performans istedigim konu disindaki degiskenleri sabit tutmaya ya da, elemeye calisyorum. Su an performans istedigim konuyu tek bir konuya indiremesem de birazcik diger konulari rahatlatma yoluna gittim. En azindan iyi yeme ve iyi uyku kismini halletmek, iyi dinlenme kismini cözmek istedim. Bu ay borc ödeme isinden feragat ederek odamin fiziksel ihtiyaclarini gidermek üzere harekete gectim. 
 
@@ -393,7 +400,7 @@ Ayrica bir de unutmadan not düsmek istedigim bir sey daha var. Hani yardimsever
 
 Buradaki en yakin arkadaslarimdan birini Türkiye'ye ugurladim. :/ 
 
-## Haftanin Notlari - 04.04.2021
+## Haftanin Notlari - 29 - 04.04.2021
 
 Easter var bu hafta. Sali Carsamba ve Persembe'yi de izin alip doktordan randevu aldim bel agrim icin. Bir kan testi de araya sikistirmak istiyorum. Biraz da almanca tekrar yapicam. Cuma'nin tatil olmasi Cumartesi günü güzelce bir uyuyup dinlenmemi sagladi. Bütün evi süpürdüm, temizledim. 2017 yilindan 2020 yilina kadar acmaya korktugum postalarim vardi. Sigorta ve Tv-medya vergisi ve finanzamt ile problemli oldugum zamanlardan. Vay be diyerek hepsini teker teker actim okudum. Artik sigorta borcum da Tv-media vergi borcum da kalmadi. En son sürpriz bir gelir vergisi cikmisti onu da kapattim. 
 
